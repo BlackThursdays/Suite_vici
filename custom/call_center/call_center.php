@@ -370,13 +370,14 @@ class CallCenterCRM extends Call
         $call = BeanFactory::newBean('Calls');
         $call->status = 'Held';
         $call->name = "Звонок #$number";
-        $call->date_start = date('Y-m-d H:i:s');
-        $call->date_entered = date('Y-m-d H:i:s');
+        $call->date_start = gmdate('Y-m-d H:i:s');
+        $call->date_entered = gmdate('Y-m-d H:i:s');
         $call->created_by = $_SESSION['authenticated_user_id'];
         $call->assigned_user_id = $_SESSION['authenticated_user_id'];
         $call->direction = 'Outbound';
         $call->parent_type = $parent_type;
         $call->parent_id = $parent_id;
+        $call->vici_phone_c = $number;
         $call->save();
         if ($parent_type === 'Leads') {
             $call->load_relationship('leads');

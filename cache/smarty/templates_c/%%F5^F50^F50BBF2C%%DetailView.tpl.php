@@ -1,7 +1,7 @@
-<?php /* Smarty version 2.6.29, created on 2018-10-19 16:58:36
+<?php /* Smarty version 2.6.29, created on 2018-10-22 15:50:26
          compiled from cache/themes/SuiteR/modules/Leads/DetailView.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('modifier', 'cat', 'cache/themes/SuiteR/modules/Leads/DetailView.tpl', 7, false),array('modifier', 'strip_semicolon', 'cache/themes/SuiteR/modules/Leads/DetailView.tpl', 95, false),array('modifier', 'substr', 'cache/themes/SuiteR/modules/Leads/DetailView.tpl', 270, false),array('modifier', 'to_url', 'cache/themes/SuiteR/modules/Leads/DetailView.tpl', 272, false),array('modifier', 'explode', 'cache/themes/SuiteR/modules/Leads/DetailView.tpl', 315, false),array('modifier', 'escape', 'cache/themes/SuiteR/modules/Leads/DetailView.tpl', 350, false),array('modifier', 'url2html', 'cache/themes/SuiteR/modules/Leads/DetailView.tpl', 350, false),array('modifier', 'nl2br', 'cache/themes/SuiteR/modules/Leads/DetailView.tpl', 350, false),array('function', 'sugar_include', 'cache/themes/SuiteR/modules/Leads/DetailView.tpl', 70, false),array('function', 'sugar_translate', 'cache/themes/SuiteR/modules/Leads/DetailView.tpl', 77, false),array('function', 'counter', 'cache/themes/SuiteR/modules/Leads/DetailView.tpl', 84, false),array('function', 'sugar_getimage', 'cache/themes/SuiteR/modules/Leads/DetailView.tpl', 115, false),array('function', 'sugar_phone', 'cache/themes/SuiteR/modules/Leads/DetailView.tpl', 180, false),array('function', 'sugar_getimagepath', 'cache/themes/SuiteR/modules/Leads/DetailView.tpl', 381, false),array('function', 'sugar_ajax_url', 'cache/themes/SuiteR/modules/Leads/DetailView.tpl', 642, false),array('function', 'sugar_getjspath', 'cache/themes/SuiteR/modules/Leads/DetailView.tpl', 700, false),)), $this); ?>
+smarty_core_load_plugins(array('plugins' => array(array('modifier', 'cat', 'cache/themes/SuiteR/modules/Leads/DetailView.tpl', 7, false),array('modifier', 'strip_semicolon', 'cache/themes/SuiteR/modules/Leads/DetailView.tpl', 95, false),array('modifier', 'substr', 'cache/themes/SuiteR/modules/Leads/DetailView.tpl', 272, false),array('modifier', 'to_url', 'cache/themes/SuiteR/modules/Leads/DetailView.tpl', 274, false),array('modifier', 'explode', 'cache/themes/SuiteR/modules/Leads/DetailView.tpl', 317, false),array('modifier', 'escape', 'cache/themes/SuiteR/modules/Leads/DetailView.tpl', 363, false),array('modifier', 'url2html', 'cache/themes/SuiteR/modules/Leads/DetailView.tpl', 363, false),array('modifier', 'nl2br', 'cache/themes/SuiteR/modules/Leads/DetailView.tpl', 363, false),array('function', 'sugar_include', 'cache/themes/SuiteR/modules/Leads/DetailView.tpl', 70, false),array('function', 'sugar_translate', 'cache/themes/SuiteR/modules/Leads/DetailView.tpl', 77, false),array('function', 'counter', 'cache/themes/SuiteR/modules/Leads/DetailView.tpl', 84, false),array('function', 'sugar_getimage', 'cache/themes/SuiteR/modules/Leads/DetailView.tpl', 115, false),array('function', 'sugar_phone', 'cache/themes/SuiteR/modules/Leads/DetailView.tpl', 227, false),array('function', 'sugar_getimagepath', 'cache/themes/SuiteR/modules/Leads/DetailView.tpl', 394, false),array('function', 'sugar_ajax_url', 'cache/themes/SuiteR/modules/Leads/DetailView.tpl', 655, false),array('function', 'sugar_getjspath', 'cache/themes/SuiteR/modules/Leads/DetailView.tpl', 713, false),)), $this); ?>
 
 
 <?php $this->assign('preForm', "<table width='100%' border='1' cellspacing='0' cellpadding='0' class='converted_account'><tr><td><table width='100%'><tr><td>"); ?>
@@ -248,12 +248,15 @@ style="margin-left: 15px;">
 <?php if (! $this->_tpl_vars['fields']['phone_mobile']['hidden']): ?>
 <?php echo smarty_function_counter(array('name' => 'panelFieldCount'), $this);?>
 
-
-<?php if (! empty ( $this->_tpl_vars['fields']['phone_mobile']['value'] )): ?>
-<?php $this->assign('phone_value', $this->_tpl_vars['fields']['phone_mobile']['value']); ?>
-<?php echo smarty_function_sugar_phone(array('value' => $this->_tpl_vars['phone_value'],'usa_format' => '0'), $this);?>
-
-<?php endif; ?>
+<span id="phone_mobile" class="sugar_field"><span><?php echo $this->_tpl_vars['fields']['phone_mobile']['value']; ?>
+</span>
+<button title="Позвонить" 
+class="button" 
+onclick="displayCCModal(this, 'Leads', '<?php echo $this->_tpl_vars['fields']['id']['value']; ?>
+')" 
+style="margin-left: 15px;">
+<img src="themes/default/images/icon_Phone.gif" alt="">
+</button></span>
 <?php endif; ?>
 </td>
 </tr>
@@ -438,20 +441,33 @@ if ($this->_foreach['outer']['total'] > 0):
         $this->_foreach['outer']['iteration']++;
 ?>
 <?php $this->assign('item', ((is_array($_tmp="^,^")) ? $this->_run_mod_handler('explode', true, $_tmp, $this->_tpl_vars['phone']) : explode($_tmp, $this->_tpl_vars['phone']))); ?>
+<div>
 <?php if ($this->_tpl_vars['item']['2'] == '1'): ?>
 <span><?php echo $this->_tpl_vars['item']['0']; ?>
 </span>
 <?php else: ?>
-<b><?php echo $this->_tpl_vars['item']['0']; ?>
-</b>
+<span><b><?php echo $this->_tpl_vars['item']['0']; ?>
+</b></span>
 <?php endif; ?>
 <?php if ($this->_tpl_vars['item']['1'] == '1'): ?>&nbsp;<i style="color:blue;">(<?php echo $this->_tpl_vars['APP']['LBL_PHONE_MAIN']; ?>
 )</i><?php endif; ?>
 <?php if ($this->_tpl_vars['item']['2'] == '1'): ?>&nbsp;<i class="error">(<?php echo $this->_tpl_vars['APP']['LBL_PHONE_DONT_CALL']; ?>
 )</i><?php endif; ?>
-&nbsp;(<i><?php $this->assign('it', $this->_tpl_vars['item']['3']); ?><?php echo $this->_tpl_vars['APP_LIST'][$this->_tpl_vars['it']]; ?>
-</i>)
-<br>
+&nbsp;(
+<i><?php $this->assign('it', $this->_tpl_vars['item']['3']); ?><?php echo $this->_tpl_vars['APP_LIST'][$this->_tpl_vars['it']]; ?>
+</i>
+)
+<?php if ($this->_tpl_vars['item']['2'] != '1'): ?>
+<button title="Позвонить"
+class="button"
+onclick="displayCCModal(this,'<?php echo $this->_tpl_vars['module']; ?>
+', '<?php echo $this->_tpl_vars['fields']['id']['value']; ?>
+')"
+style="margin-left: 15px;">
+<img src="themes/default/images/icon_Phone.gif" alt="">
+</button>
+<?php endif; ?>
+</div>
 <?php endforeach; endif; unset($_from); ?>
 <?php endif; ?>
 </td>

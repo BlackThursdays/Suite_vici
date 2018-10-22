@@ -20,7 +20,7 @@ function displayCCModal(element, parent_type, parent_id) {
         },
         success: function (resp) {
             if (resp.indexOf('SUCCESS:') !== -1) {
-                /*
+
                 params.method = 'create_call';
                 params.parent_type = parent_type;
                 params.parent_id = parent_id;
@@ -30,6 +30,8 @@ function displayCCModal(element, parent_type, parent_id) {
                     data: params,
                     success: function (resp) {
                         if (resp.length > 0) {
+                            window.call_id = JSON.parse(resp);
+                            $('#client_phone').val(params.phone);
                             $("#myModal").modal('show');
                             getProduct();
                         } else {
@@ -40,7 +42,7 @@ function displayCCModal(element, parent_type, parent_id) {
                         alert('Произошла ошибка. Попробуйте позже.');
                     }
                 });
-*/
+
                 $("#myModal").modal('show');
                 getProduct();
             } else if (resp.indexOf('ERROR:') !== -1) {

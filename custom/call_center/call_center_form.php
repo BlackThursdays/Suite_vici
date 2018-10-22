@@ -1,16 +1,16 @@
-<link rel="stylesheet" href="custom/call_center/style/bootstrap-theme.min.css">
 <link rel="stylesheet" href="custom/call_center/style/bootstrap-datetimepicker.min.css"/>
+<link rel="stylesheet" href="custom/call_center/style/bootstrap-theme.min.css">
 <link rel="stylesheet" href="custom/call_center/style/jquery-ui.css">
 <link rel="stylesheet" href="custom/call_center/style/bootstrap-select.min.css">
 <link rel="stylesheet" href="custom/call_center/style/easy-autocomplete.min.css">
 <link rel="stylesheet" href="custom/call_center/style/easy-autocomplete.themes.min.css">
 <link rel="stylesheet" href="custom/call_center/style/custom_form.css">
 
+<script src="custom/call_center/js/bootstrap-select.ru.min.js"></script>
 <script src="custom/call_center/js/jquery-1.12.4.min.js"></script>
 <script src="custom/call_center/js/jquery-ui.min.js"></script>
 <script src="custom/call_center/js/moment.min.js"></script>
 <script src="custom/call_center/js/bootstrap-datetimepicker.min.js"></script>
-<script src="custom/call_center/js/bootstrap-select.ru.min.js"></script>
 <script src="custom/call_center/js/jquery.easy-autocomplete.min.js"></script>
 <script src="custom/call_center/js/custom_datetime.js"></script>
 
@@ -383,7 +383,7 @@
 <style>
     .modal {
         text-align: center;
-        padding: 0!important;
+        padding: 0 !important;
     }
 
     .modal:before {
@@ -401,11 +401,13 @@
     }
 </style>
 
-<div class="modal fade bd-example-modal-sm" id="loading_modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+<div class="modal fade bd-example-modal-sm" id="loading_modal" tabindex="-1" role="dialog"
+     aria-labelledby="mySmallModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-sm">
         <div class="modal-content">
             <div class="modal-body" style="text-align: center">
-                Пожалуйста, подождите
+                <img src="themes/SuiteR/images/loading.gif"/><span
+                        style="margin-left: 10px;">Пожалуйста, подождите</span>
             </div>
         </div>
     </div>
@@ -641,11 +643,18 @@
                 }
 
             }
-        );
-        // Спустя 1 сек перегружаем страницу
-        window.setTimeout(function () {
-            window.location = "/index.php?action=DetailView&module=<?= $source_module ?>&record=<?= $source_record ?>";
-        }, 1000);
+        )
+            .done(function () {
+                window.location = "/index.php?action=DetailView&module=<?= $source_module ?>&record=<?= $source_record ?>";
+            })
+            .fail(function () {
+                alert("Ошибка сохранения информации");
+            });
+
+//        // Спустя 1 сек перегружаем страницу
+//        window.setTimeout(function () {
+//            window.location = "/index.php?action=DetailView&module=<?//= $source_module ?>//&record=<?//= $source_record ?>//";
+//        }, 1000);
     }
 
 

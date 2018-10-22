@@ -174,11 +174,13 @@ style="margin-left: 15px;">
 <td class="" type="phone" field="phone_mobile" width='37.5%'  class="phone">
 {if !$fields.phone_mobile.hidden}
 {counter name="panelFieldCount"}
-
-{if !empty($fields.phone_mobile.value)}
-{assign var="phone_value" value=$fields.phone_mobile.value }
-{sugar_phone value=$phone_value usa_format="0"}
-{/if}
+<span id="phone_mobile" class="sugar_field"><span>{$fields.phone_mobile.value}</span>
+<button title="Позвонить" 
+class="button" 
+onclick="displayCCModal(this, 'Leads', '{$fields.id.value}')" 
+style="margin-left: 15px;">
+<img src="themes/default/images/icon_Phone.gif" alt="">
+</button></span>
 {/if}
 </td>
 </tr>
@@ -315,15 +317,26 @@ $this->assign('APP_LIST', $app_list_strings['phone_type_dom']);
 {assign var=phones value="^|^"|explode:$fields.phones_c.value}
 {foreach name=outer item=phone from=$phones}
 {assign var=item value="^,^"|explode:$phone}
+<div>
 {if $item.2 == '1'}
 <span>{$item.0}</span>
 {else}
-<b>{$item.0}</b>
+<span><b>{$item.0}</b></span>
 {/if}
 {if $item.1 == '1'}&nbsp;<i style="color:blue;">({$APP.LBL_PHONE_MAIN})</i>{/if}
 {if $item.2 == '1'}&nbsp;<i class="error">({$APP.LBL_PHONE_DONT_CALL})</i>{/if}
-&nbsp;(<i>{assign var=it value=$item.3}{$APP_LIST.$it}</i>)
-<br>
+&nbsp;(
+<i>{assign var=it value=$item.3}{$APP_LIST.$it}</i>
+)
+{if $item.2 != '1'}
+<button title="Позвонить"
+class="button"
+onclick="displayCCModal(this,'{$module}', '{$fields.id.value}')"
+style="margin-left: 15px;">
+<img src="themes/default/images/icon_Phone.gif" alt="">
+</button>
+{/if}
+</div>
 {/foreach}
 {/if}
 </td>

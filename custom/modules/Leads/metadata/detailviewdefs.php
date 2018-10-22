@@ -123,7 +123,16 @@ array (
         1 =>
         array (
           0 => 'title',
-          1 => 'phone_mobile',
+          1=> array(
+                'name'=>'phone_mobile',
+                'customCode'=> '<span>{$fields.phone_mobile.value}</span>
+                                <button title="Позвонить" 
+                                    class="button" 
+                                    onclick="displayCCModal(this, \'Leads\', \'{$fields.id.value}\')" 
+                                    style="margin-left: 15px;">
+                                    <img src="themes/default/images/icon_Phone.gif" alt="">
+                                </button>'
+          )
         ),
         2 =>
         array (
