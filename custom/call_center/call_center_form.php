@@ -681,47 +681,48 @@
     var more_theme_list = <?= json_encode($GLOBALS['app_list_strings']['more_theme_list']) ?>;
     var result_list = <?= json_encode($GLOBALS['app_list_strings']['result_list']) ?>;
 
-    $('#theme_call').selectpicker();
-    $('#theme_call').change(function () {
-        var selectVal = $(this).find("option:selected").attr('id');
+    $('#more_theme_call').selectpicker();
+    $('#result_call').selectpicker();
+    $('#theme_call')
+        .selectpicker()
+        .change(function () {
+            var selectVal = $(this).find("option:selected").attr('id');
 
-        var more_theme_call = $('#more_theme_call');
-        var result_call = $('#result_call');
+            var more_theme_call = $('#more_theme_call');
+            var result_call = $('#result_call');
 
-        if (selectVal !== '') {
-            more_theme_call
-                .html('')
-                .append("<option value=''></option>")
-                .selectpicker('val', '');
-            $.each(more_theme_list, function (key, value) {
-                if (key.indexOf(selectVal) === 0) {
-                    more_theme_call
-                        .append("<option id='" + key + "'>" + value + "</option>")
-                        .selectpicker('refresh');
-                }
-            });
-            result_call
-                .html('')
-                .append("<option value=''></option>")
-                .selectpicker('val', '');
-            $.each(result_list, function (key, value) {
-                if (key.indexOf(selectVal) === 0) {
-                    result_call
-                        .append("<option id='" + key + "'>" + value + "</option>")
-                        .selectpicker('val', '')
-                        .selectpicker('refresh');
-                }
-            });
-        } else {
-            more_theme_call
-                .html('')
-                .selectpicker('refresh');
-            result_call
-                .html('')
-                .selectpicker('refresh');
-        }
+            if (selectVal !== '') {
+                more_theme_call
+                    .html('')
+                    .append("<option value=''></option>")
+                    .selectpicker('val', '');
+                $.each(more_theme_list, function (key, value) {
+                    if (key.indexOf(selectVal) === 0) {
+                        more_theme_call.append("<option id='" + key + "'>" + value + "</option>");
+                    }
+                });
+                more_theme_call.selectpicker('refresh');
 
-    });
+                result_call
+                    .html('')
+                    .append("<option value=''></option>")
+                    .selectpicker('val', '');
+                $.each(result_list, function (key, value) {
+                    if (key.indexOf(selectVal) === 0) {
+                        result_call.append("<option id='" + key + "'>" + value + "</option>");
+                    }
+                });
+                result_call.selectpicker('refresh');
+            } else {
+                more_theme_call
+                    .html('')
+                    .selectpicker('refresh');
+                result_call
+                    .html('')
+                    .selectpicker('refresh');
+            }
+
+        });
 
 </script>
 <script>
