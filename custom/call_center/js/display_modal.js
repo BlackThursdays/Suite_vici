@@ -41,6 +41,7 @@ function displayCCModal(element, parent_type, parent_id) {
                     }
                 });
 */
+
                 $("#myModal").modal('show');
                 getProduct();
             } else if (resp.indexOf('ERROR:') !== -1) {
