@@ -19,7 +19,7 @@
     <i>{assign var=it value=$item.3}{$APP_LIST.$it}</i>
     )
 
-    {if $item.2 != '1'}
+    {if $item.0 != '' && $item.2 != '1'}
         <button title="Позвонить"
                 class="button"
                 onclick="displayCCModal(this,'{$module}', '{$fields.id.value}')"
