@@ -1,0 +1,1898 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1e1a91c9-a39f-4ef4-82ae-c61dd7d6aa55" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="suitecrm_779@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="suitecrm_779@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="suitecrm_779" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DatabaseStructure$Root" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="suitecrm_779@localhost" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="suitecrm_779" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="calls" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.49840087">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="vicidial.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/vici/vicidial.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="92565">
+                  <caret line="6044" column="59" lean-forward="false" selection-start-line="6044" selection-start-column="59" selection-end-line="6044" selection-end-column="59" />
+                  <folding>
+                    <marker date="1532067768000" expanded="true" signature="44784:44856" ph="SELECT user,... vicidial_users" />
+                    <marker date="1532067768000" expanded="true" signature="45289:45970" ph="SELECT use_n... system_settings" />
+                    <marker date="1532067768000" expanded="true" signature="52913:53188" ph="SELECT menu_... vicidial_screen_colors" />
+                    <marker date="1532067768000" expanded="true" signature="56273:56478" ph="..." />
+                    <marker date="1532067768000" expanded="true" signature="56280:56478" ph="..." />
+                    <marker date="1532067768000" expanded="true" signature="56937:57037" ph="SELECT user_... vicidial_users" />
+                    <marker date="1532067768000" expanded="true" signature="57420:57504" ph="SELECT allow... vicidial_user_groups" />
+                    <marker date="1532067768000" expanded="true" signature="58980:59052" ph="UPDATE vicid... " />
+                    <marker date="1532067768000" expanded="true" signature="59491:59767" ph="INSERT INTO vicidial_admin_log... " />
+                    <marker date="1532067768000" expanded="true" signature="59988:60107" ph="SELECT campa... vicidial_campaigns" />
+                    <marker date="1532067768000" expanded="true" signature="64815:64837" ph="..." />
+                    <marker date="1532067768000" expanded="true" signature="66829:66835" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="68171:68177" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="68455:68461" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="68462:68468" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="68469:68475" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="71072:71078" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="71958:71964" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="72143:72149" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="72150:72156" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="72157:72163" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="72408:72539" ph="SELECT phone... vicidial_users" />
+                    <marker date="1532067768000" expanded="true" signature="75110:75116" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="76584:76590" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="76785:76791" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="76792:76798" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="76799:76805" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="79123:79129" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="79733:79739" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="79910:79916" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="79917:79923" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="79924:79930" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="80755:81450" ph="SELECT full_... vicidial_users" />
+                    <marker date="1532067768000" expanded="true" signature="83234:83736" ph="SELECT force... vicidial_user_groups" />
+                    <marker date="1532067768000" expanded="true" signature="86933:87021" ph="SELECT count... vicidial_languages" />
+                    <marker date="1532067768000" expanded="true" signature="87379:87460" ph="UPDATE vicid... " />
+                    <marker date="1532067768000" expanded="true" signature="88570:88694" ph="SELECT event... vicidial_timeclock_log" />
+                    <marker date="1532067768000" expanded="true" signature="90050:90175" ph="SELECT shift... vicidial_shifts" />
+                    <marker date="1532067768000" expanded="true" signature="95188:95519" ph="SELECT label... system_settings" />
+                    <marker date="1532067768000" expanded="true" signature="97158:97242" ph="SELECT allow... vicidial_user_groups" />
+                    <marker date="1532067768000" expanded="true" signature="100265:100352" ph="SELECT count... vicidial_campaigns" />
+                    <marker date="1532067768000" expanded="true" signature="101120:101262" ph="SELECT statu... vicidial_statuses" />
+                    <marker date="1532067768000" expanded="true" signature="102455:102637" ph="SELECT statu... vicidial_campaign_statuses" />
+                    <marker date="1532067768000" expanded="true" signature="104657:104816" ph="SELECT hotke... vicidial_campaign_hotkeys" />
+                    <marker date="1532067768000" expanded="true" signature="106149:109196" ph="SELECT park_... vicidial_campaigns" />
+                    <marker date="1532067768000" expanded="true" signature="117176:117569" ph="SELECT label... vicidial_screen_labels" />
+                    <marker date="1532067768000" expanded="true" signature="123553:123707" ph="SELECT prese... vicidial_xfer_presets" />
+                    <marker date="1532067768000" expanded="true" signature="124946:125031" ph="select calle... groups_alias" />
+                    <marker date="1532067768000" expanded="true" signature="125428:125533" ph="select group... vicidial_campaign_agents" />
+                    <marker date="1532067768000" expanded="true" signature="127999:128142" ph="SELECT pause... vicidial_pause_codes" />
+                    <marker date="1532067768000" expanded="true" signature="129802:129902" ph="SELECT sum(c... vicidial_inbound_group_agents" />
+                    <marker date="1532067768000" expanded="true" signature="130689:130830" ph="SELECT group... vicidial_inbound_groups" />
+                    <marker date="1532067768000" expanded="true" signature="132899:133025" ph="select group... vicidial_inbound_groups" />
+                    <marker date="1532067768000" expanded="true" signature="133728:133864" ph="select group... vicidial_inbound_groups" />
+                    <marker date="1532067768000" expanded="true" signature="134642:134712" ph="SELECT terri... vicidial_user_territories" />
+                    <marker date="1532067768000" expanded="true" signature="135676:135808" ph="select group... vicidial_inbound_groups" />
+                    <marker date="1532067768000" expanded="true" signature="136609:136734" ph="SELECT group... groups_alias" />
+                    <marker date="1532067768000" expanded="true" signature="137819:137909" ph="SELECT count... vicidial_hopper" />
+                    <marker date="1532067768000" expanded="true" signature="142088:142094" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="142974:142980" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="143159:143165" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="143166:143172" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="143173:143179" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="143646:143711" ph="select count... phones_alias" />
+                    <marker date="1532067768000" expanded="true" signature="144039:144126" ph="select alias... phones_alias" />
+                    <marker date="1532067768000" expanded="true" signature="145177:145292" ph="SELECT count... phones" />
+                    <marker date="1532067768000" expanded="true" signature="147941:147947" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="148076:148082" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="148843:148849" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="148850:148856" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="148857:148863" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="149517:149578" ph="SELECT count... phones" />
+                    <marker date="1532067768000" expanded="true" signature="149938:150000" ph="SELECT serve... phones" />
+                    <marker date="1532067768000" expanded="true" signature="150359:150459" ph="SELECT count... vicidial_live_agents" />
+                    <marker date="1532067768000" expanded="true" signature="150767:150840" ph="SELECT count... servers" />
+                    <marker date="1532067768000" expanded="true" signature="151108:151220" ph="SELECT count... vicidial_conferences" />
+                    <marker date="1532067768000" expanded="true" signature="151568:151638" ph="SELECT activ... servers" />
+                    <marker date="1532067768000" expanded="true" signature="151998:152102" ph="SELECT count... server_updater" />
+                    <marker date="1532067768000" expanded="true" signature="152478:152581" ph="SELECT count... server_updater" />
+                    <marker date="1532067768000" expanded="true" signature="153278:153409" ph="SELECT count... vicidial_live_agents" />
+                    <marker date="1532067768000" expanded="true" signature="154049:154180" ph="SELECT count... vicidial_live_agents" />
+                    <marker date="1532067768000" expanded="true" signature="155529:156920" ph="SELECT exten... phones" />
+                    <marker date="1532067768000" expanded="true" signature="159718:159820" ph="UPDATE phone... " />
+                    <marker date="1532067768000" expanded="true" signature="160079:160181" ph="UPDATE phone... " />
+                    <marker date="1532067768000" expanded="true" signature="160466:160546" ph="SELECT aster... servers" />
+                    <marker date="1532067768000" expanded="true" signature="164365:164515" ph="DELETE from " />
+                    <marker date="1532067768000" expanded="true" signature="164726:164830" ph="INSERT INTO web_client_sessions... " />
+                    <marker date="1532067768000" expanded="true" signature="165317:165425" ph="SELECT conf_... vicidial_conferences" />
+                    <marker date="1532067768000" expanded="true" signature="166008:166122" ph="SELECT count... vicidial_conferences" />
+                    <marker date="1532067768000" expanded="true" signature="166399:166549" ph="UPDATE vicid... " />
+                    <marker date="1532067768000" expanded="true" signature="166790:166921" ph="SELECT conf_... vicidial_conferences" />
+                    <marker date="1532067768000" expanded="true" signature="167394:167496" ph="UPDATE vicid... " />
+                    <marker date="1532067768000" expanded="true" signature="167844:167934" ph="DELETE from " />
+                    <marker date="1532067768000" expanded="true" signature="168280:168336" ph="DELETE from " />
+                    <marker date="1532067768000" expanded="true" signature="168688:168752" ph="DELETE from " />
+                    <marker date="1532067768000" expanded="true" signature="169114:169208" ph="UPDATE routi... " />
+                    <marker date="1532067768000" expanded="true" signature="169744:169857" ph="SELECT webse... vicidial_webservers" />
+                    <marker date="1532067768000" expanded="true" signature="170266:170358" ph="INSERT INTO vicidial_webservers... " />
+                    <marker date="1532067768000" expanded="true" signature="170766:170827" ph="SELECT url_i... vicidial_urls" />
+                    <marker date="1532067768000" expanded="true" signature="171212:171262" ph="INSERT INTO vicidial_urls... " />
+                    <marker date="1532067768000" expanded="true" signature="171813:172319" ph="INSERT INTO vicidial_user_log... " />
+                    <marker date="1532067768000" expanded="true" signature="172903:173209" ph="SELECT enabl... system_settings" />
+                    <marker date="1532067768000" expanded="true" signature="175126:175383" ph="INSERT INTO vicidial_manager... " />
+                    <marker date="1532067768000" expanded="true" signature="176243:176318" ph="SELECT exter... servers" />
+                    <marker date="1532067768000" expanded="true" signature="176823:176871" ph="SELECT webph... system_settings" />
+                    <marker date="1532067768000" expanded="true" signature="177343:177397" ph="SELECT webph... system_settings" />
+                    <marker date="1532067768000" expanded="true" signature="180666:180722" ph="DELETE from " />
+                    <marker date="1532067768000" expanded="true" signature="180937:181206" ph="INSERT INTO vicidial_session_data... " />
+                    <marker date="1532067768000" expanded="true" signature="181512:181647" ph="SELECT campa... vicidial_campaign_agents" />
+                    <marker date="1532067768000" expanded="true" signature="182157:182345" ph="INSERT INTO vicidial_campaign_agents... " />
+                    <marker date="1532067768000" expanded="true" signature="182845:183570" ph="INSERT INTO vicidial_live_agents... " />
+                    <marker date="1532067768000" expanded="true" signature="184683:184896" ph="INSERT INTO queue_log... " />
+                    <marker date="1532067768000" expanded="true" signature="185380:185575" ph="INSERT INTO queue_log... " />
+                    <marker date="1532067768000" expanded="true" signature="185996:186218" ph="INSERT INTO queue_log... " />
+                    <marker date="1532067768000" expanded="true" signature="186899:187493" ph="INSERT INTO vicidial_live_agents... " />
+                    <marker date="1532067768000" expanded="true" signature="188468:188689" ph="INSERT INTO queue_log... " />
+                    <marker date="1532067768000" expanded="true" signature="189173:189368" ph="INSERT INTO queue_log... " />
+                    <marker date="1532067768000" expanded="true" signature="189789:190011" ph="INSERT INTO queue_log... " />
+                    <marker date="1532067768000" expanded="true" signature="195917:196176" ph="INSERT INTO vicidial_agent_log... " />
+                    <marker date="1532067768000" expanded="true" signature="196626:196719" ph="UPDATE vicid... " />
+                    <marker date="1532067768000" expanded="true" signature="197536:197740" ph="INSERT INTO queue_log... " />
+                    <marker date="1532067768000" expanded="true" signature="198191:198274" ph="UPDATE vicid... " />
+                    <marker date="1532067768000" expanded="true" signature="198541:198641" ph="UPDATE vicid... " />
+                    <marker date="1532067768000" expanded="true" signature="199552:199649" ph="SELECT scrip... vicidial_scripts" />
+                    <marker date="1532067768000" expanded="true" signature="208912:208918" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="474714:474720" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="474721:474727" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="638550:638575" ph="..." />
+                    <marker date="1532067768000" expanded="true" signature="642444:642469" ph="..." />
+                    <marker date="1532067768000" expanded="true" signature="642865:642890" ph="..." />
+                    <marker date="1532067768000" expanded="true" signature="647257:647282" ph="..." />
+                    <marker date="1532067768000" expanded="true" signature="647917:647942" ph="..." />
+                    <marker date="1532067768000" expanded="true" signature="648439:648464" ph="..." />
+                    <marker date="1532067768000" expanded="true" signature="648926:648951" ph="..." />
+                    <marker date="1532067768000" expanded="true" signature="649391:649416" ph="..." />
+                    <marker date="1532067768000" expanded="true" signature="649856:649881" ph="..." />
+                    <marker date="1532067768000" expanded="true" signature="653851:653876" ph="..." />
+                    <marker date="1532067768000" expanded="true" signature="656016:656041" ph="..." />
+                    <marker date="1532067768000" expanded="true" signature="731641:731647" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="737157:737163" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="841971:842011" ph="..." />
+                    <marker date="1532067768000" expanded="true" signature="897212:897218" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="897219:897225" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="897351:897357" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="897358:897364" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="903787:903812" ph="..." />
+                    <marker date="1532067768000" expanded="true" signature="904012:904037" ph="..." />
+                    <marker date="1532067768000" expanded="true" signature="904576:904594" ph="..." />
+                    <marker date="1532067768000" expanded="true" signature="904776:904794" ph="..." />
+                    <marker date="1532067768000" expanded="true" signature="905130:905148" ph="..." />
+                    <marker date="1532067768000" expanded="true" signature="905371:905389" ph="..." />
+                    <marker date="1532067768000" expanded="true" signature="909827:909833" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="910337:910343" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="910583:910589" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="911137:911143" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="911397:911403" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="911896:911902" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="919959:919965" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="920262:920268" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="920269:920275" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="920276:920282" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="920283:920289" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="920290:920296" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="920297:920303" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="920304:920310" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="920311:920317" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="920318:920324" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="920325:920331" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="924375:924381" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="924437:924443" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="924444:924450" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="924451:924457" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="924458:924464" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="924465:924471" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="924472:924478" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="924479:924485" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="924486:924492" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="924493:924499" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="924508:924514" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="924619:924625" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="924680:924686" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="924687:924693" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="924694:924700" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="924701:924707" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="924708:924714" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="924715:924721" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="924722:924728" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="924729:924735" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="924736:924742" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="924751:924757" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="924870:924876" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="924935:924941" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="924942:924948" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="924949:924955" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="924956:924962" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="924963:924969" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="924978:924984" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="925079:925085" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="925135:925141" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="925142:925148" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="925157:925163" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="925260:925266" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="925317:925323" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="925324:925330" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="925331:925337" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="925338:925344" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="925345:925351" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="925360:925366" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="925482:925488" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="925554:925560" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="925561:925567" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="925568:925574" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="925575:925581" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="925582:925588" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="925597:925603" ph=" " />
+                    <marker date="1532067768000" expanded="true" signature="969318:969324" ph=" " />
+                    <marker date="1532067768000" expanded="false" signature="971758:971764" ph=" " />
+                    <marker date="1532067768000" expanded="false" signature="971766:971772" ph=" " />
+                    <marker date="1532067768000" expanded="false" signature="971774:971780" ph=" " />
+                    <marker date="1532067768000" expanded="false" signature="971782:971788" ph=" " />
+                    <marker date="1532067768000" expanded="false" signature="971790:971796" ph=" " />
+                    <marker date="1532067768000" expanded="false" signature="971798:971804" ph=" " />
+                    <marker date="1532067768000" expanded="false" signature="971806:971812" ph=" " />
+                    <marker date="1532067768000" expanded="false" signature="971814:971820" ph=" " />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="call_center_form.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/custom/call_center/call_center_form.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="11441">
+                  <caret line="673" column="0" lean-forward="false" selection-start-line="673" selection-start-column="0" selection-end-line="673" selection-end-column="0" />
+                  <folding>
+                    <marker date="1539959346884" expanded="true" signature="26085:26098" ph="..." />
+                    <marker date="1539959346884" expanded="true" signature="26197:26208" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="display_modal.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/custom/call_center/js/display_modal.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="34">
+                  <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+                  <folding>
+                    <element signature="n#!!doc;n#displayCCModal#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="view.detail.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/custom/modules/Leads/views/view.detail.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="459">
+                  <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+                  <folding>
+                    <marker date="1539094866534" expanded="true" signature="1247:2489" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="detailviewdefs.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/custom/modules/Leads/metadata/detailviewdefs.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="799">
+                  <caret line="108" column="34" lean-forward="false" selection-start-line="108" selection-start-column="34" selection-end-line="108" selection-end-column="34" />
+                  <folding>
+                    <element signature="e#266#1335#1#PHP" expanded="false" />
+                    <element signature="e#1396#2583#1#PHP" expanded="false" />
+                    <element signature="e#2621#2766#1#PHP" expanded="false" />
+                    <element signature="e#2905#3108#1#PHP" expanded="false" />
+                    <element signature="e#3288#3694#1#PHP" expanded="false" />
+                    <marker date="1539955494832" expanded="true" signature="4146:4264" ph="..." />
+                    <marker date="1539955494832" expanded="true" signature="4146:4265" ph="..." />
+                    <marker date="1539955494832" expanded="true" signature="4146:4267" ph="..." />
+                    <marker date="1539955494832" expanded="true" signature="4146:4276" ph="..." />
+                    <marker date="1539955494832" expanded="true" signature="4146:4278" ph="..." />
+                    <marker date="1539955494832" expanded="true" signature="4146:4499" ph="..." />
+                    <marker date="1539955494832" expanded="true" signature="4346:4364" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="view.detail.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/include/MVC/View/views/view.detail.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1037">
+                  <caret line="97" column="20" lean-forward="false" selection-start-line="97" selection-start-column="20" selection-end-line="97" selection-end-column="20" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="view.detail.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/custom/modules/Calls/views/view.detail.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="884">
+                  <caret line="52" column="37" lean-forward="false" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+                  <folding>
+                    <marker date="1539094444066" expanded="true" signature="3039:4233" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="view.detail.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/custom/modules/Leads/views/view.detail.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="136">
+                  <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+                  <folding>
+                    <marker date="1539094866534" expanded="true" signature="1247:2489" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="call_center_form.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/custom/call_center/call_center_form.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="272">
+                  <caret line="425" column="25" lean-forward="true" selection-start-line="425" selection-start-column="25" selection-end-line="425" selection-end-column="25" />
+                  <folding>
+                    <marker date="1539959346884" expanded="true" signature="26085:26098" ph="..." />
+                    <marker date="1539959346884" expanded="true" signature="26197:26208" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="controller.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/custom/call_center/controller.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1156">
+                  <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="call_center.php" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/custom/call_center/call_center.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1632">
+                  <caret line="391" column="0" lean-forward="false" selection-start-line="391" selection-start-column="0" selection-end-line="391" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#238#366#0#PHP" expanded="false" />
+                    <element signature="n#getContactName#0;n#CallCenterCRM#0;n#!!top" expanded="false" />
+                    <element signature="e#443#2142#0#PHP" expanded="false" />
+                    <element signature="e#495#2132#0#PHP" expanded="false" />
+                    <element signature="e#1181#1287#0#PHP" expanded="false" />
+                    <element signature="e#1341#1414#0#PHP" expanded="false" />
+                    <element signature="e#1462#2132#0#PHP" expanded="false" />
+                    <element signature="e#1852#1958#0#PHP" expanded="false" />
+                    <element signature="e#2012#2085#0#PHP" expanded="false" />
+                    <element signature="e#2175#2302#0#PHP" expanded="false" />
+                    <element signature="n#getAccountName#0;n#CallCenterCRM#0;n#!!top" expanded="false" />
+                    <element signature="e#3040#3158#0#PHP" expanded="false" />
+                    <element signature="n#getLeadName#0;n#CallCenterCRM#0;n#!!top" expanded="false" />
+                    <element signature="e#4763#4827#0#PHP" expanded="false" />
+                    <element signature="n#getEmail#0;n#CallCenterCRM#0;n#!!top" expanded="false" />
+                    <element signature="n#getProduct#0;n#CallCenterCRM#0;n#!!top" expanded="false" />
+                    <element signature="e#5799#5907#0#PHP" expanded="false" />
+                    <element signature="e#6585#6694#0#PHP" expanded="false" />
+                    <element signature="e#7248#7354#0#PHP" expanded="false" />
+                    <element signature="e#8219#8327#0#PHP" expanded="false" />
+                    <element signature="e#9175#9284#0#PHP" expanded="false" />
+                    <element signature="e#10015#10120#0#PHP" expanded="false" />
+                    <element signature="e#10169#10226#0#PHP" expanded="false" />
+                    <element signature="e#10264#10394#0#PHP" expanded="false" />
+                    <element signature="n#saveCallInfo#0;n#CallCenterCRM#0;n#!!top" expanded="false" />
+                    <element signature="n#saveClientInfo#0;n#CallCenterCRM#0;n#!!top" expanded="false" />
+                    <element signature="e#15703#15761#0#PHP" expanded="false" />
+                    <element signature="n#arrayToJson#0;n#CallCenterCRM#0;n#!!top" expanded="false" />
+                    <marker date="1539956656105" expanded="false" signature="595:824" ph="SELECT id,co... contacts" />
+                    <marker date="1539956656105" expanded="false" signature="1495:1746" ph="SELECT id,co... contacts" />
+                    <marker date="1539956656105" expanded="true" signature="2414:2507" ph="SELECT id,na... accounts" />
+                    <marker date="1539956656105" expanded="true" signature="3384:3474" ph="SELECT id,co... c_leads_fl" />
+                    <marker date="1539956656105" expanded="true" signature="3384:3504" ph="SELECT id, c... Leads" />
+                    <marker date="1539956656105" expanded="true" signature="3384:3539" ph="SELECT id, c... Leads" />
+                    <marker date="1539956656105" expanded="true" signature="4148:4379" ph="SELECT id,co... c_leads_fl" />
+                    <marker date="1539956656105" expanded="true" signature="4241:4379" ph="SELECT id,ac... Leads" />
+                    <marker date="1539956656105" expanded="false" signature="4892:5124" ph="SELECT email... email_addresses" />
+                    <marker date="1539956656105" expanded="false" signature="5487:5705" ph="SELECT id, n... " />
+                    <marker date="1539956656105" expanded="false" signature="5955:6490" ph="SELECT dc_de... " />
+                    <marker date="1539956656105" expanded="false" signature="6744:7153" ph="SELECT dc_sc... " />
+                    <marker date="1539956656105" expanded="false" signature="7449:8125" ph="SELECT c_cre... " />
+                    <marker date="1539956656105" expanded="false" signature="8375:9080" ph="SELECT c_dep... " />
+                    <marker date="1539956656105" expanded="false" signature="9327:9920" ph="SELECT c_rko... " />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="suitecrm_779.calls" pinned="false" current-in-tab="false">
+            <entry file="dbDummy://dbtable:/4e01fbad/b012a6b2-6496-4b24-bb2d-3bd5027d584c/suitecrm_779.calls">
+              <provider editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+              <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+                <state>
+                  <filtering enabled="true" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>(VD_live_customer_call==1)</find>
+      <find>CheckDEADcall &gt; 0</find>
+      <find>1</find>
+      <find>detail_client</find>
+      <find>radio</find>
+      <find>&lt;?php</find>
+      <find>server</find>
+      <find>get_xml</find>
+      <find>save</find>
+      <find>#save</find>
+      <find>theme_call</find>
+      <find>for</find>
+      <find>c_leads_fl</find>
+      <find>db</find>
+      <find>module</find>
+      <find>Клиент отсутствует</find>
+      <find>not_found_client</find>
+      <find>record_id</find>
+      <find>c_inbound_calls</find>
+      <find>manifest.php</find>
+      <find>Вход</find>
+      <find>call_id</find>
+      <find>date</find>
+      <find>l</find>
+      <find>loadi</find>
+      <find>loadim</find>
+      <find>loading</find>
+      <find>loading.</find>
+      <find>loading.gi</find>
+      <find>loading.gif</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\projects\suitecrm_7_7_9</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/export.php" />
+        <option value="C:/Windows/php.ini" />
+        <option value="$PROJECT_DIR$/include/MVC/View/SugarView.php" />
+        <option value="$PROJECT_DIR$/custom/modules/Accounts/metadata/subpaneldefs.php" />
+        <option value="$PROJECT_DIR$/modules/Accounts/metadata/subpaneldefs.php" />
+        <option value="$PROJECT_DIR$/custom/Extension/application/Ext/EntryPointRegistry/customEntryPoint.php" />
+        <option value="$PROJECT_DIR$/custom/modules/Calls/metadata/detailviewdefs.php" />
+        <option value="$PROJECT_DIR$/custom/call_center/js/custom_datetime.js" />
+        <option value="$PROJECT_DIR$/custom/call_center/style/custom_form.css" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b012a6b2-6496-4b24-bb2d-3bd5027d584c/console.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/486ef322-12bf-4043-a72a-86038aa17add/console_1.sql" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/486ef322-12bf-4043-a72a-86038aa17add/console.sql" />
+        <option value="$PROJECT_DIR$/custom/modules/Leads/Lead1.js" />
+        <option value="$PROJECT_DIR$/custom/call_center/js/dispaly_modal.js" />
+        <option value="$PROJECT_DIR$/custom/modules/Leads/logic_hooks.php" />
+        <option value="$PROJECT_DIR$/custom/modules/Leads/LogicHooks.php" />
+        <option value="$PROJECT_DIR$/custom/modules/Calls/views/view.detail.php" />
+        <option value="$PROJECT_DIR$/custom/modules/Leads/views/view.detail.php" />
+        <option value="$PROJECT_DIR$/custom/call_center/controller.php" />
+        <option value="$PROJECT_DIR$/custom/modules/Leads/metadata/detailviewdefs.php" />
+        <option value="$PROJECT_DIR$/custom/call_center/call_center.php" />
+        <option value="$PROJECT_DIR$/custom/call_center/call_center_form.php" />
+        <option value="$PROJECT_DIR$/custom/call_center/js/display_modal.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>false</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>false</other-services-enabled>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpDebugGeneral" xdebug_force_break_when_no_path_mapping="false" xdebug_force_break_when_outside_project="false" />
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="200e58e4-f9bf-4f96-ab26-0fbc2c3f79c5" name="localhost" port="81" />
+      <server host="PhpStorm 2017.1.2" id="d9aaed9a-3e91-46e4-84a0-7b43b8a316ef" name="PhpStorm 2017.1.2" port="63343" />
+      <server host="localhost" id="146ade93-b615-4df8-9a16-3dff1fe15af4" name="localhost (1)" />
+      <server host="10.8.0.3" id="b371e819-89e4-4959-b64f-02cc8eec2a89" name="10.8.0.3" />
+      <server host="10.8.0.2" id="f389df7b-e7fc-40d6-b213-f44366b6b352" name="10.8.0.2" />
+    </servers>
+  </component>
+  <component name="PhpWebServerValidation" path_to_validation_script="C:\projects\suitecrm_7_7_9" selected_validation_type="LOCAL" web_path_to_validation_script="http://127.0.0.1:81" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP_5.4.5" />
+  <component name="PhpXdebugProxy" ide_key="PHPSTORM" host="LOCALHOST" port="9000" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>DatabaseYii2FrameworkPHP</id>
+          </State>
+          <State>
+            <id>FrameworkPHP</id>
+          </State>
+          <State>
+            <id>PHP</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>Yii2FrameworkPHP</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Blade files</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="suitecrm_7_7_9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="suitecrm_7_7_9" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="suitecrm_7_7_9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="suitecrm_7_7_9" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="custom" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="suitecrm_7_7_9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="suitecrm_7_7_9" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="custom" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="suitecrm_7_7_9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="suitecrm_7_7_9" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="custom" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Leads" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="suitecrm_7_7_9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="suitecrm_7_7_9" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="custom" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Leads" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="suitecrm_7_7_9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="suitecrm_7_7_9" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="custom" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Leads" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="metadata" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="suitecrm_7_7_9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="suitecrm_7_7_9" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="custom" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Calls" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="suitecrm_7_7_9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="suitecrm_7_7_9" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="custom" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Calls" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="suitecrm_7_7_9" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="suitecrm_7_7_9" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="custom" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="call_center" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="reference.settingsDialog.application.dockerMachine" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="node.js.selected.package.jscs" value="" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
+    <property name="node.js.detected.package.jscs" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="C:\Users\bosyuk\AppData\Roaming\npm\node_modules\eslint" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="Constants" value="false" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL&#10;Oracle" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\projects\suitecrm_7_7_9\custom\modules\Calls" />
+      <recent name="C:\projects\suitecrm_7_7_9\custom\modules\Accounts\metadata" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="PHP Built-in Web Server.Unnamed">
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" document_root="$PROJECT_DIR$">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpHttpRequestRunConfigurationType" factoryName="PHP HTTP Request">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpRemoteDebugRunConfigurationType" factoryName="PHP Remote Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unnamed" type="PhpBuiltInWebServerConfigurationType" factoryName="PHP Built-in Web Server" singleton="true" document_root="$PROJECT_DIR$" host="10.8.0.2">
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="PHP Built-in Web Server.Unnamed" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1444563" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3008658" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11886994" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.241342" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2564935" sideWeight="0.4978678" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="REST Client" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.83441556" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$USER_HOME$/YandexDisk/Работа/CALL-CENTER (Vicidial)/vici+suitecrm/Модуль для vicidial/vicidial_work.php</url>
+          <line>14428</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/custom/call_center/call_center.php</url>
+          <line>62</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/custom/call_center/call_center.php</url>
+          <line>311</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/custom/call_center/call_center.php</url>
+          <line>328</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/custom/call_center/call_center.php</url>
+          <line>322</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/custom/call_center/call_center.php</url>
+          <line>343</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/custom/modules/Leads/metadata/detailviewdefs.php</url>
+          <line>113</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/custom/call_center/call_center.php</url>
+          <line>391</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/custom/call_center/call_center.php</url>
+          <line>379</line>
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="65" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/custom/modules/Accounts/metadata/editviewdefs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/modules/Accounts/Ext/Language/ru_RU.lang.ext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="2" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/modules/Accounts/language/ru_RU.lang.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="43" lean-forward="false" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/modules/Accounts/logic_hooks.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="113" lean-forward="false" selection-start-line="10" selection-start-column="113" selection-end-line="10" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/modules/Accounts/Ext/Layoutdefs/layoutdefs.ext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="2" lean-forward="true" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/modules/Accounts/Ext/Vardefs/vardefs.ext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/modules/Accounts/metadata/subpaneldefs.php" />
+    <entry file="file://$PROJECT_DIR$/include/Localization/Localization.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="422">
+          <caret line="727" column="57" lean-forward="false" selection-start-line="727" selection-start-column="57" selection-end-line="727" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/Leads/SugarFeeds/LeadFeed.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="26" column="26" lean-forward="true" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/Accounts/metadata/subpaneldefs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="14" column="45" lean-forward="true" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/YandexDisk/Работа/CALL-CENTER (Vicidial)/vici+suitecrm/Модуль для vicidial/vicidial_work.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="14427" column="0" lean-forward="false" selection-start-line="14427" selection-start-column="0" selection-end-line="14427" selection-end-column="0" />
+          <folding>
+            <marker date="1495264721850" expanded="true" signature="30542:30892" ph="SELECT use_n... system_settings" />
+            <marker date="1495264721850" expanded="true" signature="36189:36520" ph="SELECT label... system_settings" />
+            <marker date="1495264721850" expanded="true" signature="38795:39014" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="38802:39014" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="39461:39541" ph="SELECT user_... vicidial_users" />
+            <marker date="1495264721850" expanded="true" signature="39837:39921" ph="SELECT allow... vicidial_user_groups" />
+            <marker date="1495264721850" expanded="true" signature="40865:41003" ph="SELECT count... vicidial_users" />
+            <marker date="1495264721850" expanded="true" signature="41286:41378" ph="UPDATE vicid... " />
+            <marker date="1495264721850" expanded="true" signature="41813:42099" ph="INSERT INTO vicidial_admin_log... " />
+            <marker date="1495264721850" expanded="true" signature="42316:42435" ph="SELECT campa... vicidial_campaigns" />
+            <marker date="1495264721850" expanded="true" signature="48580:48586" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="49635:49641" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="49888:49894" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="49895:49901" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="49902:49908" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="52314:52320" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="53000:53006" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="53163:53169" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="53170:53176" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="53177:53183" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="53417:53543" ph="SELECT phone... vicidial_users" />
+            <marker date="1495264721850" expanded="true" signature="55928:55934" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="57115:57121" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="57294:57300" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="57301:57307" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="57308:57314" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="59444:59450" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="59951:59957" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="60106:60112" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="60113:60119" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="60120:60126" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="60511:60623" ph="SELECT count... vicidial_users" />
+            <marker date="1495264721850" expanded="true" signature="61007:61596" ph="SELECT full_... vicidial_users" />
+            <marker date="1495264721850" expanded="true" signature="63174:63617" ph="SELECT force... vicidial_user_groups" />
+            <marker date="1495264721850" expanded="true" signature="66163:66287" ph="SELECT event... vicidial_timeclock_log" />
+            <marker date="1495264721850" expanded="true" signature="67614:67739" ph="SELECT shift... vicidial_shifts" />
+            <marker date="1495264721850" expanded="true" signature="71557:71641" ph="SELECT allow... vicidial_user_groups" />
+            <marker date="1495264721850" expanded="true" signature="74243:74249" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="74462:74549" ph="SELECT count... vicidial_campaigns" />
+            <marker date="1495264721850" expanded="true" signature="75063:75189" ph="SELECT statu... vicidial_statuses" />
+            <marker date="1495264721850" expanded="true" signature="76201:76367" ph="SELECT statu... vicidial_campaign_statuses" />
+            <marker date="1495264721850" expanded="true" signature="77707:77866" ph="SELECT hotke... vicidial_campaign_hotkeys" />
+            <marker date="1495264721850" expanded="true" signature="79193:81308" ph="SELECT park_... vicidial_campaigns" />
+            <marker date="1495264721850" expanded="true" signature="86093:86486" ph="SELECT label... vicidial_screen_labels" />
+            <marker date="1495264721850" expanded="true" signature="92468:92622" ph="SELECT prese... vicidial_xfer_presets" />
+            <marker date="1495264721850" expanded="true" signature="93855:93940" ph="select calle... groups_alias" />
+            <marker date="1495264721850" expanded="true" signature="94331:94436" ph="select group... vicidial_campaign_agents" />
+            <marker date="1495264721850" expanded="true" signature="96205:96327" ph="SELECT pause... vicidial_pause_codes" />
+            <marker date="1495264721850" expanded="true" signature="97481:97622" ph="select group... vicidial_inbound_groups" />
+            <marker date="1495264721850" expanded="true" signature="99162:99288" ph="select group... vicidial_inbound_groups" />
+            <marker date="1495264721850" expanded="true" signature="99985:100121" ph="select group... vicidial_inbound_groups" />
+            <marker date="1495264721850" expanded="true" signature="100893:100963" ph="SELECT terri... vicidial_user_territories" />
+            <marker date="1495264721850" expanded="true" signature="101921:102053" ph="select group... vicidial_inbound_groups" />
+            <marker date="1495264721850" expanded="true" signature="102848:102973" ph="SELECT group... groups_alias" />
+            <marker date="1495264721850" expanded="true" signature="104052:104142" ph="SELECT count... vicidial_hopper" />
+            <marker date="1495264721850" expanded="true" signature="107082:107088" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="107768:107774" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="107931:107937" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="107938:107944" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="107945:107951" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="108407:108472" ph="select count... phones_alias" />
+            <marker date="1495264721850" expanded="true" signature="108794:108881" ph="select alias... phones_alias" />
+            <marker date="1495264721850" expanded="true" signature="109812:109960" ph="SELECT count... phones" />
+            <marker date="1495264721850" expanded="true" signature="112365:112371" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="112495:112501" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="113137:113143" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="113144:113150" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="113151:113157" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="113802:113864" ph="SELECT serve... phones" />
+            <marker date="1495264721850" expanded="true" signature="114232:114332" ph="SELECT count... vicidial_live_agents" />
+            <marker date="1495264721850" expanded="true" signature="114635:114741" ph="SELECT count... servers" />
+            <marker date="1495264721850" expanded="true" signature="115053:115123" ph="SELECT activ... servers" />
+            <marker date="1495264721850" expanded="true" signature="115470:115574" ph="SELECT count... server_updater" />
+            <marker date="1495264721850" expanded="true" signature="115932:116035" ph="SELECT count... server_updater" />
+            <marker date="1495264721850" expanded="true" signature="116697:116828" ph="SELECT count... vicidial_live_agents" />
+            <marker date="1495264721850" expanded="true" signature="117463:117594" ph="SELECT count... vicidial_live_agents" />
+            <marker date="1495264721850" expanded="true" signature="118813:120126" ph="SELECT exten... phones" />
+            <marker date="1495264721850" expanded="true" signature="122588:122690" ph="UPDATE phone... " />
+            <marker date="1495264721850" expanded="true" signature="122945:123047" ph="UPDATE phone... " />
+            <marker date="1495264721850" expanded="true" signature="123328:123393" ph="SELECT aster... servers" />
+            <marker date="1495264721850" expanded="true" signature="126605:126755" ph="DELETE from " />
+            <marker date="1495264721850" expanded="true" signature="126962:127066" ph="INSERT INTO web_client_sessions... " />
+            <marker date="1495264721850" expanded="true" signature="127549:127657" ph="SELECT conf_... vicidial_conferences" />
+            <marker date="1495264721850" expanded="true" signature="128243:128357" ph="SELECT count... vicidial_conferences" />
+            <marker date="1495264721850" expanded="true" signature="128629:128779" ph="UPDATE vicid... " />
+            <marker date="1495264721850" expanded="true" signature="129016:129147" ph="SELECT conf_... vicidial_conferences" />
+            <marker date="1495264721850" expanded="true" signature="129624:129726" ph="UPDATE vicid... " />
+            <marker date="1495264721850" expanded="true" signature="130080:130170" ph="DELETE from " />
+            <marker date="1495264721850" expanded="true" signature="130519:130575" ph="DELETE from " />
+            <marker date="1495264721850" expanded="true" signature="130920:130984" ph="DELETE from " />
+            <marker date="1495264721850" expanded="true" signature="131502:131810" ph="INSERT INTO vicidial_user_log... " />
+            <marker date="1495264721850" expanded="true" signature="132388:132670" ph="SELECT enabl... system_settings" />
+            <marker date="1495264721850" expanded="true" signature="134399:134654" ph="INSERT INTO vicidial_manager... " />
+            <marker date="1495264721850" expanded="true" signature="135509:135584" ph="SELECT exter... servers" />
+            <marker date="1495264721850" expanded="true" signature="136083:136131" ph="SELECT webph... system_settings" />
+            <marker date="1495264721850" expanded="true" signature="136597:136651" ph="SELECT webph... system_settings" />
+            <marker date="1495264721850" expanded="true" signature="139131:139187" ph="DELETE from " />
+            <marker date="1495264721850" expanded="true" signature="139398:139667" ph="INSERT INTO vicidial_session_data... " />
+            <marker date="1495264721850" expanded="true" signature="139969:140104" ph="SELECT campa... vicidial_campaign_agents" />
+            <marker date="1495264721850" expanded="true" signature="140608:140796" ph="INSERT INTO vicidial_campaign_agents... " />
+            <marker date="1495264721850" expanded="true" signature="141298:142004" ph="INSERT INTO vicidial_live_agents... " />
+            <marker date="1495264721850" expanded="true" signature="142984:143195" ph="INSERT INTO queue_log... " />
+            <marker date="1495264721850" expanded="true" signature="143570:143762" ph="INSERT INTO queue_log... " />
+            <marker date="1495264721850" expanded="true" signature="144164:144384" ph="INSERT INTO queue_log... " />
+            <marker date="1495264721850" expanded="true" signature="145058:145652" ph="INSERT INTO vicidial_live_agents... " />
+            <marker date="1495264721850" expanded="true" signature="146494:146713" ph="INSERT INTO queue_log... " />
+            <marker date="1495264721850" expanded="true" signature="147088:147280" ph="INSERT INTO queue_log... " />
+            <marker date="1495264721850" expanded="true" signature="147682:147902" ph="INSERT INTO queue_log... " />
+            <marker date="1495264721850" expanded="true" signature="150503:150509" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="152829:152835" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="153358:153598" ph="INSERT INTO vicidial_agent_log... " />
+            <marker date="1495264721850" expanded="true" signature="154042:154135" ph="UPDATE vicid... " />
+            <marker date="1495264721850" expanded="true" signature="154723:154925" ph="INSERT INTO queue_log... " />
+            <marker date="1495264721850" expanded="true" signature="155355:155438" ph="UPDATE vicid... " />
+            <marker date="1495264721850" expanded="true" signature="155700:155800" ph="UPDATE vicid... " />
+            <marker date="1495264721850" expanded="true" signature="156706:156803" ph="SELECT scrip... vicidial_scripts" />
+            <marker date="1495264721850" expanded="true" signature="163045:163051" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="204607:204628" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="204826:204847" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="238250:238256" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="238414:238420" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="238421:238427" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="238428:238434" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="238594:238600" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="289263:289269" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="289437:289443" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="289609:289615" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="290304:290310" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="290389:290395" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="296445:296451" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="296452:296458" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="320908:320914" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="320915:320921" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="321249:321255" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="321256:321262" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="326217:326238" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="326449:326470" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="326684:326705" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="326973:326994" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="327263:327284" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="330817:330838" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="331172:331193" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="331528:331549" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="338528:338549" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="338791:338812" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="365081:365087" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="365088:365094" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="399683:399723" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="411303:411324" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="411654:411675" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="412006:412027" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="440239:440260" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="440569:440590" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="440900:440921" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="463229:463250" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="463434:463455" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="463640:463661" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="470429:470450" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="470701:470722" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="470915:470936" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="471181:471202" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="478471:478496" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="481436:481461" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="482088:482113" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="484889:484914" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="485511:485536" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="485995:486020" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="486444:486469" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="486871:486896" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="487298:487323" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="487794:487819" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="489711:489736" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="489980:490005" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="490307:490332" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="490651:490676" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="491293:491318" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="492566:492591" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="493086:493111" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="494128:494149" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="494395:494416" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="494660:494681" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="496458:496479" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="496725:496746" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="496990:497011" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="518217:518223" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="521950:521956" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="522167:522173" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="525188:525194" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="528861:528867" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="529085:529091" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="573355:573361" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="579282:579288" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="579488:579494" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="618824:618864" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="641557:641563" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="655306:655312" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="655313:655319" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="655433:655439" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="655440:655446" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="660668:660693" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="661218:661236" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="661419:661437" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="661758:661776" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="661992:662010" ph="..." />
+            <marker date="1495264721850" expanded="true" signature="665439:665445" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="665545:665551" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="665755:665761" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="665869:665875" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="666084:666090" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="666188:666194" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="670799:670805" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="671102:671108" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="671109:671115" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="671116:671122" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="671123:671129" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="671130:671136" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="671137:671143" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="671144:671150" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="671151:671157" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="671158:671164" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="671165:671171" ph=" " />
+            <marker date="1495264721850" expanded="true" signature="682674:682680" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/YandexDisk/Работа/CALL-CENTER (Vicidial)/vici+suitecrm/Модуль для vicidial/vicidial_new.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="13920" column="26" lean-forward="false" selection-start-line="13920" selection-start-column="26" selection-end-line="13920" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/YandexDisk/Работа/CALL-CENTER (Vicidial)/vici+suitecrm/Модуль для vicidial/vicidial_old.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="13835" column="4" lean-forward="true" selection-start-line="13835" selection-start-column="4" selection-end-line="13835" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/YandexDisk/Работа/CALL-CENTER (Vicidial)/Бэкап реальной базы/htdocs/agc_ru/vicidial.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="409" column="0" lean-forward="true" selection-start-line="409" selection-start-column="0" selection-end-line="409" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/YandexDisk/Работа/CALL-CENTER (Vicidial)/vici+suitecrm/Модуль для vicidial/vicidial.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="14431" column="88" lean-forward="false" selection-start-line="14431" selection-start-column="88" selection-end-line="14431" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/CRM KZ/archive/vicidial.php" />
+    <entry file="file://$PROJECT_DIR$/include/MVC/View/SugarView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="57" column="7" lean-forward="true" selection-start-line="57" selection-start-column="7" selection-end-line="57" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/Documents/views/view.detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/application/Ext/EntryPointRegistry/entry_point_registry.ext.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="35" lean-forward="true" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/database/MysqliManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="127" column="0" lean-forward="false" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b012a6b2-6496-4b24-bb2d-3bd5027d584c/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="38" lean-forward="false" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/486ef322-12bf-4043-a72a-86038aa17add/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/call_center/js/custom_datetime.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/call_center/style/custom_form.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="59" column="41" lean-forward="true" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/SELECT____PAYMENT_CODE_____PAYMENT_NAME1.csv" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/486ef322-12bf-4043-a72a-86038aa17add/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="44" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/4e01fbad/b012a6b2-6496-4b24-bb2d-3bd5027d584c/suitecrm_779.calls_leads">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/SugarBean.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="1495" column="0" lean-forward="false" selection-start-line="1495" selection-start-column="0" selection-end-line="1495" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/SugarLogger/LoggerManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="94" column="0" lean-forward="false" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/4e01fbad/b012a6b2-6496-4b24-bb2d-3bd5027d584c/suitecrm_779.calls_reschedule">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/default/images/_blank.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/themes/default/images/accept_inline.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/modules/Calls/metadata/detailviewdefs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/modules/Leads/Lead1.js" />
+    <entry file="file://$PROJECT_DIR$/custom/modules/Leads/LogicHooks.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/modules/Leads/logic_hooks.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="2" lean-forward="false" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/MVC/View/views/view.detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="97" column="20" lean-forward="false" selection-start-line="97" selection-start-column="20" selection-end-line="97" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vici/vicidial.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92565">
+          <caret line="6044" column="59" lean-forward="false" selection-start-line="6044" selection-start-column="59" selection-end-line="6044" selection-end-column="59" />
+          <folding>
+            <marker date="1532067768000" expanded="true" signature="44784:44856" ph="SELECT user,... vicidial_users" />
+            <marker date="1532067768000" expanded="true" signature="45289:45970" ph="SELECT use_n... system_settings" />
+            <marker date="1532067768000" expanded="true" signature="52913:53188" ph="SELECT menu_... vicidial_screen_colors" />
+            <marker date="1532067768000" expanded="true" signature="56273:56478" ph="..." />
+            <marker date="1532067768000" expanded="true" signature="56280:56478" ph="..." />
+            <marker date="1532067768000" expanded="true" signature="56937:57037" ph="SELECT user_... vicidial_users" />
+            <marker date="1532067768000" expanded="true" signature="57420:57504" ph="SELECT allow... vicidial_user_groups" />
+            <marker date="1532067768000" expanded="true" signature="58980:59052" ph="UPDATE vicid... " />
+            <marker date="1532067768000" expanded="true" signature="59491:59767" ph="INSERT INTO vicidial_admin_log... " />
+            <marker date="1532067768000" expanded="true" signature="59988:60107" ph="SELECT campa... vicidial_campaigns" />
+            <marker date="1532067768000" expanded="true" signature="64815:64837" ph="..." />
+            <marker date="1532067768000" expanded="true" signature="66829:66835" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="68171:68177" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="68455:68461" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="68462:68468" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="68469:68475" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="71072:71078" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="71958:71964" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="72143:72149" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="72150:72156" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="72157:72163" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="72408:72539" ph="SELECT phone... vicidial_users" />
+            <marker date="1532067768000" expanded="true" signature="75110:75116" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="76584:76590" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="76785:76791" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="76792:76798" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="76799:76805" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="79123:79129" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="79733:79739" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="79910:79916" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="79917:79923" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="79924:79930" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="80755:81450" ph="SELECT full_... vicidial_users" />
+            <marker date="1532067768000" expanded="true" signature="83234:83736" ph="SELECT force... vicidial_user_groups" />
+            <marker date="1532067768000" expanded="true" signature="86933:87021" ph="SELECT count... vicidial_languages" />
+            <marker date="1532067768000" expanded="true" signature="87379:87460" ph="UPDATE vicid... " />
+            <marker date="1532067768000" expanded="true" signature="88570:88694" ph="SELECT event... vicidial_timeclock_log" />
+            <marker date="1532067768000" expanded="true" signature="90050:90175" ph="SELECT shift... vicidial_shifts" />
+            <marker date="1532067768000" expanded="true" signature="95188:95519" ph="SELECT label... system_settings" />
+            <marker date="1532067768000" expanded="true" signature="97158:97242" ph="SELECT allow... vicidial_user_groups" />
+            <marker date="1532067768000" expanded="true" signature="100265:100352" ph="SELECT count... vicidial_campaigns" />
+            <marker date="1532067768000" expanded="true" signature="101120:101262" ph="SELECT statu... vicidial_statuses" />
+            <marker date="1532067768000" expanded="true" signature="102455:102637" ph="SELECT statu... vicidial_campaign_statuses" />
+            <marker date="1532067768000" expanded="true" signature="104657:104816" ph="SELECT hotke... vicidial_campaign_hotkeys" />
+            <marker date="1532067768000" expanded="true" signature="106149:109196" ph="SELECT park_... vicidial_campaigns" />
+            <marker date="1532067768000" expanded="true" signature="117176:117569" ph="SELECT label... vicidial_screen_labels" />
+            <marker date="1532067768000" expanded="true" signature="123553:123707" ph="SELECT prese... vicidial_xfer_presets" />
+            <marker date="1532067768000" expanded="true" signature="124946:125031" ph="select calle... groups_alias" />
+            <marker date="1532067768000" expanded="true" signature="125428:125533" ph="select group... vicidial_campaign_agents" />
+            <marker date="1532067768000" expanded="true" signature="127999:128142" ph="SELECT pause... vicidial_pause_codes" />
+            <marker date="1532067768000" expanded="true" signature="129802:129902" ph="SELECT sum(c... vicidial_inbound_group_agents" />
+            <marker date="1532067768000" expanded="true" signature="130689:130830" ph="SELECT group... vicidial_inbound_groups" />
+            <marker date="1532067768000" expanded="true" signature="132899:133025" ph="select group... vicidial_inbound_groups" />
+            <marker date="1532067768000" expanded="true" signature="133728:133864" ph="select group... vicidial_inbound_groups" />
+            <marker date="1532067768000" expanded="true" signature="134642:134712" ph="SELECT terri... vicidial_user_territories" />
+            <marker date="1532067768000" expanded="true" signature="135676:135808" ph="select group... vicidial_inbound_groups" />
+            <marker date="1532067768000" expanded="true" signature="136609:136734" ph="SELECT group... groups_alias" />
+            <marker date="1532067768000" expanded="true" signature="137819:137909" ph="SELECT count... vicidial_hopper" />
+            <marker date="1532067768000" expanded="true" signature="142088:142094" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="142974:142980" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="143159:143165" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="143166:143172" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="143173:143179" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="143646:143711" ph="select count... phones_alias" />
+            <marker date="1532067768000" expanded="true" signature="144039:144126" ph="select alias... phones_alias" />
+            <marker date="1532067768000" expanded="true" signature="145177:145292" ph="SELECT count... phones" />
+            <marker date="1532067768000" expanded="true" signature="147941:147947" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="148076:148082" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="148843:148849" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="148850:148856" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="148857:148863" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="149517:149578" ph="SELECT count... phones" />
+            <marker date="1532067768000" expanded="true" signature="149938:150000" ph="SELECT serve... phones" />
+            <marker date="1532067768000" expanded="true" signature="150359:150459" ph="SELECT count... vicidial_live_agents" />
+            <marker date="1532067768000" expanded="true" signature="150767:150840" ph="SELECT count... servers" />
+            <marker date="1532067768000" expanded="true" signature="151108:151220" ph="SELECT count... vicidial_conferences" />
+            <marker date="1532067768000" expanded="true" signature="151568:151638" ph="SELECT activ... servers" />
+            <marker date="1532067768000" expanded="true" signature="151998:152102" ph="SELECT count... server_updater" />
+            <marker date="1532067768000" expanded="true" signature="152478:152581" ph="SELECT count... server_updater" />
+            <marker date="1532067768000" expanded="true" signature="153278:153409" ph="SELECT count... vicidial_live_agents" />
+            <marker date="1532067768000" expanded="true" signature="154049:154180" ph="SELECT count... vicidial_live_agents" />
+            <marker date="1532067768000" expanded="true" signature="155529:156920" ph="SELECT exten... phones" />
+            <marker date="1532067768000" expanded="true" signature="159718:159820" ph="UPDATE phone... " />
+            <marker date="1532067768000" expanded="true" signature="160079:160181" ph="UPDATE phone... " />
+            <marker date="1532067768000" expanded="true" signature="160466:160546" ph="SELECT aster... servers" />
+            <marker date="1532067768000" expanded="true" signature="164365:164515" ph="DELETE from " />
+            <marker date="1532067768000" expanded="true" signature="164726:164830" ph="INSERT INTO web_client_sessions... " />
+            <marker date="1532067768000" expanded="true" signature="165317:165425" ph="SELECT conf_... vicidial_conferences" />
+            <marker date="1532067768000" expanded="true" signature="166008:166122" ph="SELECT count... vicidial_conferences" />
+            <marker date="1532067768000" expanded="true" signature="166399:166549" ph="UPDATE vicid... " />
+            <marker date="1532067768000" expanded="true" signature="166790:166921" ph="SELECT conf_... vicidial_conferences" />
+            <marker date="1532067768000" expanded="true" signature="167394:167496" ph="UPDATE vicid... " />
+            <marker date="1532067768000" expanded="true" signature="167844:167934" ph="DELETE from " />
+            <marker date="1532067768000" expanded="true" signature="168280:168336" ph="DELETE from " />
+            <marker date="1532067768000" expanded="true" signature="168688:168752" ph="DELETE from " />
+            <marker date="1532067768000" expanded="true" signature="169114:169208" ph="UPDATE routi... " />
+            <marker date="1532067768000" expanded="true" signature="169744:169857" ph="SELECT webse... vicidial_webservers" />
+            <marker date="1532067768000" expanded="true" signature="170266:170358" ph="INSERT INTO vicidial_webservers... " />
+            <marker date="1532067768000" expanded="true" signature="170766:170827" ph="SELECT url_i... vicidial_urls" />
+            <marker date="1532067768000" expanded="true" signature="171212:171262" ph="INSERT INTO vicidial_urls... " />
+            <marker date="1532067768000" expanded="true" signature="171813:172319" ph="INSERT INTO vicidial_user_log... " />
+            <marker date="1532067768000" expanded="true" signature="172903:173209" ph="SELECT enabl... system_settings" />
+            <marker date="1532067768000" expanded="true" signature="175126:175383" ph="INSERT INTO vicidial_manager... " />
+            <marker date="1532067768000" expanded="true" signature="176243:176318" ph="SELECT exter... servers" />
+            <marker date="1532067768000" expanded="true" signature="176823:176871" ph="SELECT webph... system_settings" />
+            <marker date="1532067768000" expanded="true" signature="177343:177397" ph="SELECT webph... system_settings" />
+            <marker date="1532067768000" expanded="true" signature="180666:180722" ph="DELETE from " />
+            <marker date="1532067768000" expanded="true" signature="180937:181206" ph="INSERT INTO vicidial_session_data... " />
+            <marker date="1532067768000" expanded="true" signature="181512:181647" ph="SELECT campa... vicidial_campaign_agents" />
+            <marker date="1532067768000" expanded="true" signature="182157:182345" ph="INSERT INTO vicidial_campaign_agents... " />
+            <marker date="1532067768000" expanded="true" signature="182845:183570" ph="INSERT INTO vicidial_live_agents... " />
+            <marker date="1532067768000" expanded="true" signature="184683:184896" ph="INSERT INTO queue_log... " />
+            <marker date="1532067768000" expanded="true" signature="185380:185575" ph="INSERT INTO queue_log... " />
+            <marker date="1532067768000" expanded="true" signature="185996:186218" ph="INSERT INTO queue_log... " />
+            <marker date="1532067768000" expanded="true" signature="186899:187493" ph="INSERT INTO vicidial_live_agents... " />
+            <marker date="1532067768000" expanded="true" signature="188468:188689" ph="INSERT INTO queue_log... " />
+            <marker date="1532067768000" expanded="true" signature="189173:189368" ph="INSERT INTO queue_log... " />
+            <marker date="1532067768000" expanded="true" signature="189789:190011" ph="INSERT INTO queue_log... " />
+            <marker date="1532067768000" expanded="true" signature="195917:196176" ph="INSERT INTO vicidial_agent_log... " />
+            <marker date="1532067768000" expanded="true" signature="196626:196719" ph="UPDATE vicid... " />
+            <marker date="1532067768000" expanded="true" signature="197536:197740" ph="INSERT INTO queue_log... " />
+            <marker date="1532067768000" expanded="true" signature="198191:198274" ph="UPDATE vicid... " />
+            <marker date="1532067768000" expanded="true" signature="198541:198641" ph="UPDATE vicid... " />
+            <marker date="1532067768000" expanded="true" signature="199552:199649" ph="SELECT scrip... vicidial_scripts" />
+            <marker date="1532067768000" expanded="true" signature="208912:208918" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="474714:474720" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="474721:474727" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="638550:638575" ph="..." />
+            <marker date="1532067768000" expanded="true" signature="642444:642469" ph="..." />
+            <marker date="1532067768000" expanded="true" signature="642865:642890" ph="..." />
+            <marker date="1532067768000" expanded="true" signature="647257:647282" ph="..." />
+            <marker date="1532067768000" expanded="true" signature="647917:647942" ph="..." />
+            <marker date="1532067768000" expanded="true" signature="648439:648464" ph="..." />
+            <marker date="1532067768000" expanded="true" signature="648926:648951" ph="..." />
+            <marker date="1532067768000" expanded="true" signature="649391:649416" ph="..." />
+            <marker date="1532067768000" expanded="true" signature="649856:649881" ph="..." />
+            <marker date="1532067768000" expanded="true" signature="653851:653876" ph="..." />
+            <marker date="1532067768000" expanded="true" signature="656016:656041" ph="..." />
+            <marker date="1532067768000" expanded="true" signature="731641:731647" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="737157:737163" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="841971:842011" ph="..." />
+            <marker date="1532067768000" expanded="true" signature="897212:897218" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="897219:897225" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="897351:897357" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="897358:897364" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="903787:903812" ph="..." />
+            <marker date="1532067768000" expanded="true" signature="904012:904037" ph="..." />
+            <marker date="1532067768000" expanded="true" signature="904576:904594" ph="..." />
+            <marker date="1532067768000" expanded="true" signature="904776:904794" ph="..." />
+            <marker date="1532067768000" expanded="true" signature="905130:905148" ph="..." />
+            <marker date="1532067768000" expanded="true" signature="905371:905389" ph="..." />
+            <marker date="1532067768000" expanded="true" signature="909827:909833" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="910337:910343" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="910583:910589" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="911137:911143" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="911397:911403" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="911896:911902" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="919959:919965" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="920262:920268" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="920269:920275" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="920276:920282" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="920283:920289" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="920290:920296" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="920297:920303" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="920304:920310" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="920311:920317" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="920318:920324" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="920325:920331" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="924375:924381" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="924437:924443" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="924444:924450" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="924451:924457" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="924458:924464" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="924465:924471" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="924472:924478" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="924479:924485" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="924486:924492" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="924493:924499" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="924508:924514" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="924619:924625" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="924680:924686" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="924687:924693" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="924694:924700" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="924701:924707" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="924708:924714" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="924715:924721" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="924722:924728" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="924729:924735" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="924736:924742" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="924751:924757" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="924870:924876" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="924935:924941" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="924942:924948" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="924949:924955" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="924956:924962" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="924963:924969" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="924978:924984" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="925079:925085" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="925135:925141" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="925142:925148" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="925157:925163" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="925260:925266" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="925317:925323" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="925324:925330" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="925331:925337" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="925338:925344" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="925345:925351" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="925360:925366" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="925482:925488" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="925554:925560" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="925561:925567" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="925568:925574" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="925575:925581" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="925582:925588" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="925597:925603" ph=" " />
+            <marker date="1532067768000" expanded="true" signature="969318:969324" ph=" " />
+            <marker date="1532067768000" expanded="false" signature="971758:971764" ph=" " />
+            <marker date="1532067768000" expanded="false" signature="971766:971772" ph=" " />
+            <marker date="1532067768000" expanded="false" signature="971774:971780" ph=" " />
+            <marker date="1532067768000" expanded="false" signature="971782:971788" ph=" " />
+            <marker date="1532067768000" expanded="false" signature="971790:971796" ph=" " />
+            <marker date="1532067768000" expanded="false" signature="971798:971804" ph=" " />
+            <marker date="1532067768000" expanded="false" signature="971806:971812" ph=" " />
+            <marker date="1532067768000" expanded="false" signature="971814:971820" ph=" " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/Extension/application/Ext/EntryPointRegistry/customEntryPoint.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/include/utils.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="3114" column="0" lean-forward="false" selection-start-line="3114" selection-start-column="0" selection-end-line="3114" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/modules/Calls/views/view.detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="37" lean-forward="false" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
+          <folding>
+            <marker date="1539094444066" expanded="true" signature="3039:4233" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="196" column="25" lean-forward="true" selection-start-line="196" selection-start-column="25" selection-end-line="196" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/BeanFactory.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/modules/Leads/views/view.detail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <marker date="1539094866534" expanded="true" signature="1247:2489" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/modules/Leads/metadata/detailviewdefs.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="108" column="34" lean-forward="false" selection-start-line="108" selection-start-column="34" selection-end-line="108" selection-end-column="34" />
+          <folding>
+            <element signature="e#266#1335#1#PHP" expanded="false" />
+            <element signature="e#1396#2583#1#PHP" expanded="false" />
+            <element signature="e#2621#2766#1#PHP" expanded="false" />
+            <element signature="e#2905#3108#1#PHP" expanded="false" />
+            <element signature="e#3288#3694#1#PHP" expanded="false" />
+            <marker date="1539955494832" expanded="true" signature="4146:4264" ph="..." />
+            <marker date="1539955494832" expanded="true" signature="4146:4265" ph="..." />
+            <marker date="1539955494832" expanded="true" signature="4146:4267" ph="..." />
+            <marker date="1539955494832" expanded="true" signature="4146:4276" ph="..." />
+            <marker date="1539955494832" expanded="true" signature="4146:4278" ph="..." />
+            <marker date="1539955494832" expanded="true" signature="4146:4499" ph="..." />
+            <marker date="1539955494832" expanded="true" signature="4346:4364" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/call_center/controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="68" column="0" lean-forward="false" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/Calls/Call.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="179" column="0" lean-forward="false" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/4e01fbad/b012a6b2-6496-4b24-bb2d-3bd5027d584c/suitecrm_779.calls">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/call_center/call_center.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1632">
+          <caret line="391" column="0" lean-forward="false" selection-start-line="391" selection-start-column="0" selection-end-line="391" selection-end-column="0" />
+          <folding>
+            <element signature="e#238#366#0#PHP" expanded="false" />
+            <element signature="n#getContactName#0;n#CallCenterCRM#0;n#!!top" expanded="false" />
+            <element signature="e#443#2142#0#PHP" expanded="false" />
+            <element signature="e#495#2132#0#PHP" expanded="false" />
+            <element signature="e#1181#1287#0#PHP" expanded="false" />
+            <element signature="e#1341#1414#0#PHP" expanded="false" />
+            <element signature="e#1462#2132#0#PHP" expanded="false" />
+            <element signature="e#1852#1958#0#PHP" expanded="false" />
+            <element signature="e#2012#2085#0#PHP" expanded="false" />
+            <element signature="e#2175#2302#0#PHP" expanded="false" />
+            <element signature="n#getAccountName#0;n#CallCenterCRM#0;n#!!top" expanded="false" />
+            <element signature="e#3040#3158#0#PHP" expanded="false" />
+            <element signature="n#getLeadName#0;n#CallCenterCRM#0;n#!!top" expanded="false" />
+            <element signature="e#4763#4827#0#PHP" expanded="false" />
+            <element signature="n#getEmail#0;n#CallCenterCRM#0;n#!!top" expanded="false" />
+            <element signature="n#getProduct#0;n#CallCenterCRM#0;n#!!top" expanded="false" />
+            <element signature="e#5799#5907#0#PHP" expanded="false" />
+            <element signature="e#6585#6694#0#PHP" expanded="false" />
+            <element signature="e#7248#7354#0#PHP" expanded="false" />
+            <element signature="e#8219#8327#0#PHP" expanded="false" />
+            <element signature="e#9175#9284#0#PHP" expanded="false" />
+            <element signature="e#10015#10120#0#PHP" expanded="false" />
+            <element signature="e#10169#10226#0#PHP" expanded="false" />
+            <element signature="e#10264#10394#0#PHP" expanded="false" />
+            <element signature="n#saveCallInfo#0;n#CallCenterCRM#0;n#!!top" expanded="false" />
+            <element signature="n#saveClientInfo#0;n#CallCenterCRM#0;n#!!top" expanded="false" />
+            <element signature="e#15703#15761#0#PHP" expanded="false" />
+            <element signature="n#arrayToJson#0;n#CallCenterCRM#0;n#!!top" expanded="false" />
+            <marker date="1539956656105" expanded="false" signature="595:824" ph="SELECT id,co... contacts" />
+            <marker date="1539956656105" expanded="false" signature="1495:1746" ph="SELECT id,co... contacts" />
+            <marker date="1539956656105" expanded="true" signature="2414:2507" ph="SELECT id,na... accounts" />
+            <marker date="1539956656105" expanded="true" signature="3384:3474" ph="SELECT id,co... c_leads_fl" />
+            <marker date="1539956656105" expanded="true" signature="3384:3504" ph="SELECT id, c... Leads" />
+            <marker date="1539956656105" expanded="true" signature="3384:3539" ph="SELECT id, c... Leads" />
+            <marker date="1539956656105" expanded="true" signature="4148:4379" ph="SELECT id,co... c_leads_fl" />
+            <marker date="1539956656105" expanded="true" signature="4241:4379" ph="SELECT id,ac... Leads" />
+            <marker date="1539956656105" expanded="false" signature="4892:5124" ph="SELECT email... email_addresses" />
+            <marker date="1539956656105" expanded="false" signature="5487:5705" ph="SELECT id, n... " />
+            <marker date="1539956656105" expanded="false" signature="5955:6490" ph="SELECT dc_de... " />
+            <marker date="1539956656105" expanded="false" signature="6744:7153" ph="SELECT dc_sc... " />
+            <marker date="1539956656105" expanded="false" signature="7449:8125" ph="SELECT c_cre... " />
+            <marker date="1539956656105" expanded="false" signature="8375:9080" ph="SELECT c_dep... " />
+            <marker date="1539956656105" expanded="false" signature="9327:9920" ph="SELECT c_rko... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/call_center/call_center_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11441">
+          <caret line="673" column="0" lean-forward="false" selection-start-line="673" selection-start-column="0" selection-end-line="673" selection-end-column="0" />
+          <folding>
+            <marker date="1539959346884" expanded="true" signature="26085:26098" ph="..." />
+            <marker date="1539959346884" expanded="true" signature="26197:26208" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/custom/call_center/js/display_modal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+          <folding>
+            <element signature="n#!!doc;n#displayCCModal#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

@@ -1,0 +1,332 @@
+<!--
+/**
+ *
+ * SugarCRM Community Edition is a customer relationship management program developed by
+ * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
+ *
+ * SuiteCRM is an extension to SugarCRM Community Edition developed by SalesAgility Ltd.
+ * Copyright (C) 2011 - 2018 SalesAgility Ltd.
+ *
+ * This program is free software; you can redistribute it and/or modify it under
+ * the terms of the GNU Affero General Public License version 3 as published by the
+ * Free Software Foundation with the addition of the following permission added
+ * to Section 15 as permitted in Section 7(a): FOR ANY PART OF THE COVERED WORK
+ * IN WHICH THE COPYRIGHT IS OWNED BY SUGARCRM, SUGARCRM DISCLAIMS THE WARRANTY
+ * OF NON INFRINGEMENT OF THIRD PARTY RIGHTS.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more
+ * details.
+ *
+ * You should have received a copy of the GNU Affero General Public License along with
+ * this program; if not, see http://www.gnu.org/licenses or write to the Free
+ * Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ * 02110-1301 USA.
+ *
+ * You can contact SugarCRM, Inc. headquarters at 10050 North Wolfe Road,
+ * SW2-130, Cupertino, CA 95014, USA. or at email address contact@sugarcrm.com.
+ *
+ * The interactive user interfaces in modified source and object code versions
+ * of this program must display Appropriate Legal Notices, as required under
+ * Section 5 of the GNU Affero General Public License version 3.
+ *
+ * In accordance with Section 7(b) of the GNU Affero General Public License version 3,
+ * these Appropriate Legal Notices must retain the display of the "Powered by
+ * SugarCRM" logo and "Supercharged by SuiteCRM" logo. If the display of the logos is not
+ * reasonably feasible for technical reasons, the Appropriate Legal Notices must
+ * display the words "Powered by SugarCRM" and "Supercharged by SuiteCRM".
+ */
+-->
+<!-- BEGIN: Quote_Subject -->
+<p>SuiteCRM цитату - {QUOTE_SUBJECT}</p>
+<!-- END: Quote_Subject -->
+<!-- BEGIN: Quote -->
+<p><b>{ASSIGNER}</b> назначил предложение <b>{ASSIGNED_USER}</b>.</p>
+<p>
+Тема: {QUOTE_SUBJECT}<br />
+Статус: {QUOTE_STATUS}<br />
+Ожидаемая дата закрытия: {QUOTE_CLOSEDATE}<br />
+Описание: {QUOTE_DESCRIPTION}
+</p>
+<p>Вы можете <a href={URL}>просмотреть эту смету</a>.</p>
+<!-- END: Quote -->
+
+<!-- BEGIN: Account_Subject -->
+<p>SuiteCRM - Контрагент: {ACCOUNT_NAME}</p>
+<!-- END: Account_Subject -->
+<!-- BEGIN: Account -->
+<p><b>{ASSIGNER}</b> назначил контрагента на <b>{ASSIGNED_USER}</b>.</p>
+<p>
+Имя: {ACCOUNT_NAME}<br />
+Тип: {ACCOUNT_TYPE}<br />
+Описание: {ACCOUNT_DESCRIPTION}
+</p>
+<p>Вы можете просмотреть информацию по этому контрагенту <a href={URL}>здесь</a>.</p>
+<!-- END: Account -->
+
+<!-- BEGIN: Case_Subject -->
+<p>SuiteCRM - Обращение: {CASE_SUBJECT}</p>
+<!-- END: Case_Subject -->
+<!-- BEGIN: Case -->
+<p><b>{ASSIGNER}</b> назначил обращение на <b>{ASSIGNED_USER}</b>.</p>
+<p>
+Тема: {CASE_SUBJECT}<br />
+Приоритет: {CASE_PRIORITY}<br />
+Статус: {CASE_STATUS}<br />
+Описание: {CASE_DESCRIPTION}
+</p>
+<p>Вы можете <a href={URL}>просмотреть это обращение</a>.</p>
+<!-- END: Case -->
+
+<!-- BEGIN: Task_Subject -->
+<p>SuiteCRM - Задача: {TASK_SUBJECT}</p>
+<!-- END: Task_Subject -->
+<!-- BEGIN: Task -->
+<p><b>{ASSIGNER}</b> назначил задачу на <b>{ASSIGNED_USER}</b>.</p>
+<p>
+Тема: {TASK_SUBJECT}<br />
+Приоритет: {TASK_PRIORITY}<br />
+Дата выполнения: {TASK_DUEDATE}<br />
+Статус: {TASK_STATUS}<br />
+Описание: {TASK_DESCRIPTION}
+</p>
+<p>Вы можете <a href={URL}>просмотреть эту задачу</a>.</p>
+<!-- END: Task -->
+
+<!-- BEGIN: Meeting_Subject -->
+<p>SuiteCRM - Встреча: {MEETING_SUBJECT}</p>
+<!-- END: Meeting_Subject -->
+<!-- BEGIN: Meeting -->
+<p>С кем: {MEETING_TO}</p>
+<p><b>{ASSIGNER}</b> пригласил(а) Вас на встречу</p>
+<p>
+Тема: {MEETING_SUBJECT}<br />
+Место встречи: {MEETING_LOCATION}<br />
+Дата начала: {MEETING_STARTDATE}<br />
+Дата окончания: {MEETING_ENDDATE}
+</p>
+<p>
+<!-- BEGIN: Meeting_External_API -->
+URL встречи: {MEETING_URL}
+</p>
+<!-- END: Meeting_External_API -->
+<p>Описание: {MEETING_DESCRIPTION}<br />
+</p>
+<p>---</p>
+<p><a href={ACCEPT_URL}&accept_status=accept>Принять участие во встрече</a>.</p>
+<p><a href={ACCEPT_URL}&accept_status=tentative>Участие во встрече пока под вопросом</a>.</p>
+<p><a href={ACCEPT_URL}&accept_status=decline>Отклонить встречу</a>.</p>
+<!-- END: Meeting -->
+
+<!-- BEGIN: MeetingSpecial_Subject -->
+<p>SuiteCRM - Встреча: {MEETING_SUBJECT}</p>
+<!-- END: MeetingSpecial_Subject -->
+<!-- BEGIN: MeetingSpecial -->
+<p><b>{ASSIGNER}</b>назначил(а) встречу пользователю <b>{ASSIGNED_USER}</b>.</p>
+<p>
+Тема: {MEETING_SUBJECT}<br />
+Место нахождения: {MEETING_LOCATION}<br />
+Статус: {MEETING_STATUS}<br />
+Дата начала: {MEETING_STARTDATE}<br />
+Дата окончания: {MEETING_ENDDATE}<br />
+Описание: {MEETING_DESCRIPTION}
+</p>
+<p>Вы можете просмотреть <a href={URL}>информацию по этой встрече</a>.</p>
+<!-- END: MeetingSpecial -->
+
+<!-- BEGIN: MeetingReminder_Subject -->
+<p>Напоминание о встрече - {MEETING_SUBJECT}</p>
+<!-- END: MeetingSpecial_Subject -->
+<!-- BEGIN: MeetingReminder -->
+<p>
+    Тема: {MEETING_SUBJECT}<br />
+    Дата встречи: {MEETING_STARTDATE}<br />
+    Место встречи: {MEETING_LOCATION}<br />
+    Ответственный(ая): {MEETING_CREATED_BY}
+</p>
+<!-- END: MeetingReminder -->
+
+<!-- BEGIN: Email_Subject -->
+<p>SuiteCRM электронная почта - {EMAIL_SUBJECT}</p>
+<!-- END: Email_Subject -->
+<!-- BEGIN: Email -->
+<p><b>{ASSIGNER}</b> назначил(а) E-mail пользователю <b>{ASSIGNED_USER}</b>.</p>
+<p>
+Тема: {EMAIL_SUBJECT}<br />
+Дата отправки: {EMAIL_DATESENT}
+</p>
+<p>Вы можете <a href={URL}>просмотреть информацию по этому E-mail</a>.</p>
+<!-- END: Email -->
+
+<!-- BEGIN: Contact_Subject -->
+<p>SuiteCRM - Контакт: {CONTACT_NAME}</p>
+<!-- END: Contact_Subject -->
+<!-- BEGIN: Contact -->
+<p><b>{ASSIGNER}</b> назначил Контакт пользователю <b>{ASSIGNED_USER}</b>.</p>
+<p>
+Имя: {CONTACT_NAME}<br />
+Описание: {CONTACT_DESCRIPTION}
+</p>
+<p>Вы можете просмотреть информацию по этому контакту <a href={URL}>здесь</a>.</p>
+<!-- END: Contact -->
+
+<!-- BEGIN: Lead_Subject -->
+<p>SuiteCRM - Предварительный контакт: {LEAD_NAME}</p>
+<!-- END: Lead_Subject -->
+<!-- BEGIN: Lead -->
+<p><b>{ASSIGNER}</b> назначил(а) предварительный контакт пользователю <b>{ASSIGNED_USER}</b>.</p>
+<p>
+Имя: {LEAD_NAME}<br />
+Источник предв. контакта: {LEAD_SOURCE}<br />
+Статус: {LEAD_STATUS}<br />
+Описание: {LEAD_DESCRIPTION}
+</p>
+<p>Вы можете просмотреть информацию по этому предв. контакту <a href={URL}>здесь</a>.</p>
+<!-- END: Lead -->
+
+<!-- BEGIN: Opportunity_Subject -->
+<p>SuiteCRM - Сделка: {OPPORTUNITY_NAME}</p>
+<!-- END: Opportunity_Subject -->
+<!-- BEGIN: Opportunity -->
+<p><b>{ASSIGNER}</b> назначил(а) сделку пользователю <b>{ASSIGNED_USER}</b>.</p>
+<p>
+Имя: {OPPORTUNITY_NAME}<br />
+Сумма: {OPPORTUNITY_AMOUNT}<br />
+Ожидаемая дата закрытия: {OPPORTUNITY_CLOSEDATE}<br />
+Стадия продаж: {OPPORTUNITY_STAGE}<br />
+Описание: {OPPORTUNITY_DESCRIPTION}
+</p>
+<p>Вы можете просмотреть информацию по этой сделке <a href={URL}>здесь</a>.</p>
+<!-- END: Opportunity -->
+
+<!-- BEGIN: Bug_Subject -->
+<p>SuiteCRM - Ошибка: {BUG_SUBJECT}</p>
+<!-- END: Bug_Subject -->
+<!-- BEGIN: Bug -->
+<p><b>{ASSIGNER}</b> назначил ошибку пользователю <b>{ASSIGNED_USER}</b>.</p>
+<p>
+Номер ошибки: {BUG_BUG_NUMBER}<br />
+Тема: {BUG_SUBJECT}<br />
+Тип: {BUG_TYPE}<br />
+Приоритет: {BUG_PRIORITY}<br />
+Статус: {BUG_STATUS}<br />
+Резолюция: {BUG_RESOLUTION}<br />
+Версия: {BUG_RELEASE}<br />
+Описание: {BUG_DESCRIPTION}<br />
+Журнал: {BUG_WORK_LOG}
+</p>
+<p>Вы можете <a href={URL}> рассмотреть эту ошибку</a>.</p>
+<!-- END: Bug -->
+
+<!-- BEGIN: Default_Subject -->
+<p>SuiteCRM - Назначено: {OBJECT}</p>
+<!-- END: Default_Subject -->
+<!-- BEGIN: Default -->
+<p><b>{ASSIGNER}</b> назначил {OBJECT} пользователю <b>{ASSIGNED_USER}</b>.</p>
+<p>Вы можете <a href={URL}> рассмотреть {OBJECT}</a>.</p>
+<!-- END: Default -->
+
+<!-- BEGIN: Call_Subject -->
+<p>SuiteCRM - Звонок: {CALL_SUBJECT}</p>
+<!-- END: Call_Subject -->
+<!-- BEGIN: Call -->
+<p>Кому: {CALL_TO}</p>
+<p><b>{ASSIGNER}</b> приглашает вас к звонку</p>
+<p>
+Тема: {CALL_SUBJECT}<br />
+Статус: {CALL_STATUS}<br />
+Дата начала: {CALL_STARTDATE}<br />
+Продолжительность: {CALL_HOURS}час., {CALL_MINUTES}мин.<br />
+Описание: {CALL_DESCRIPTION}<br />
+</p>
+<p>---</p>
+<p><a href={ACCEPT_URL}&accept_status=accept>Принять этот звонок</a>.</p>
+<p><a href={ACCEPT_URL}&accept_status=tentative>По возможности принять этот Звонки</a>.</p>
+<p><a href={ACCEPT_URL}&accept_status=decline>Отменить этот звонок</a>.</p>
+<!-- END: Call -->
+
+<!-- BEGIN: CallSpecial_Subject -->
+<p>SuiteCRM - Звонок: {CALL_SUBJECT}</p>
+<!-- END: CallSpecial_Subject -->
+<!-- BEGIN: CallSpecial -->
+<p><b>{ASSIGNER}</b> назначил звонок на <b>{ASSIGNED_USER}</b>.</p>
+<p>
+Тема: {CALL_SUBJECT}<br />
+Статус: {CALL_STATUS}<br />
+Дата начала: {CALL_STARTDATE}<br />
+Продолжительность: {CALL_HOURS}час., {CALL_MINUTES}мин.<br />
+Описание: {CALL_DESCRIPTION}
+</p>
+<p>Вы можете просмотреть информацию по этому звонку <a href={URL}>здесь</a>.</p>
+<!-- END: CallSpecial -->
+
+<!-- BEGIN: CallReminder_Subject -->
+<p>Напоминание о звонке - {CALL_SUBJECT}</p>
+<!-- END: CallReminder_Subject -->
+<!-- BEGIN: CallReminder -->
+<p>
+    Заголовок: {CALL_SUBJECT}<br />
+Когда: {CALL_STARTDATE}<br />
+Создано: {CALL_CREATED_BY}
+</p>
+<!-- END: CallReminder -->
+
+<!-- BEGIN: Campaign_Subject -->
+<p>SuiteCRM - Маркет. кампания: {CAMPAIGN_NAME}</p>
+<!-- END: Campaign_Subject -->
+<!-- BEGIN: Campaign -->
+<p><b>{ASSIGNER}</b> назначил кампанию на <b>{ASSIGNED_USER}</b>.</p>
+<p>
+Имя: {CAMPAIGN_NAME}<br />
+Бюджет: {CAMPAIGN_AMOUNT}<br />
+Дата окончания: {CAMPAIGN_CLOSEDATE}<br />
+Статус: {CAMPAIGN_STATUS}<br />
+Описание: {CAMPAIGN_DESCRIPTION}
+</p>
+<p>Вы можете просмотреть информацию по этой маркет. кампании <a href={URL}>здесь</a>.</p>
+<!-- END: Campaign -->
+
+<!-- BEGIN: Quota_Subject -->
+<p>SuiteCRM комм. предложения — Предложение для вас от {QUOTA_TIMEPERIOD}</p>
+<!-- END: Quota_Subject -->
+<!-- BEGIN: Quota -->
+<p><b>{ASSIGNER}</b> назначил ответственного за Смету: <b>{ASSIGNED_USER}</b>.</p>
+<p>
+Сумма: {QUOTA_AMOUNT}<br />
+Период: {QUOTA_TIMEPERIOD}
+</p>
+<p>Вы можете <a href={QUOTA_URL}> отрецензировать назначение ответственного за Смету</a>.</p>
+<!-- END: Quota -->
+
+<!-- BEGIN: KBDocument_Subject -->
+<p>Документ SuiteCRM - {KBDOCUMENT_NAME}</p>
+<!-- END: KBDocument_Subject -->
+<!-- BEGIN: KBDocument -->
+{NOTIFICATION_MESSAGE}
+
+<p>
+Имя: {KBDOCUMENT_NAME}<br />
+Дата создания: {KBDOCUMENT_DATE_CREATED}<br />
+Ответственный(ая): {KBDOCUMENT_CREATED_BY}<br />
+Статус: {KBDOCUMENT_STATUS}<br />
+Описание: {KBDOCUMENT_DESCRIPTION}
+</p>
+<p>Вы можете <a href={URL}>просмотреть этот документ</a>.</p>
+<!-- END: KBDocument -->
+
+<!-- BEGIN: Contract_Subject -->
+<p>SuiteCRM контракт - {CONTRACT_NAME}</p>
+<!-- END: Contract_Subject -->
+<!-- BEGIN: Contract-->
+<p><b>{ASSIGNER}</b> назначил контракт на <b>{ASSIGNED_USER}</b>.</p>
+<p>Вы можете <a href={URL}>просмотреть этот контракт</a>.</p>
+<!-- END:Contract-->
+
+<!-- BEGIN: ContractSpecial_Subject -->
+<p>SuiteCRM контракт - {CONTRACT_NAME}</p>
+<!-- END: ContractSpecial_Subject -->
+<!-- BEGIN: ContractSpecial -->
+<p>Ваш контракт: {CONTRACT_NAME} будет просрочен {CONTRACT_END_DATE}.</p>
+<p>Вы можете <a href={URL}>просмотреть этот контракт</a>.</p>
+<!-- END:ContractSpecial-->

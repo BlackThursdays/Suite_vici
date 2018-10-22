@@ -1,0 +1,98 @@
+.btn, .panel, .modal-content, .form-control {
+    border-radius: 0px !important;
+}
+
+.tr {
+    height: 55px;
+}
+
+.td_label {
+    text-align: right;
+    width: 50%;
+    padding-right: 20px;
+}
+
+.td_value {
+    width: 50%;
+    line-height: 50%;
+}
+
+.panel-title {
+    font-size: 12px !important;
+}
+
+.modal-footer {
+    text-align: right;
+}
+
+.modal-content {
+    background-color: #fefefe;
+}
+
+.client_full_name {
+    font-weight: bold;
+    color: #000000 !important;
+    font-size: 15pt;
+    text-align: center;
+}
+
+.client_contact_info {
+    text-align: right;
+    margin: 10px;
+}
+
+.product_info {
+    margin: 10px;
+}
+
+.client_picture {
+    text-align: center;
+}
+
+.new_lead {
+    text-align: right;
+    margin: 10px;
+}
+
+.btn, .small_button, .medium_button {
+    border: 1px solid #ddd !important;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05) !important;
+    background-color: #f5f5f5 !important;
+    color: #333 !important;
+}
+
+.button {
+    padding: 0px;
+}
+
+.btn {
+    height: 34px !important;
+}
+
+.small_button {
+    height: 34px !important;
+    width: 34px !important;
+}
+
+.medium_button {
+    height: 34px !important;
+    width: 150px !important;
+}
+
+.medium_button[type="submit"] {
+    background-color: #5c87e3 !important;
+    color: #ffffff !important;
+
+}
+
+.medium_button:hover, .button:hover {
+    background: #ddd !important;
+}
+
+.modal-backdrop {
+    height: 1373px !important;
+}
+
+th {
+    text-align: left !important;
+}

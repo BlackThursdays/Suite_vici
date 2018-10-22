@@ -1,0 +1,4587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@192.168.7.113">
+  <database-model serializer="dbm" rdbms="ORACLE" format-version="4.1">
+    <root id="1"/>
+    <schema id="2" parent="1" name="LWOUSER">
+      <ObjectId>1099</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="4" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="5" parent="1" name="SYSTEM">
+      <ObjectId>5</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="6" parent="1" name="OUTLN">
+      <ObjectId>9</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="7" parent="1" name="DIP">
+      <ObjectId>14</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="8" parent="1" name="ORACLE_OCM">
+      <ObjectId>21</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="9" parent="1" name="DBSNMP">
+      <ObjectId>30</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="10" parent="1" name="APPQOSSYS">
+      <ObjectId>31</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="11" parent="1" name="WMSYS">
+      <ObjectId>32</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="12" parent="1" name="EXFSYS">
+      <ObjectId>42</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="13" parent="1" name="CTXSYS">
+      <ObjectId>43</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="14" parent="1" name="XDB">
+      <ObjectId>45</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="15" parent="1" name="ANONYMOUS">
+      <ObjectId>46</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="16" parent="1" name="ORDSYS">
+      <ObjectId>53</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="17" parent="1" name="ORDDATA">
+      <ObjectId>54</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="18" parent="1" name="ORDPLUGINS">
+      <ObjectId>55</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="19" parent="1" name="SI_INFORMTN_SCHEMA">
+      <ObjectId>56</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="20" parent="1" name="MDSYS">
+      <ObjectId>57</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="21" parent="1" name="OLAPSYS">
+      <ObjectId>60</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="22" parent="1" name="MDDATA">
+      <ObjectId>64</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="23" parent="1" name="SPATIAL_WFS_ADMIN_USR">
+      <ObjectId>66</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="24" parent="1" name="SPATIAL_CSW_ADMIN_USR">
+      <ObjectId>69</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="25" parent="1" name="SYSMAN">
+      <ObjectId>71</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="26" parent="1" name="MGMT_VIEW">
+      <ObjectId>73</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="27" parent="1" name="FLOWS_FILES">
+      <ObjectId>74</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="28" parent="1" name="APEX_PUBLIC_USER">
+      <ObjectId>75</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="29" parent="1" name="APEX_030200">
+      <ObjectId>77</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="30" parent="1" name="OWBSYS">
+      <ObjectId>78</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="31" parent="1" name="OWBSYS_AUDIT">
+      <ObjectId>79</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="32" parent="1" name="SCOTT">
+      <ObjectId>83</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="33" parent="1" name="AVCERT">
+      <ObjectId>102</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="34" parent="1" name="AVT5090057802">
+      <ObjectId>108</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="35" parent="1" name="AVT4070092541">
+      <ObjectId>109</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="36" parent="1" name="AVT5090041721">
+      <ObjectId>110</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="37" parent="1" name="AVT4070070148">
+      <ObjectId>111</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="38" parent="1" name="AVT4070070146">
+      <ObjectId>112</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="39" parent="1" name="AVT4070101843">
+      <ObjectId>113</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="40" parent="1" name="AVT6100011323">
+      <ObjectId>114</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="41" parent="1" name="AVT4070048807">
+      <ObjectId>115</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="42" parent="1" name="AVT4070048824">
+      <ObjectId>116</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="43" parent="1" name="AVT4070048832">
+      <ObjectId>117</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="44" parent="1" name="AVT4070092548">
+      <ObjectId>118</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="45" parent="1" name="AVT5090057803">
+      <ObjectId>119</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="46" parent="1" name="AVT4070101209">
+      <ObjectId>120</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="47" parent="1" name="AVT4070124903">
+      <ObjectId>121</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="48" parent="1" name="AVT5090065997">
+      <ObjectId>122</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="49" parent="1" name="AVT5090078670">
+      <ObjectId>123</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="50" parent="1" name="AVT5090078673">
+      <ObjectId>124</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="51" parent="1" name="AVT6100011329">
+      <ObjectId>125</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="52" parent="1" name="AVT5090066000">
+      <ObjectId>126</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="53" parent="1" name="AVT6100011337">
+      <ObjectId>127</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="54" parent="1" name="AVT4070048823">
+      <ObjectId>128</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="55" parent="1" name="AVT5090078674">
+      <ObjectId>129</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="56" parent="1" name="AVT4070101844">
+      <ObjectId>130</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="57" parent="1" name="AVT4070046548">
+      <ObjectId>131</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="58" parent="1" name="AVT4070092545">
+      <ObjectId>132</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="59" parent="1" name="AVT5090078676">
+      <ObjectId>133</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="60" parent="1" name="AVT5090057807">
+      <ObjectId>134</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="61" parent="1" name="AVT4070070153">
+      <ObjectId>135</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="62" parent="1" name="AVT5090094719">
+      <ObjectId>136</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="63" parent="1" name="AVT5090041750">
+      <ObjectId>137</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="64" parent="1" name="IBARANOVA-RK">
+      <ObjectId>138</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="65" parent="1" name="YUPATOVA-RK">
+      <ObjectId>139</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="66" parent="1" name="KOBERDA-RK">
+      <ObjectId>140</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="67" parent="1" name="ESERGIEVICH-RK">
+      <ObjectId>141</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="68" parent="1" name="VALKOVICH-RK">
+      <ObjectId>142</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="69" parent="1" name="PASYUKEVICH-RK">
+      <ObjectId>143</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="70" parent="1" name="KOLTUNOVA-RK">
+      <ObjectId>144</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="71" parent="1" name="POZDNYAKOVA-RK">
+      <ObjectId>145</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="72" parent="1" name="KOVALEV-RK">
+      <ObjectId>146</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="73" parent="1" name="PANIAVINA-RK">
+      <ObjectId>147</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="74" parent="1" name="SNYTIN-RK">
+      <ObjectId>148</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="75" parent="1" name="GANTMAN-RK">
+      <ObjectId>149</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="76" parent="1" name="IGNATENKO-RK">
+      <ObjectId>150</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="77" parent="1" name="KULIASHOVA-RK">
+      <ObjectId>151</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="78" parent="1" name="ZHVALIK-RK">
+      <ObjectId>152</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="79" parent="1" name="PKISELEV-RK">
+      <ObjectId>153</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="80" parent="1" name="BABORA-RK">
+      <ObjectId>154</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="81" parent="1" name="KARPENKO-RK">
+      <ObjectId>155</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="82" parent="1" name="TARASEVICH-RK">
+      <ObjectId>156</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="83" parent="1" name="LUKOVETS-RK">
+      <ObjectId>157</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="84" parent="1" name="YANCHILENKO-RK">
+      <ObjectId>158</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="85" parent="1" name="IZAHAREVICH-RK">
+      <ObjectId>159</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="86" parent="1" name="GRISHKOVETS-RK">
+      <ObjectId>160</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="87" parent="1" name="AVT5090078666">
+      <ObjectId>161</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="88" parent="1" name="AVT5090094718">
+      <ObjectId>162</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="89" parent="1" name="AVT5090046386">
+      <ObjectId>163</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="90" parent="1" name="AVT4070092534">
+      <ObjectId>164</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="91" parent="1" name="AVT5090073170">
+      <ObjectId>165</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="92" parent="1" name="AVT4070081838">
+      <ObjectId>166</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="93" parent="1" name="AVT4070092549">
+      <ObjectId>167</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="94" parent="1" name="AVT6100011326">
+      <ObjectId>168</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="95" parent="1" name="AVT5090093192">
+      <ObjectId>169</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="96" parent="1" name="AVT4070092547">
+      <ObjectId>170</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="97" parent="1" name="AVT4071010856">
+      <ObjectId>171</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="98" parent="1" name="AVT4070081836">
+      <ObjectId>172</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="99" parent="1" name="AVT4070081841">
+      <ObjectId>173</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="100" parent="1" name="AVT6100016185">
+      <ObjectId>174</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="101" parent="1" name="AVT4070124917">
+      <ObjectId>175</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="102" parent="1" name="AVT6100011336">
+      <ObjectId>176</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="103" parent="1" name="AVT4070070145">
+      <ObjectId>177</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="104" parent="1" name="AVT4070070140">
+      <ObjectId>178</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="105" parent="1" name="AVT5090093198">
+      <ObjectId>179</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="106" parent="1" name="AVT5090093197">
+      <ObjectId>180</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="107" parent="1" name="AVT5090046351">
+      <ObjectId>181</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="108" parent="1" name="AVT6100011341">
+      <ObjectId>182</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="109" parent="1" name="AVT4070092536">
+      <ObjectId>183</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="110" parent="1" name="AVT5090057773">
+      <ObjectId>184</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="111" parent="1" name="AVT4070124913">
+      <ObjectId>185</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="112" parent="1" name="ABELSKAYA-RK">
+      <ObjectId>186</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="113" parent="1" name="MAITAK-RK">
+      <ObjectId>187</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="114" parent="1" name="SIDOROVA-RK">
+      <ObjectId>188</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="115" parent="1" name="HULIDAVA-RK">
+      <ObjectId>189</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="116" parent="1" name="SHABLOVSKAYA-RK">
+      <ObjectId>190</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="117" parent="1" name="SHLIAZHKO-RK">
+      <ObjectId>191</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="118" parent="1" name="BUDKO-RK">
+      <ObjectId>192</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="119" parent="1" name="MIKULA-RK">
+      <ObjectId>193</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="120" parent="1" name="KOTSUR-RK">
+      <ObjectId>194</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="121" parent="1" name="GUBEI-RK">
+      <ObjectId>195</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="122" parent="1" name="FAMINA-RK">
+      <ObjectId>196</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="123" parent="1" name="ARTEMYEV-RK">
+      <ObjectId>197</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="124" parent="1" name="FADZEEVA-RK">
+      <ObjectId>198</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="125" parent="1" name="KIRIENKA-RK">
+      <ObjectId>199</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="126" parent="1" name="KACHAN-RK">
+      <ObjectId>200</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="127" parent="1" name="DALETSKAYA-RK">
+      <ObjectId>201</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="128" parent="1" name="AVT6100054990">
+      <ObjectId>202</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="129" parent="1" name="SPIRIDONOVA-RK">
+      <ObjectId>203</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="130" parent="1" name="BOICHENOK-RK">
+      <ObjectId>204</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="131" parent="1" name="AVT6100054989">
+      <ObjectId>205</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="132" parent="1" name="AVT6100082480">
+      <ObjectId>206</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="133" parent="1" name="AVT6100082476">
+      <ObjectId>207</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="134" parent="1" name="SAUCHYK-RK">
+      <ObjectId>208</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="135" parent="1" name="AVT5090057784">
+      <ObjectId>209</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="136" parent="1" name="AVT5090094711">
+      <ObjectId>210</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="137" parent="1" name="AVT4070048826">
+      <ObjectId>211</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="138" parent="1" name="AVT5090071774">
+      <ObjectId>212</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="139" parent="1" name="AVT5090078667">
+      <ObjectId>213</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="140" parent="1" name="AVT4070124915">
+      <ObjectId>214</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="141" parent="1" name="AVT5090057809">
+      <ObjectId>215</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="142" parent="1" name="AVT4070070149">
+      <ObjectId>216</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="143" parent="1" name="AVT4070070144">
+      <ObjectId>217</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="144" parent="1" name="AVT5090057775">
+      <ObjectId>218</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="145" parent="1" name="AVT6100011321">
+      <ObjectId>219</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="146" parent="1" name="AVT5090078668">
+      <ObjectId>220</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="147" parent="1" name="AVT4070101225">
+      <ObjectId>221</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="148" parent="1" name="AVT5090078675">
+      <ObjectId>222</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="149" parent="1" name="AVT4070048827">
+      <ObjectId>223</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="150" parent="1" name="AVT5090046388">
+      <ObjectId>224</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="151" parent="1" name="AVT6100011327">
+      <ObjectId>225</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="152" parent="1" name="AVT4070081845">
+      <ObjectId>226</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="153" parent="1" name="AVT4071010851">
+      <ObjectId>227</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="154" parent="1" name="AVT5090065992">
+      <ObjectId>228</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="155" parent="1" name="AVT4070123295">
+      <ObjectId>229</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="156" parent="1" name="AVT4070048811">
+      <ObjectId>230</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="157" parent="1" name="AVT5090057810">
+      <ObjectId>231</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="158" parent="1" name="BEREZKO-RK">
+      <ObjectId>232</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="159" parent="1" name="AVT5090078665">
+      <ObjectId>233</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="160" parent="1" name="IROMANOVSKAYA-RK">
+      <ObjectId>234</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="161" parent="1" name="ALIFERKO-RK">
+      <ObjectId>235</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="162" parent="1" name="SIMANENKA-RK">
+      <ObjectId>236</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="163" parent="1" name="ORLOVA-RK">
+      <ObjectId>237</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="164" parent="1" name="PRYGOZHAYA-RK">
+      <ObjectId>238</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="165" parent="1" name="KONDRATOVICH-RK">
+      <ObjectId>239</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="166" parent="1" name="PINCHUK-RK">
+      <ObjectId>240</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="167" parent="1" name="KRAUTSOVA-RK">
+      <ObjectId>241</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="168" parent="1" name="IVANCHENKO-RK">
+      <ObjectId>242</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="169" parent="1" name="DUBROUSKI-RK">
+      <ObjectId>243</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="170" parent="1" name="SHAVLOVSKAYA-RK">
+      <ObjectId>244</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="171" parent="1" name="EFIMENKO-RK">
+      <ObjectId>245</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="172" parent="1" name="TSAVITSKAYA-RK">
+      <ObjectId>246</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="173" parent="1" name="AVT6100032377">
+      <ObjectId>247</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="174" parent="1" name="NOVIKOVA-RK">
+      <ObjectId>248</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="175" parent="1" name="PETROVICH-RK">
+      <ObjectId>249</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="176" parent="1" name="KABACHUK-RK">
+      <ObjectId>250</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="177" parent="1" name="AVT6100082478">
+      <ObjectId>251</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="178" parent="1" name="AVT6100082475">
+      <ObjectId>252</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="179" parent="1" name="KAZLOUSKAYA-RK">
+      <ObjectId>253</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="180" parent="1" name="AVT4070123076">
+      <ObjectId>254</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="181" parent="1" name="AVT4070046539">
+      <ObjectId>255</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="182" parent="1" name="AVT9999999999">
+      <ObjectId>256</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="183" parent="1" name="AVT5090046397">
+      <ObjectId>257</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="184" parent="1" name="AVT4070070142">
+      <ObjectId>258</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="185" parent="1" name="AVT4070048806">
+      <ObjectId>259</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="186" parent="1" name="AVT4070081839">
+      <ObjectId>260</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="187" parent="1" name="AVT4070048822">
+      <ObjectId>261</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="188" parent="1" name="AVT6100011338">
+      <ObjectId>262</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="189" parent="1" name="AVT5090057811">
+      <ObjectId>263</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="190" parent="1" name="AVT5090057818">
+      <ObjectId>264</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="191" parent="1" name="AVT4070070152">
+      <ObjectId>265</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="192" parent="1" name="AVT4070048825">
+      <ObjectId>266</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="193" parent="1" name="AVT5090093193">
+      <ObjectId>267</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="194" parent="1" name="AVT4070048801">
+      <ObjectId>268</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="195" parent="1" name="AVT6100011328">
+      <ObjectId>269</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="196" parent="1" name="AVT5090050757">
+      <ObjectId>270</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="197" parent="1" name="AVT4070101867">
+      <ObjectId>271</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="198" parent="1" name="AVT5090078655">
+      <ObjectId>272</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="199" parent="1" name="AVT4070081844">
+      <ObjectId>273</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="200" parent="1" name="AVT5090094714">
+      <ObjectId>274</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="201" parent="1" name="AVT4070092538">
+      <ObjectId>275</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="202" parent="1" name="AVT4070070167">
+      <ObjectId>276</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="203" parent="1" name="AVT5090094715">
+      <ObjectId>277</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="204" parent="1" name="AVT4070092537">
+      <ObjectId>278</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="205" parent="1" name="AVT4070070147">
+      <ObjectId>279</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="206" parent="1" name="AVT4070092539">
+      <ObjectId>280</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="207" parent="1" name="AVT5090093195">
+      <ObjectId>281</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="208" parent="1" name="AVT5090065987">
+      <ObjectId>282</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="209" parent="1" name="ZHYHAVETS-RK">
+      <ObjectId>283</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="210" parent="1" name="MASCHENKO-RK">
+      <ObjectId>284</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="211" parent="1" name="ORLOV-RK">
+      <ObjectId>285</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="212" parent="1" name="TUPITSYNA-RK">
+      <ObjectId>286</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="213" parent="1" name="FEDOROVA-RK">
+      <ObjectId>287</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="214" parent="1" name="GILEVICH-RK">
+      <ObjectId>288</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="215" parent="1" name="BANDARCHUK-RK">
+      <ObjectId>289</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="216" parent="1" name="ANTIPENKO-RK">
+      <ObjectId>290</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="217" parent="1" name="GUDYMA-RK">
+      <ObjectId>291</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="218" parent="1" name="YELISAVA-RK">
+      <ObjectId>292</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="219" parent="1" name="ERMOLINA-RK">
+      <ObjectId>293</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="220" parent="1" name="KOVALCHUK-RK">
+      <ObjectId>294</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="221" parent="1" name="GACUYKOVICH-RK">
+      <ObjectId>295</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="222" parent="1" name="VOSCHULA-RK">
+      <ObjectId>296</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="223" parent="1" name="SOLOVEYKO-RK">
+      <ObjectId>297</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="224" parent="1" name="SGONCHARENKO-RK">
+      <ObjectId>298</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="225" parent="1" name="AVT5090057778">
+      <ObjectId>299</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="226" parent="1" name="AVT5090057787">
+      <ObjectId>300</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="227" parent="1" name="AVT6100082477">
+      <ObjectId>301</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="228" parent="1" name="AVT6100082471">
+      <ObjectId>302</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="229" parent="1" name="PITSUR-RK">
+      <ObjectId>303</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="230" parent="1" name="AVT5090078664">
+      <ObjectId>304</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="231" parent="1" name="AVT4070070170">
+      <ObjectId>305</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="232" parent="1" name="AVT4070081834">
+      <ObjectId>306</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="233" parent="1" name="AVT4070048817">
+      <ObjectId>307</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="234" parent="1" name="AVT4070124904">
+      <ObjectId>308</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="235" parent="1" name="AVT5090093196">
+      <ObjectId>309</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="236" parent="1" name="AVT4070081837">
+      <ObjectId>310</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="237" parent="1" name="AVT5090068077">
+      <ObjectId>311</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="238" parent="1" name="AVT6100011334">
+      <ObjectId>312</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="239" parent="1" name="AVT4070070143">
+      <ObjectId>313</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="240" parent="1" name="AVT2050136432">
+      <ObjectId>314</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="241" parent="1" name="AVT4070081835">
+      <ObjectId>315</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="242" parent="1" name="AVT5090065999">
+      <ObjectId>316</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="243" parent="1" name="AVT4070092550">
+      <ObjectId>317</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="244" parent="1" name="AVT4071010855">
+      <ObjectId>318</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="245" parent="1" name="AVT6100032376">
+      <ObjectId>319</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="246" parent="1" name="AVT4070070164">
+      <ObjectId>320</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="247" parent="1" name="AVT4070123291">
+      <ObjectId>321</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="248" parent="1" name="AVT5090057804">
+      <ObjectId>322</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="249" parent="1" name="AVT4071010852">
+      <ObjectId>323</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="250" parent="1" name="AVT5090057806">
+      <ObjectId>324</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="251" parent="1" name="AVT6100011339">
+      <ObjectId>325</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="252" parent="1" name="AVT5090093200">
+      <ObjectId>326</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="253" parent="1" name="AVT5090046400">
+      <ObjectId>327</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="254" parent="1" name="BANKOVICH-RK">
+      <ObjectId>328</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="255" parent="1" name="TURAVA-RK">
+      <ObjectId>329</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="256" parent="1" name="HILKOVICH-RK">
+      <ObjectId>330</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="257" parent="1" name="NIKOLAEVA-RK">
+      <ObjectId>331</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="258" parent="1" name="SAVCHUK-RK">
+      <ObjectId>332</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="259" parent="1" name="EMELYANOVA-RK">
+      <ObjectId>333</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="260" parent="1" name="PROKOPENKO-RK">
+      <ObjectId>334</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="261" parent="1" name="GRUZDOVA-RK">
+      <ObjectId>335</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="262" parent="1" name="AVT6100032379">
+      <ObjectId>336</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="263" parent="1" name="AVT5090057799">
+      <ObjectId>337</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="264" parent="1" name="AVT4070101842">
+      <ObjectId>338</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="265" parent="1" name="SHAHRAI-RK">
+      <ObjectId>339</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="266" parent="1" name="ASTAPTSOVA-RK">
+      <ObjectId>340</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="267" parent="1" name="AVDEJCHUK-RK">
+      <ObjectId>341</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="268" parent="1" name="KUPREYEVA-RK">
+      <ObjectId>342</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="269" parent="1" name="SHKIREYEU-RK">
+      <ObjectId>343</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="270" parent="1" name="GUDEI-RK">
+      <ObjectId>344</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="271" parent="1" name="STROITELEVA-RK">
+      <ObjectId>345</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="272" parent="1" name="SHIRAEU-RK">
+      <ObjectId>346</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="273" parent="1" name="AVT4070070165">
+      <ObjectId>347</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="274" parent="1" name="AVT5090094713">
+      <ObjectId>348</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="275" parent="1" name="AVT4070124912">
+      <ObjectId>349</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="276" parent="1" name="AVT6100011322">
+      <ObjectId>350</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="277" parent="1" name="AVT5090068082">
+      <ObjectId>351</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="278" parent="1" name="AVT6100011325">
+      <ObjectId>352</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="279" parent="1" name="AVT4070103892">
+      <ObjectId>353</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="280" parent="1" name="AVT4070070171">
+      <ObjectId>354</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="281" parent="1" name="AVT4070092533">
+      <ObjectId>355</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="282" parent="1" name="AVT5090065986">
+      <ObjectId>356</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="283" parent="1" name="AVT4070048805">
+      <ObjectId>357</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="284" parent="1" name="AVT4070081846">
+      <ObjectId>358</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="285" parent="1" name="AVT4070081821">
+      <ObjectId>359</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="286" parent="1" name="AVT6100011330">
+      <ObjectId>360</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="287" parent="1" name="AVT4070070141">
+      <ObjectId>361</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="288" parent="1" name="AVT5090068085">
+      <ObjectId>362</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="289" parent="1" name="AVT5090065989">
+      <ObjectId>363</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="290" parent="1" name="AVT5090065995">
+      <ObjectId>364</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="291" parent="1" name="AVT5090093190">
+      <ObjectId>365</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="292" parent="1" name="AVT5090057783">
+      <ObjectId>366</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="293" parent="1" name="AVT5090057808">
+      <ObjectId>367</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="294" parent="1" name="AVT4070081847">
+      <ObjectId>368</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="295" parent="1" name="AVT6100032380">
+      <ObjectId>369</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="296" parent="1" name="AVT4070048802">
+      <ObjectId>370</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="297" parent="1" name="AVT5090068079">
+      <ObjectId>371</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="298" parent="1" name="AVT4070048803">
+      <ObjectId>372</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="299" parent="1" name="AVT4070048820">
+      <ObjectId>373</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="300" parent="1" name="KONTSEVOY-RK">
+      <ObjectId>374</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="301" parent="1" name="VERTINSKAYA-RK">
+      <ObjectId>375</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="302" parent="1" name="TSYBULSKAYA-RK">
+      <ObjectId>376</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="303" parent="1" name="DERKACH-RK">
+      <ObjectId>377</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="304" parent="1" name="BULACHENKOVA-RK">
+      <ObjectId>378</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="305" parent="1" name="LYAGUSH-RK">
+      <ObjectId>379</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="306" parent="1" name="LOSEVA-RK">
+      <ObjectId>380</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="307" parent="1" name="KOCUBA-RK">
+      <ObjectId>381</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="308" parent="1" name="DMITRUK-RK">
+      <ObjectId>382</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="309" parent="1" name="BOSYUK-RK">
+      <ObjectId>383</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="310" parent="1" name="OLEHNOVICH-RK">
+      <ObjectId>384</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="311" parent="1" name="YURASCHIK-RK">
+      <ObjectId>385</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="312" parent="1" name="GRINEVA-RK">
+      <ObjectId>386</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="313" parent="1" name="SKAVARODKA-RK">
+      <ObjectId>387</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="314" parent="1" name="AFANASENKO-RK">
+      <ObjectId>388</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="315" parent="1" name="ZAZHEUSKAYA-RK">
+      <ObjectId>389</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="316" parent="1" name="SHELEST-RK">
+      <ObjectId>390</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="317" parent="1" name="KUHTA-RK">
+      <ObjectId>391</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="318" parent="1" name="AVT6100055000">
+      <ObjectId>392</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="319" parent="1" name="AVT5090068081">
+      <ObjectId>393</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="320" parent="1" name="AVT4070111365">
+      <ObjectId>394</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="321" parent="1" name="AVT4070124906">
+      <ObjectId>395</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="322" parent="1" name="AVT5090078656">
+      <ObjectId>396</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="323" parent="1" name="AVT4070070154">
+      <ObjectId>397</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="324" parent="1" name="AVT4070092546">
+      <ObjectId>398</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="325" parent="1" name="AVT4070070139">
+      <ObjectId>399</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="326" parent="1" name="AVT4070081822">
+      <ObjectId>400</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="327" parent="1" name="AVT4070048849">
+      <ObjectId>401</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="328" parent="1" name="AVT5090094716">
+      <ObjectId>402</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="329" parent="1" name="AVT4071010849">
+      <ObjectId>403</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="330" parent="1" name="AVT4070124916">
+      <ObjectId>404</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="331" parent="1" name="AVT4070046538">
+      <ObjectId>405</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="332" parent="1" name="AVT4070124907">
+      <ObjectId>406</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="333" parent="1" name="AVT4070048828">
+      <ObjectId>407</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="334" parent="1" name="AVT4070111366">
+      <ObjectId>408</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="335" parent="1" name="AVT5090093191">
+      <ObjectId>409</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="336" parent="1" name="AVT5090078654">
+      <ObjectId>410</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="337" parent="1" name="AVT5090046373">
+      <ObjectId>411</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="338" parent="1" name="AVT6100013217">
+      <ObjectId>412</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="339" parent="1" name="AVT4070124914">
+      <ObjectId>413</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="340" parent="1" name="AVT4070048833">
+      <ObjectId>414</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="341" parent="1" name="AVT5090093199">
+      <ObjectId>415</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="342" parent="1" name="AVT5090057805">
+      <ObjectId>416</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="343" parent="1" name="AVT6100016182">
+      <ObjectId>417</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="344" parent="1" name="AVT5090078672">
+      <ObjectId>418</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="345" parent="1" name="AVT5090093194">
+      <ObjectId>419</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="346" parent="1" name="CHUBUKOVA-RK">
+      <ObjectId>420</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="347" parent="1" name="BYTSKO-RK">
+      <ObjectId>421</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="348" parent="1" name="GUBCHUK-RK">
+      <ObjectId>422</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="349" parent="1" name="SHUKAJLO-RK">
+      <ObjectId>423</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="350" parent="1" name="MANKO-RK">
+      <ObjectId>424</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="351" parent="1" name="PECHENKO-RK">
+      <ObjectId>425</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="352" parent="1" name="VOYTOVICH-RK">
+      <ObjectId>426</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="353" parent="1" name="GERMAN-RK">
+      <ObjectId>427</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="354" parent="1" name="LUKASHENKO-RK">
+      <ObjectId>428</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="355" parent="1" name="HRYHORYEVA-RK">
+      <ObjectId>429</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="356" parent="1" name="EFREMOVA-RK">
+      <ObjectId>430</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="357" parent="1" name="KLIMENTENKO-RK">
+      <ObjectId>431</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="358" parent="1" name="DAINEKA-RK">
+      <ObjectId>432</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="359" parent="1" name="PULINOVICH-RK">
+      <ObjectId>433</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="360" parent="1" name="SAVILO-RK">
+      <ObjectId>434</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="361" parent="1" name="TSARAHRADSKI-RK">
+      <ObjectId>435</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="362" parent="1" name="LOBODIN-RK">
+      <ObjectId>436</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="363" parent="1" name="FALITARAVA-RK">
+      <ObjectId>437</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="364" parent="1" name="AVT6100032378">
+      <ObjectId>438</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="365" parent="1" name="AVT6100082473">
+      <ObjectId>439</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="366" parent="1" name="SHTORM-RK">
+      <ObjectId>440</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="367" parent="1" name="SVIAKLISTAVA-RK">
+      <ObjectId>441</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="368" parent="1" name="AVT6100013220">
+      <ObjectId>442</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="369" parent="1" name="AVT6100011340">
+      <ObjectId>443</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="370" parent="1" name="AVT6100013218">
+      <ObjectId>444</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="371" parent="1" name="AVT4070081840">
+      <ObjectId>445</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="372" parent="1" name="AVT4070092543">
+      <ObjectId>446</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="373" parent="1" name="AVT6100011342">
+      <ObjectId>447</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="374" parent="1" name="AVT4070081843">
+      <ObjectId>448</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="375" parent="1" name="AVT4070070151">
+      <ObjectId>449</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="376" parent="1" name="AVT5090065990">
+      <ObjectId>450</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="377" parent="1" name="AVT6100013221">
+      <ObjectId>451</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="378" parent="1" name="AVT5090078653">
+      <ObjectId>452</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="379" parent="1" name="AVT5090078671">
+      <ObjectId>453</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="380" parent="1" name="AVT5090094717">
+      <ObjectId>454</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="381" parent="1" name="AVT4070081823">
+      <ObjectId>455</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="382" parent="1" name="AVT4070101226">
+      <ObjectId>456</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="383" parent="1" name="AVT5090094712">
+      <ObjectId>457</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="384" parent="1" name="AVT5090068076">
+      <ObjectId>458</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="385" parent="1" name="AVT4070048804">
+      <ObjectId>459</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="386" parent="1" name="AVT5090065996">
+      <ObjectId>460</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="387" parent="1" name="AVT4070048834">
+      <ObjectId>461</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="388" parent="1" name="AVT5090078669">
+      <ObjectId>462</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="389" parent="1" name="AVT4070081842">
+      <ObjectId>463</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="390" parent="1" name="AVT5090065993">
+      <ObjectId>464</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="391" parent="1" name="AVT5090046398">
+      <ObjectId>465</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="392" parent="1" name="AVT4070103891">
+      <ObjectId>466</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="393" parent="1" name="AVT5090078663">
+      <ObjectId>467</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="394" parent="1" name="AVT4070048808">
+      <ObjectId>468</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="395" parent="1" name="AVT5090065994">
+      <ObjectId>469</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="396" parent="1" name="AVT5090068083">
+      <ObjectId>470</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="397" parent="1" name="YURCHENYA-RK">
+      <ObjectId>471</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="398" parent="1" name="SHILYUK-RK">
+      <ObjectId>472</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="399" parent="1" name="ZAYAT-RK">
+      <ObjectId>473</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="400" parent="1" name="IZMAILOVICH-RK">
+      <ObjectId>474</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="401" parent="1" name="HUBERT-RK">
+      <ObjectId>475</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="402" parent="1" name="DROZDOVA-RK">
+      <ObjectId>476</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="403" parent="1" name="GOLOVNEVA-RK">
+      <ObjectId>477</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="404" parent="1" name="LABKOVA-RK">
+      <ObjectId>478</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="405" parent="1" name="SAVELENKO-RK">
+      <ObjectId>479</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="406" parent="1" name="MARCHENKO-RK">
+      <ObjectId>480</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="407" parent="1" name="PUTIATO-RK">
+      <ObjectId>481</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="408" parent="1" name="AVT6100039030">
+      <ObjectId>482</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="409" parent="1" name="MOLADZIANOVICH-RK">
+      <ObjectId>483</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="410" parent="1" name="VAITSIAKHOUSKAYA-RK">
+      <ObjectId>484</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="411" parent="1" name="AVT6100082479">
+      <ObjectId>485</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="412" parent="1" name="AVT6100082474">
+      <ObjectId>486</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="413" parent="1" name="MNG">
+      <ObjectId>487</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="414" parent="1" name="ADMIN">
+      <ObjectId>488</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="415" parent="1" name="SCA">
+      <ObjectId>489</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="416" parent="1" name="NSFO">
+      <ObjectId>490</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="417" parent="1" name="RATE_RB">
+      <ObjectId>491</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="418" parent="1" name="DFMCARD">
+      <ObjectId>492</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="419" parent="1" name="IBSC">
+      <ObjectId>493</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="420" parent="1" name="RNSFO">
+      <ObjectId>494</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="421" parent="1" name="SCDBO">
+      <ObjectId>495</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="422" parent="1" name="SCASSETS_NT">
+      <ObjectId>496</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="423" parent="1" name="NDOBTA">
+      <ObjectId>497</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="424" parent="1" name="ETALON">
+      <ObjectId>498</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="425" parent="1" name="LRSBTA">
+      <ObjectId>499</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="426" parent="1" name="CB_IB">
+      <ObjectId>500</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="427" parent="1" name="LRSBTA_EMI">
+      <ObjectId>501</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="428" parent="1" name="SCDBOBTA">
+      <ObjectId>502</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="429" parent="1" name="SCTRANSFER">
+      <ObjectId>503</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="430" parent="1" name="GOLOVACH">
+      <ObjectId>504</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="431" parent="1" name="HOTENKO">
+      <ObjectId>505</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="432" parent="1" name="GUBCHUK">
+      <ObjectId>506</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="433" parent="1" name="LUKOVETS">
+      <ObjectId>507</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="434" parent="1" name="GOLOVNEVA">
+      <ObjectId>508</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="435" parent="1" name="DZEBA">
+      <ObjectId>509</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="436" parent="1" name="SEITAYEV">
+      <ObjectId>510</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="437" parent="1" name="SIDORCHUK">
+      <ObjectId>511</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="438" parent="1" name="GORODNUK">
+      <ObjectId>512</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="439" parent="1" name="MUZYCHENKO">
+      <ObjectId>513</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="440" parent="1" name="ABELSKAYA">
+      <ObjectId>514</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="441" parent="1" name="DALETSKAYA">
+      <ObjectId>515</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="442" parent="1" name="ZAZHEUSKAYA">
+      <ObjectId>516</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="443" parent="1" name="LEPKOVICH">
+      <ObjectId>517</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="444" parent="1" name="ARTAMONOVA">
+      <ObjectId>518</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="445" parent="1" name="KAZANTSEVA">
+      <ObjectId>519</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="446" parent="1" name="VARASHUKHA">
+      <ObjectId>520</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="447" parent="1" name="RUZHOVA">
+      <ObjectId>521</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="448" parent="1" name="SYMANOVICH">
+      <ObjectId>522</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="449" parent="1" name="KOLODICH">
+      <ObjectId>523</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="450" parent="1" name="VASILIUK">
+      <ObjectId>524</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="451" parent="1" name="DOLGOPALEC">
+      <ObjectId>525</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="452" parent="1" name="DZIVIN">
+      <ObjectId>526</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="453" parent="1" name="NBRB_VITEBSK">
+      <ObjectId>527</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="454" parent="1" name="FROLOVA">
+      <ObjectId>528</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="455" parent="1" name="ORLOV">
+      <ObjectId>529</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="456" parent="1" name="KIZATOV">
+      <ObjectId>530</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="457" parent="1" name="ZHYHAVETS">
+      <ObjectId>531</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="458" parent="1" name="KOKORINA">
+      <ObjectId>532</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="459" parent="1" name="KAZLOUSKAYA">
+      <ObjectId>533</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="460" parent="1" name="ANEC">
+      <ObjectId>534</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="461" parent="1" name="PRYGOZHAYA">
+      <ObjectId>535</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="462" parent="1" name="SHALAMITSKAYA">
+      <ObjectId>536</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="463" parent="1" name="MIACHKOV">
+      <ObjectId>537</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="464" parent="1" name="FEDOROVA">
+      <ObjectId>538</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="465" parent="1" name="UNUKOVSKAYA">
+      <ObjectId>539</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="466" parent="1" name="ELISEEVA">
+      <ObjectId>540</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="467" parent="1" name="GOROSHKO">
+      <ObjectId>541</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="468" parent="1" name="KARPETS">
+      <ObjectId>542</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="469" parent="1" name="KASSA202">
+      <ObjectId>543</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="470" parent="1" name="LOIKO4">
+      <ObjectId>544</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="471" parent="1" name="MARDAS">
+      <ObjectId>545</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="472" parent="1" name="KASSA601">
+      <ObjectId>546</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="473" parent="1" name="SIMANENKA">
+      <ObjectId>547</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="474" parent="1" name="STOYANOV">
+      <ObjectId>548</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="475" parent="1" name="MAKEENKO">
+      <ObjectId>549</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="476" parent="1" name="HALAUNIA">
+      <ObjectId>550</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="477" parent="1" name="SEROOKI">
+      <ObjectId>551</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="478" parent="1" name="KASSA3OP">
+      <ObjectId>552</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="479" parent="1" name="BOBOK">
+      <ObjectId>553</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="480" parent="1" name="YEUDAKIMAVA">
+      <ObjectId>554</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="481" parent="1" name="DROZD">
+      <ObjectId>555</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="482" parent="1" name="SHULEKOV">
+      <ObjectId>556</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="483" parent="1" name="KASSA12">
+      <ObjectId>557</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="484" parent="1" name="LUKASHEVA">
+      <ObjectId>558</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="485" parent="1" name="SOLOVEYKO">
+      <ObjectId>559</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="486" parent="1" name="YURKEVICH">
+      <ObjectId>560</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="487" parent="1" name="SHAHRAI">
+      <ObjectId>561</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="488" parent="1" name="FILATOV">
+      <ObjectId>562</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="489" parent="1" name="YUZVUK">
+      <ObjectId>563</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="490" parent="1" name="AVMAKAREVICH">
+      <ObjectId>564</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="491" parent="1" name="CHUBKOVA">
+      <ObjectId>565</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="492" parent="1" name="BANDARCHUK">
+      <ObjectId>566</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="493" parent="1" name="KARACHUN">
+      <ObjectId>567</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="494" parent="1" name="ZHANABAYEV">
+      <ObjectId>568</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="495" parent="1" name="GILEVICH">
+      <ObjectId>569</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="496" parent="1" name="AKOVALCHUK">
+      <ObjectId>570</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="497" parent="1" name="KALIAHINA">
+      <ObjectId>571</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="498" parent="1" name="LATYSHEVA">
+      <ObjectId>572</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="499" parent="1" name="TUROVA">
+      <ObjectId>573</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="500" parent="1" name="MASCHENKO">
+      <ObjectId>574</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="501" parent="1" name="KOTLAROV">
+      <ObjectId>575</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="502" parent="1" name="AEREPORT">
+      <ObjectId>576</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="503" parent="1" name="HRYHORYEVA">
+      <ObjectId>577</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="504" parent="1" name="GONCHARENKO">
+      <ObjectId>578</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="505" parent="1" name="NBRB_MOGILEV">
+      <ObjectId>579</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="506" parent="1" name="KUCHMIY">
+      <ObjectId>580</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="507" parent="1" name="TUPITSYNA">
+      <ObjectId>581</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="508" parent="1" name="NBRB">
+      <ObjectId>582</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="509" parent="1" name="BELIAYEV">
+      <ObjectId>583</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="510" parent="1" name="KLIMENTENKO">
+      <ObjectId>584</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="511" parent="1" name="ARTSIUSHKOVA">
+      <ObjectId>585</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="512" parent="1" name="ANTYUH">
+      <ObjectId>586</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="513" parent="1" name="KRASNITSKAYA">
+      <ObjectId>587</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="514" parent="1" name="BUDKO">
+      <ObjectId>588</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="515" parent="1" name="NBRBPODFT">
+      <ObjectId>589</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="516" parent="1" name="VERTINSKAYA">
+      <ObjectId>590</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="517" parent="1" name="SHESTAK">
+      <ObjectId>591</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="518" parent="1" name="PITSUR">
+      <ObjectId>592</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="519" parent="1" name="SAVRITSKIY">
+      <ObjectId>593</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="520" parent="1" name="SKAVARODKA">
+      <ObjectId>594</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="521" parent="1" name="OLEHNOVICH">
+      <ObjectId>595</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="522" parent="1" name="SAVICH">
+      <ObjectId>596</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="523" parent="1" name="AUTUKHOVICH">
+      <ObjectId>597</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="524" parent="1" name="AVDEJCHUK">
+      <ObjectId>598</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="525" parent="1" name="PISARYK">
+      <ObjectId>599</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="526" parent="1" name="CHUKHOLSKIY">
+      <ObjectId>600</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="527" parent="1" name="BONDAREVICH">
+      <ObjectId>601</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="528" parent="1" name="ISAIKO">
+      <ObjectId>602</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="529" parent="1" name="GOTOVKO">
+      <ObjectId>603</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="530" parent="1" name="DBO">
+      <ObjectId>604</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="531" parent="1" name="TURAVA">
+      <ObjectId>605</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="532" parent="1" name="GORBATOVA">
+      <ObjectId>606</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="533" parent="1" name="KASSA901">
+      <ObjectId>607</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="534" parent="1" name="AGEEVA">
+      <ObjectId>608</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="535" parent="1" name="KOSTYRKINA">
+      <ObjectId>609</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="536" parent="1" name="SVIAKLISTAVA">
+      <ObjectId>610</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="537" parent="1" name="GERNAT">
+      <ObjectId>611</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="538" parent="1" name="MOROZ">
+      <ObjectId>612</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="539" parent="1" name="MASHNINA">
+      <ObjectId>613</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="540" parent="1" name="PETROVICH">
+      <ObjectId>614</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="541" parent="1" name="DMITRANITSA">
+      <ObjectId>615</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="542" parent="1" name="KOCUBA">
+      <ObjectId>616</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="543" parent="1" name="SAVERCHENKO">
+      <ObjectId>617</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="544" parent="1" name="RUSAKOVICH">
+      <ObjectId>618</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="545" parent="1" name="KASSA1OP">
+      <ObjectId>619</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="546" parent="1" name="LAHODICH">
+      <ObjectId>620</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="547" parent="1" name="TSYBULSKAYA">
+      <ObjectId>621</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="548" parent="1" name="BYTSKO">
+      <ObjectId>622</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="549" parent="1" name="OZHUK">
+      <ObjectId>623</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="550" parent="1" name="POZDNYAKOVA">
+      <ObjectId>624</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="551" parent="1" name="KUDIOLKO">
+      <ObjectId>625</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="552" parent="1" name="RODIONOVA">
+      <ObjectId>626</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="553" parent="1" name="MATVEICHUK">
+      <ObjectId>627</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="554" parent="1" name="STANCHUK">
+      <ObjectId>628</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="555" parent="1" name="HANCHAROVA">
+      <ObjectId>629</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="556" parent="1" name="VOLODIN">
+      <ObjectId>630</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="557" parent="1" name="CHUDILOVSKAYA">
+      <ObjectId>631</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="558" parent="1" name="VOSCHULA">
+      <ObjectId>632</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="559" parent="1" name="IDAINEKA">
+      <ObjectId>633</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="560" parent="1" name="BEREZKO">
+      <ObjectId>634</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="561" parent="1" name="FAMINA">
+      <ObjectId>635</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="562" parent="1" name="KOVALEVA">
+      <ObjectId>636</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="563" parent="1" name="PELIUSHKEVICH">
+      <ObjectId>637</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="564" parent="1" name="CHUBUKOVA">
+      <ObjectId>638</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="565" parent="1" name="TRUSOVA">
+      <ObjectId>639</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="566" parent="1" name="LENCHEVSKAYA">
+      <ObjectId>640</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="567" parent="1" name="ZAYAT">
+      <ObjectId>641</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="568" parent="1" name="SUGAK">
+      <ObjectId>642</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="569" parent="1" name="GUBEI">
+      <ObjectId>643</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="570" parent="1" name="BELYAEV">
+      <ObjectId>644</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="571" parent="1" name="ZHYRNEL">
+      <ObjectId>645</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="572" parent="1" name="ANDREYANOV">
+      <ObjectId>646</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="573" parent="1" name="ROZUM">
+      <ObjectId>647</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="574" parent="1" name="KASSA07">
+      <ObjectId>648</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="575" parent="1" name="YANCHEVSKAYA">
+      <ObjectId>649</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="576" parent="1" name="KOMAROVSKY">
+      <ObjectId>650</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="577" parent="1" name="BAIDUK">
+      <ObjectId>651</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="578" parent="1" name="CHMUT">
+      <ObjectId>652</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="579" parent="1" name="BELSKAYA">
+      <ObjectId>653</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="580" parent="1" name="MAITAK">
+      <ObjectId>654</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="581" parent="1" name="SHAVLOVSKAYA">
+      <ObjectId>655</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="582" parent="1" name="DASCHINSKAYA">
+      <ObjectId>656</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="583" parent="1" name="LOSEVA">
+      <ObjectId>657</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="584" parent="1" name="ATARASEVICH">
+      <ObjectId>658</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="585" parent="1" name="ZELENKEVICH">
+      <ObjectId>659</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="586" parent="1" name="AUDITOR">
+      <ObjectId>660</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="587" parent="1" name="GUDEI">
+      <ObjectId>661</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="588" parent="1" name="VINEL">
+      <ObjectId>662</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="589" parent="1" name="KONONCHIK">
+      <ObjectId>663</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="590" parent="1" name="PANASENYA">
+      <ObjectId>664</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="591" parent="1" name="MARSHALAVA">
+      <ObjectId>665</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="592" parent="1" name="MAHNACH">
+      <ObjectId>666</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="593" parent="1" name="VOYTOVICH">
+      <ObjectId>667</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="594" parent="1" name="BYNKOVA">
+      <ObjectId>668</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="595" parent="1" name="DAINEKA">
+      <ObjectId>669</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="596" parent="1" name="PANIAVINA">
+      <ObjectId>670</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="597" parent="1" name="YUREVA">
+      <ObjectId>671</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="598" parent="1" name="ZAVADSKAYA">
+      <ObjectId>672</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="599" parent="1" name="TKACHEVA">
+      <ObjectId>673</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="600" parent="1" name="EKOVALEVA">
+      <ObjectId>674</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="601" parent="1" name="NAREYKO">
+      <ObjectId>675</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="602" parent="1" name="KARAS">
+      <ObjectId>676</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="603" parent="1" name="BELA">
+      <ObjectId>677</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="604" parent="1" name="KOLESNIK">
+      <ObjectId>678</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="605" parent="1" name="VPETROVICH">
+      <ObjectId>679</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="606" parent="1" name="DRANETS">
+      <ObjectId>680</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="607" parent="1" name="RYKAVA">
+      <ObjectId>681</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="608" parent="1" name="VEREMEICHIK">
+      <ObjectId>682</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="609" parent="1" name="GRINEVA">
+      <ObjectId>683</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="610" parent="1" name="KUIS">
+      <ObjectId>684</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="611" parent="1" name="YATSCKEVICH">
+      <ObjectId>685</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="612" parent="1" name="ZADVORAVA">
+      <ObjectId>686</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="613" parent="1" name="KAZAKOVA">
+      <ObjectId>687</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="614" parent="1" name="KARASEVA">
+      <ObjectId>688</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="615" parent="1" name="BULINKO">
+      <ObjectId>689</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="616" parent="1" name="LOPATO">
+      <ObjectId>690</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="617" parent="1" name="ESERGIEVICH">
+      <ObjectId>691</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="618" parent="1" name="TSIALIAK">
+      <ObjectId>692</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="619" parent="1" name="KASSA402">
+      <ObjectId>693</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="620" parent="1" name="HOMICH">
+      <ObjectId>694</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="621" parent="1" name="RUSAK">
+      <ObjectId>695</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="622" parent="1" name="AKHMETOV">
+      <ObjectId>696</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="623" parent="1" name="TARASEVICH">
+      <ObjectId>697</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="624" parent="1" name="KASSA605">
+      <ObjectId>698</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="625" parent="1" name="IVANCHENKO">
+      <ObjectId>699</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="626" parent="1" name="PODGRUSHA">
+      <ObjectId>700</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="627" parent="1" name="KOSTENKO">
+      <ObjectId>701</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="628" parent="1" name="NOVAK">
+      <ObjectId>702</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="629" parent="1" name="VERTEIKO">
+      <ObjectId>703</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="630" parent="1" name="OSIPENOK">
+      <ObjectId>704</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="631" parent="1" name="GRISHKOVETS">
+      <ObjectId>705</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="632" parent="1" name="GLAZYRYN">
+      <ObjectId>706</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="633" parent="1" name="REVIZOR">
+      <ObjectId>707</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="634" parent="1" name="IVANTSOVA">
+      <ObjectId>708</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="635" parent="1" name="KASSA902">
+      <ObjectId>709</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="636" parent="1" name="KASSA03">
+      <ObjectId>710</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="637" parent="1" name="SLAIKOUSKAYA">
+      <ObjectId>711</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="638" parent="1" name="SHABLOVSKAYA">
+      <ObjectId>712</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="639" parent="1" name="GONCHAR">
+      <ObjectId>713</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="640" parent="1" name="SAHAROVA">
+      <ObjectId>714</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="641" parent="1" name="KISEL">
+      <ObjectId>715</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="642" parent="1" name="PUTIATO">
+      <ObjectId>716</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="643" parent="1" name="SINEVICH">
+      <ObjectId>717</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="644" parent="1" name="SEROV">
+      <ObjectId>718</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="645" parent="1" name="BAKSHTAI">
+      <ObjectId>719</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="646" parent="1" name="PKISELEV">
+      <ObjectId>720</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="647" parent="1" name="SEMENYAKO">
+      <ObjectId>721</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="648" parent="1" name="TRAPASHKO">
+      <ObjectId>722</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="649" parent="1" name="MALIAREVICH">
+      <ObjectId>723</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="650" parent="1" name="AKSENCHIK">
+      <ObjectId>724</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="651" parent="1" name="SIPAILA">
+      <ObjectId>725</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="652" parent="1" name="SLOIKO">
+      <ObjectId>726</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="653" parent="1" name="AZARENKO">
+      <ObjectId>727</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="654" parent="1" name="SHLSCTS">
+      <ObjectId>728</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="655" parent="1" name="KASSA09">
+      <ObjectId>729</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="656" parent="1" name="NIKOLAEVA">
+      <ObjectId>730</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="657" parent="1" name="LEVENTSOVA">
+      <ObjectId>731</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="658" parent="1" name="MOSKALEV">
+      <ObjectId>732</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="659" parent="1" name="KUZNETSOVA">
+      <ObjectId>733</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="660" parent="1" name="HILKOVICH">
+      <ObjectId>734</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="661" parent="1" name="BEKOV">
+      <ObjectId>735</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="662" parent="1" name="HURSKAYA">
+      <ObjectId>736</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="663" parent="1" name="SMETANKINA">
+      <ObjectId>737</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="664" parent="1" name="YARMAK">
+      <ObjectId>738</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="665" parent="1" name="ZUBAREV">
+      <ObjectId>739</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="666" parent="1" name="SHIRAEU">
+      <ObjectId>740</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="667" parent="1" name="NIKALAYENIA">
+      <ObjectId>741</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="668" parent="1" name="MINENKOVA">
+      <ObjectId>742</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="669" parent="1" name="SENKEVICH">
+      <ObjectId>743</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="670" parent="1" name="MIKHALKEVICH">
+      <ObjectId>744</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="671" parent="1" name="KRYUTSOVA">
+      <ObjectId>745</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="672" parent="1" name="KOVALCHUK">
+      <ObjectId>746</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="673" parent="1" name="BELOUSOV">
+      <ObjectId>747</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="674" parent="1" name="MOLADZIANOVICH">
+      <ObjectId>748</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="675" parent="1" name="VELKOVA">
+      <ObjectId>749</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="676" parent="1" name="TSAVITSKAYA">
+      <ObjectId>750</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="677" parent="1" name="YESSETOV">
+      <ObjectId>751</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="678" parent="1" name="KRAKASEVICH">
+      <ObjectId>752</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="679" parent="1" name="LYAKISHEV">
+      <ObjectId>753</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="680" parent="1" name="ANTIPENKO">
+      <ObjectId>754</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="681" parent="1" name="YANCHILENKO">
+      <ObjectId>755</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="682" parent="1" name="KUHTA">
+      <ObjectId>756</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="683" parent="1" name="KLIMIATENOK">
+      <ObjectId>757</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="684" parent="1" name="CHEBOTAREVA">
+      <ObjectId>758</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="685" parent="1" name="BOBROVICH">
+      <ObjectId>759</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="686" parent="1" name="KUCHUK">
+      <ObjectId>760</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="687" parent="1" name="LFEDOROVA">
+      <ObjectId>761</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="688" parent="1" name="SPIRIDONOVA">
+      <ObjectId>762</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="689" parent="1" name="BERNAT">
+      <ObjectId>763</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="690" parent="1" name="KUCHTO">
+      <ObjectId>764</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="691" parent="1" name="TERENTEVA">
+      <ObjectId>765</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="692" parent="1" name="BELAYA">
+      <ObjectId>766</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="693" parent="1" name="KUKHTO">
+      <ObjectId>767</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="694" parent="1" name="SNYTIN">
+      <ObjectId>768</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="695" parent="1" name="TIMOHOV">
+      <ObjectId>769</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="696" parent="1" name="MARTYNOV">
+      <ObjectId>770</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="697" parent="1" name="PETROVSKAYA">
+      <ObjectId>771</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="698" parent="1" name="ALIMBAYEV">
+      <ObjectId>772</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="699" parent="1" name="BOROVTSOVA">
+      <ObjectId>773</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="700" parent="1" name="TYKHUN">
+      <ObjectId>774</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="701" parent="1" name="TOXANBAYEV">
+      <ObjectId>775</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="702" parent="1" name="KRIVONOS">
+      <ObjectId>776</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="703" parent="1" name="KASSA201">
+      <ObjectId>777</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="704" parent="1" name="HARKUSHA">
+      <ObjectId>778</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="705" parent="1" name="VЋLOTSKЋ">
+      <ObjectId>779</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="706" parent="1" name="SIDOROVA">
+      <ObjectId>780</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="707" parent="1" name="YURCHENYA">
+      <ObjectId>781</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="708" parent="1" name="MIRONENKO">
+      <ObjectId>782</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="709" parent="1" name="PASYUKEVICH">
+      <ObjectId>783</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="710" parent="1" name="EVASILEVSKAYA">
+      <ObjectId>784</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="711" parent="1" name="KASSA5OP">
+      <ObjectId>785</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="712" parent="1" name="NBRB_MINSK">
+      <ObjectId>786</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="713" parent="1" name="MARMYSH">
+      <ObjectId>787</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="714" parent="1" name="MURASHOVA">
+      <ObjectId>788</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="715" parent="1" name="LYAGUSH">
+      <ObjectId>789</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="716" parent="1" name="KASSA801">
+      <ObjectId>790</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="717" parent="1" name="VERAS">
+      <ObjectId>791</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="718" parent="1" name="KASSA802">
+      <ObjectId>792</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="719" parent="1" name="LIUDCHYK">
+      <ObjectId>793</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="720" parent="1" name="SHELAKHONOVA">
+      <ObjectId>794</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="721" parent="1" name="LISEVA">
+      <ObjectId>795</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="722" parent="1" name="SAMUILENKOVA">
+      <ObjectId>796</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="723" parent="1" name="POLYAKOV">
+      <ObjectId>797</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="724" parent="1" name="ZHMURO">
+      <ObjectId>798</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="725" parent="1" name="SEMENKEVICH">
+      <ObjectId>799</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="726" parent="1" name="CHAYKO">
+      <ObjectId>800</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="727" parent="1" name="SIMONOVA">
+      <ObjectId>801</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="728" parent="1" name="AVSIUKEVICH">
+      <ObjectId>802</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="729" parent="1" name="PADZOLKINA">
+      <ObjectId>803</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="730" parent="1" name="KHARCHENKO">
+      <ObjectId>804</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="731" parent="1" name="ICBSSLOAD">
+      <ObjectId>805</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="732" parent="1" name="ROVENKO">
+      <ObjectId>806</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="733" parent="1" name="KISELEV">
+      <ObjectId>807</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="734" parent="1" name="SAVILO">
+      <ObjectId>808</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="735" parent="1" name="ABRAMCHUK">
+      <ObjectId>809</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="736" parent="1" name="STROITELEVA">
+      <ObjectId>810</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="737" parent="1" name="SHYMANSKAYA">
+      <ObjectId>811</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="738" parent="1" name="SGONCHARENKO">
+      <ObjectId>812</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="739" parent="1" name="DYACHENKO">
+      <ObjectId>813</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="740" parent="1" name="EMELYANOVA">
+      <ObjectId>814</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="741" parent="1" name="SERGIEVICH">
+      <ObjectId>815</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="742" parent="1" name="ASTAPENKO">
+      <ObjectId>816</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="743" parent="1" name="EFIMENKO">
+      <ObjectId>817</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="744" parent="1" name="KULIASHOVA">
+      <ObjectId>818</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="745" parent="1" name="ORLOVA">
+      <ObjectId>819</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="746" parent="1" name="BULACHENKOVA">
+      <ObjectId>820</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="747" parent="1" name="PAVLOVSKI">
+      <ObjectId>821</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="748" parent="1" name="HRONSKAYA">
+      <ObjectId>822</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="749" parent="1" name="HRISTOLYUBOVA">
+      <ObjectId>823</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="750" parent="1" name="IZMAILOVICH">
+      <ObjectId>824</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="751" parent="1" name="KONDRATOVICH">
+      <ObjectId>825</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="752" parent="1" name="YUDAEVA">
+      <ObjectId>826</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="753" parent="1" name="AUDITOR_ERNST">
+      <ObjectId>827</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="754" parent="1" name="ASTAPTSOVA">
+      <ObjectId>828</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="755" parent="1" name="OKOLESNIK">
+      <ObjectId>829</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="756" parent="1" name="VINTSKEVICH">
+      <ObjectId>830</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="757" parent="1" name="SHUKAJLO">
+      <ObjectId>831</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="758" parent="1" name="GUSHA">
+      <ObjectId>832</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="759" parent="1" name="IIGNATENKO">
+      <ObjectId>833</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="760" parent="1" name="IASUKEVICH">
+      <ObjectId>834</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="761" parent="1" name="SHUTOVA">
+      <ObjectId>835</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="762" parent="1" name="BELUKOVA">
+      <ObjectId>836</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="763" parent="1" name="DZEMCHANKA">
+      <ObjectId>837</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="764" parent="1" name="BARANOVA">
+      <ObjectId>838</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="765" parent="1" name="MIKHALCHENKO">
+      <ObjectId>839</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="766" parent="1" name="PARKHIMOVICH">
+      <ObjectId>840</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="767" parent="1" name="ANIKEYEVA">
+      <ObjectId>841</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="768" parent="1" name="KASSA603">
+      <ObjectId>842</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="769" parent="1" name="KASSA11">
+      <ObjectId>843</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="770" parent="1" name="KAMALOV">
+      <ObjectId>844</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="771" parent="1" name="SHPACHENKO">
+      <ObjectId>845</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="772" parent="1" name="PAVLYUK">
+      <ObjectId>846</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="773" parent="1" name="ERMOLINA">
+      <ObjectId>847</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="774" parent="1" name="PAVLUKOVEC">
+      <ObjectId>848</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="775" parent="1" name="GNEZDILOVA">
+      <ObjectId>849</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="776" parent="1" name="RACHKOVSKIY">
+      <ObjectId>850</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="777" parent="1" name="ANDRONCHYK">
+      <ObjectId>851</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="778" parent="1" name="MAKAS">
+      <ObjectId>852</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="779" parent="1" name="BUDNIKOVA">
+      <ObjectId>853</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="780" parent="1" name="NTARASOVA">
+      <ObjectId>854</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="781" parent="1" name="MANKO">
+      <ObjectId>855</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="782" parent="1" name="SIZOVA">
+      <ObjectId>856</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="783" parent="1" name="BOGOVETS">
+      <ObjectId>857</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="784" parent="1" name="YUSH">
+      <ObjectId>858</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="785" parent="1" name="OLENDOR">
+      <ObjectId>859</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="786" parent="1" name="PLYUSHKO">
+      <ObjectId>860</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="787" parent="1" name="ZENOUCHYK">
+      <ObjectId>861</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="788" parent="1" name="CHASOVSKIKH">
+      <ObjectId>862</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="789" parent="1" name="KRAUTSOVA">
+      <ObjectId>863</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="790" parent="1" name="BYKOV">
+      <ObjectId>864</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="791" parent="1" name="SHICHKO">
+      <ObjectId>865</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="792" parent="1" name="MAZEIKO">
+      <ObjectId>866</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="793" parent="1" name="MAKOVETSKIY">
+      <ObjectId>867</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="794" parent="1" name="BOICHENOK">
+      <ObjectId>868</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="795" parent="1" name="ZNOVETS">
+      <ObjectId>869</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="796" parent="1" name="AEREAD">
+      <ObjectId>870</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="797" parent="1" name="SAKUN">
+      <ObjectId>871</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="798" parent="1" name="SHIMANOVICH">
+      <ObjectId>872</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="799" parent="1" name="ELMAHDI">
+      <ObjectId>873</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="800" parent="1" name="IGNATENKO">
+      <ObjectId>874</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="801" parent="1" name="AFANASENKO">
+      <ObjectId>875</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="802" parent="1" name="LOIKO">
+      <ObjectId>876</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="803" parent="1" name="BOIKO">
+      <ObjectId>877</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="804" parent="1" name="LUZHINA">
+      <ObjectId>878</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="805" parent="1" name="DUNDINA">
+      <ObjectId>879</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="806" parent="1" name="DBIBIK">
+      <ObjectId>880</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="807" parent="1" name="ZHLOBA">
+      <ObjectId>881</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="808" parent="1" name="GACUYKOVICH">
+      <ObjectId>882</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="809" parent="1" name="RUDENOK">
+      <ObjectId>883</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="810" parent="1" name="BELOV">
+      <ObjectId>884</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="811" parent="1" name="NOVIK">
+      <ObjectId>885</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="812" parent="1" name="KARPENKO">
+      <ObjectId>886</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="813" parent="1" name="VAITSIAKHOUSKAYA">
+      <ObjectId>887</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="814" parent="1" name="DERKACH">
+      <ObjectId>888</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="815" parent="1" name="ALIFERKO">
+      <ObjectId>889</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="816" parent="1" name="MINCHYK">
+      <ObjectId>890</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="817" parent="1" name="GALKINA">
+      <ObjectId>891</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="818" parent="1" name="KHARCHANKA">
+      <ObjectId>892</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="819" parent="1" name="RUBIS">
+      <ObjectId>893</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="820" parent="1" name="KARNEI">
+      <ObjectId>894</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="821" parent="1" name="ESHLIAZHKO">
+      <ObjectId>895</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="822" parent="1" name="SCHIGELSKAYA">
+      <ObjectId>896</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="823" parent="1" name="OSERGIEVICH">
+      <ObjectId>897</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="824" parent="1" name="SHYBELKINA">
+      <ObjectId>898</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="825" parent="1" name="FALITARAVA">
+      <ObjectId>899</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="826" parent="1" name="VAITESHKO">
+      <ObjectId>900</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="827" parent="1" name="SHEVTSOVA">
+      <ObjectId>901</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="828" parent="1" name="SHEVCHIK">
+      <ObjectId>902</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="829" parent="1" name="YUPATOVA">
+      <ObjectId>903</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="830" parent="1" name="BANKOVICH">
+      <ObjectId>904</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="831" parent="1" name="KAMINSKAYA">
+      <ObjectId>905</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="832" parent="1" name="DUDAREVICH">
+      <ObjectId>906</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="833" parent="1" name="NABZDOROVA">
+      <ObjectId>907</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="834" parent="1" name="LOIKO6">
+      <ObjectId>908</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="835" parent="1" name="KASSA2OP">
+      <ObjectId>909</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="836" parent="1" name="KASSA02">
+      <ObjectId>910</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="837" parent="1" name="MARENOV">
+      <ObjectId>911</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="838" parent="1" name="NIKITENKO">
+      <ObjectId>912</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="839" parent="1" name="ERMAKOVICHT">
+      <ObjectId>913</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="840" parent="1" name="EFREMOVA">
+      <ObjectId>914</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="841" parent="1" name="VYSOTSKI">
+      <ObjectId>915</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="842" parent="1" name="KASSA604">
+      <ObjectId>916</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="843" parent="1" name="KOSHALEVSKAYA">
+      <ObjectId>917</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="844" parent="1" name="BUKETOV">
+      <ObjectId>918</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="845" parent="1" name="TRUKHAN">
+      <ObjectId>919</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="846" parent="1" name="UKOZLOVA">
+      <ObjectId>920</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="847" parent="1" name="KALODZICH">
+      <ObjectId>921</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="848" parent="1" name="PINCHUK">
+      <ObjectId>922</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="849" parent="1" name="KIRIENKA">
+      <ObjectId>923</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="850" parent="1" name="KHARXHENKO">
+      <ObjectId>924</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="851" parent="1" name="STASENOK">
+      <ObjectId>925</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="852" parent="1" name="KRASIVOVA">
+      <ObjectId>926</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="853" parent="1" name="KOBERDA">
+      <ObjectId>927</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="854" parent="1" name="SHUTOV">
+      <ObjectId>928</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="855" parent="1" name="NEVZOROV">
+      <ObjectId>929</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="856" parent="1" name="AMAKAREVICH">
+      <ObjectId>930</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="857" parent="1" name="LIASHUK">
+      <ObjectId>931</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="858" parent="1" name="PUGINA">
+      <ObjectId>932</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="859" parent="1" name="YSAVICH">
+      <ObjectId>933</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="860" parent="1" name="VALDMAN">
+      <ObjectId>934</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="861" parent="1" name="BOKUN">
+      <ObjectId>935</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="862" parent="1" name="LEANOVICH">
+      <ObjectId>936</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="863" parent="1" name="ASANOVICH">
+      <ObjectId>937</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="864" parent="1" name="SCHAYKO">
+      <ObjectId>938</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="865" parent="1" name="KASSA01">
+      <ObjectId>939</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="866" parent="1" name="PAVLOV">
+      <ObjectId>940</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="867" parent="1" name="NADZHI">
+      <ObjectId>941</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="868" parent="1" name="MIKULA">
+      <ObjectId>942</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="869" parent="1" name="PROKOPOVICH">
+      <ObjectId>943</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="870" parent="1" name="KOLTOVICH">
+      <ObjectId>944</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="871" parent="1" name="SHTORM">
+      <ObjectId>945</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="872" parent="1" name="HOMENKOVA">
+      <ObjectId>946</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="873" parent="1" name="NBRB_BREST">
+      <ObjectId>947</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="874" parent="1" name="FILIANOVA">
+      <ObjectId>948</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="875" parent="1" name="KOVALEV">
+      <ObjectId>949</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="876" parent="1" name="NBRB_GOMEL">
+      <ObjectId>950</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="877" parent="1" name="KANAVALAU">
+      <ObjectId>951</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="878" parent="1" name="PASHUK">
+      <ObjectId>952</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="879" parent="1" name="KABACHUK">
+      <ObjectId>953</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="880" parent="1" name="SHAKAILO">
+      <ObjectId>954</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="881" parent="1" name="ILNITSKAYA">
+      <ObjectId>955</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="882" parent="1" name="KAZLOUTSAVA">
+      <ObjectId>956</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="883" parent="1" name="VALKOVICH">
+      <ObjectId>957</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="884" parent="1" name="HUBERT">
+      <ObjectId>958</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="885" parent="1" name="SOSNOVSKAYA">
+      <ObjectId>959</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="886" parent="1" name="SOBOLEVSKAYA">
+      <ObjectId>960</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="887" parent="1" name="SAVITSKAYA">
+      <ObjectId>961</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="888" parent="1" name="SHILYUK">
+      <ObjectId>962</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="889" parent="1" name="KOTSUR">
+      <ObjectId>963</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="890" parent="1" name="SHKIREYEU">
+      <ObjectId>964</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="891" parent="1" name="GUDYMA">
+      <ObjectId>965</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="892" parent="1" name="KUPREYEVA">
+      <ObjectId>966</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="893" parent="1" name="BIRITSKY">
+      <ObjectId>967</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="894" parent="1" name="TIMAHOVICH">
+      <ObjectId>968</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="895" parent="1" name="LITVINOVA">
+      <ObjectId>969</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="896" parent="1" name="RACHYNSKAYA">
+      <ObjectId>970</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="897" parent="1" name="KALISKAROVA">
+      <ObjectId>971</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="898" parent="1" name="SHAFALOVICH">
+      <ObjectId>972</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="899" parent="1" name="BERNATOVICH">
+      <ObjectId>973</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="900" parent="1" name="MARCHUK">
+      <ObjectId>974</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="901" parent="1" name="LARINA">
+      <ObjectId>975</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="902" parent="1" name="TSARAHRADSKI">
+      <ObjectId>976</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="903" parent="1" name="NBRB_BREST2">
+      <ObjectId>977</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="904" parent="1" name="MAZUROVA">
+      <ObjectId>978</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="905" parent="1" name="IZAHAREVICH">
+      <ObjectId>979</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="906" parent="1" name="ARTEMYEV">
+      <ObjectId>980</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="907" parent="1" name="NOVIKOVA">
+      <ObjectId>981</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="908" parent="1" name="LUSCHIK">
+      <ObjectId>982</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="909" parent="1" name="ILYINA">
+      <ObjectId>983</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="910" parent="1" name="PARAMONOV">
+      <ObjectId>984</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="911" parent="1" name="KASSA4">
+      <ObjectId>985</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="912" parent="1" name="LOIKO5">
+      <ObjectId>986</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="913" parent="1" name="KENZHEGUL">
+      <ObjectId>987</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="914" parent="1" name="MOLCHADSKAYA">
+      <ObjectId>988</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="915" parent="1" name="KALINOVSKAYA">
+      <ObjectId>989</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="916" parent="1" name="KULINKOVICH">
+      <ObjectId>990</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="917" parent="1" name="BELIASAU">
+      <ObjectId>991</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="918" parent="1" name="GUMENUJK">
+      <ObjectId>992</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="919" parent="1" name="KASSA401">
+      <ObjectId>993</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="920" parent="1" name="NKAVALCHUK">
+      <ObjectId>994</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="921" parent="1" name="OLESHKEVICH">
+      <ObjectId>995</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="922" parent="1" name="DMITRUK">
+      <ObjectId>996</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="923" parent="1" name="KRUTIKOVA">
+      <ObjectId>997</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="924" parent="1" name="NEKRASHEVICH">
+      <ObjectId>998</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="925" parent="1" name="SHURAPOV">
+      <ObjectId>999</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="926" parent="1" name="ZHVALIK">
+      <ObjectId>1000</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="927" parent="1" name="FUTYANOV">
+      <ObjectId>1001</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="928" parent="1" name="YURASCHIK">
+      <ObjectId>1002</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="929" parent="1" name="ZAHAREVICH">
+      <ObjectId>1003</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="930" parent="1" name="KONTSEVOY">
+      <ObjectId>1004</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="931" parent="1" name="KAGARMANOV">
+      <ObjectId>1005</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="932" parent="1" name="PETRASHKEVICH">
+      <ObjectId>1006</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="933" parent="1" name="KARPOVICH">
+      <ObjectId>1007</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="934" parent="1" name="PULINOVICH">
+      <ObjectId>1008</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="935" parent="1" name="ARTYUSHKOVA">
+      <ObjectId>1009</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="936" parent="1" name="DUBROUSKI">
+      <ObjectId>1010</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="937" parent="1" name="ANEKRASHEVICH">
+      <ObjectId>1011</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="938" parent="1" name="KHORUK">
+      <ObjectId>1012</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="939" parent="1" name="IMNS">
+      <ObjectId>1013</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="940" parent="1" name="REPORTADMIN">
+      <ObjectId>1014</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="941" parent="1" name="BABORA">
+      <ObjectId>1015</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="942" parent="1" name="LOGECHNIK">
+      <ObjectId>1016</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="943" parent="1" name="KAPLIA">
+      <ObjectId>1017</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="944" parent="1" name="LROMANOVSKAYA">
+      <ObjectId>1018</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="945" parent="1" name="ASANOVICHNV">
+      <ObjectId>1019</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="946" parent="1" name="VOLOTSKO">
+      <ObjectId>1020</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="947" parent="1" name="SHELEST">
+      <ObjectId>1021</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="948" parent="1" name="TABOLA">
+      <ObjectId>1022</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="949" parent="1" name="TULINOVA">
+      <ObjectId>1023</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="950" parent="1" name="LABKOVA">
+      <ObjectId>1024</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="951" parent="1" name="RYBCHYNSKAYA">
+      <ObjectId>1025</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="952" parent="1" name="TRUS">
+      <ObjectId>1026</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="953" parent="1" name="KUZMENKO">
+      <ObjectId>1027</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="954" parent="1" name="NBRB_MOGILEV2">
+      <ObjectId>1028</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="955" parent="1" name="DOMORAD">
+      <ObjectId>1029</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="956" parent="1" name="LUGOVICH">
+      <ObjectId>1030</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="957" parent="1" name="LEONTEV">
+      <ObjectId>1031</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="958" parent="1" name="SAUCHYK">
+      <ObjectId>1032</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="959" parent="1" name="MTARASEVICH">
+      <ObjectId>1033</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="960" parent="1" name="IROMANOVSKAYA">
+      <ObjectId>1034</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="961" parent="1" name="SAVELENKO">
+      <ObjectId>1035</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="962" parent="1" name="NAZARENKO">
+      <ObjectId>1036</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="963" parent="1" name="PECHENKO">
+      <ObjectId>1037</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="964" parent="1" name="KAKHNOVICH">
+      <ObjectId>1038</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="965" parent="1" name="VKOVALEVA">
+      <ObjectId>1039</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="966" parent="1" name="SAPEROV">
+      <ObjectId>1040</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="967" parent="1" name="LUKASHENKO">
+      <ObjectId>1041</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="968" parent="1" name="YURCHENIA">
+      <ObjectId>1042</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="969" parent="1" name="MASHARA">
+      <ObjectId>1043</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="970" parent="1" name="ADYLBEKOV">
+      <ObjectId>1044</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="971" parent="1" name="STANULEVICH">
+      <ObjectId>1045</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="972" parent="1" name="DENISIK">
+      <ObjectId>1046</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="973" parent="1" name="KOLTUNOVA">
+      <ObjectId>1047</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="974" parent="1" name="BLESCHIK">
+      <ObjectId>1048</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="975" parent="1" name="CHAHAIDA">
+      <ObjectId>1049</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="976" parent="1" name="URBAN">
+      <ObjectId>1050</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="977" parent="1" name="ROGACHEVA">
+      <ObjectId>1051</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="978" parent="1" name="PANIMATKO">
+      <ObjectId>1052</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="979" parent="1" name="SCHASTNAJ">
+      <ObjectId>1053</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="980" parent="1" name="FOMICH">
+      <ObjectId>1054</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="981" parent="1" name="LRISETOSC">
+      <ObjectId>1055</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="982" parent="1" name="SASKOVETS">
+      <ObjectId>1056</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="983" parent="1" name="KATLIAROU">
+      <ObjectId>1057</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="984" parent="1" name="KYLBIATSKAYA">
+      <ObjectId>1058</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="985" parent="1" name="PROKOPENKO">
+      <ObjectId>1059</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="986" parent="1" name="CHERKASHINA">
+      <ObjectId>1060</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="987" parent="1" name="LIHODIEVSKAYA">
+      <ObjectId>1061</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="988" parent="1" name="KASSA10">
+      <ObjectId>1062</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="989" parent="1" name="KULBIATSKAYA">
+      <ObjectId>1063</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="990" parent="1" name="LOBKOVSKAYA">
+      <ObjectId>1064</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="991" parent="1" name="BYLBENOVA">
+      <ObjectId>1065</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="992" parent="1" name="ASTRAUH">
+      <ObjectId>1066</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="993" parent="1" name="SHLIAZHKO">
+      <ObjectId>1067</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="994" parent="1" name="KASAK">
+      <ObjectId>1068</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="995" parent="1" name="SMOLYAK">
+      <ObjectId>1069</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="996" parent="1" name="USER_9000033">
+      <ObjectId>1070</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="997" parent="1" name="RAGOZIN">
+      <ObjectId>1071</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="998" parent="1" name="VERAMIAYUK">
+      <ObjectId>1072</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="999" parent="1" name="MARCHENKO">
+      <ObjectId>1073</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1000" parent="1" name="KASSA08">
+      <ObjectId>1074</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1001" parent="1" name="RLOMAKO">
+      <ObjectId>1075</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1002" parent="1" name="ROMANOVSKAYA">
+      <ObjectId>1076</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1003" parent="1" name="NEMKOVICH">
+      <ObjectId>1077</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1004" parent="1" name="SEREDINA">
+      <ObjectId>1078</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1005" parent="1" name="RUDENIK">
+      <ObjectId>1079</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1006" parent="1" name="SHMAT">
+      <ObjectId>1080</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1007" parent="1" name="SAVCHUK">
+      <ObjectId>1081</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1008" parent="1" name="BORISEYKO">
+      <ObjectId>1082</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1009" parent="1" name="AFZALI">
+      <ObjectId>1083</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1010" parent="1" name="ZORICHEVA">
+      <ObjectId>1084</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1011" parent="1" name="ZHUKOV">
+      <ObjectId>1085</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1012" parent="1" name="NOVITSKAY">
+      <ObjectId>1086</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1013" parent="1" name="SCASSETS">
+      <ObjectId>1087</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1014" parent="1" name="CLIENT_BANK">
+      <ObjectId>1089</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1015" parent="1" name="KASSAGML">
+      <ObjectId>1090</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1016" parent="1" name="AEUSER">
+      <ObjectId>1091</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1017" parent="1" name="EDS">
+      <ObjectId>1092</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1018" parent="1" name="MIN0000000001">
+      <ObjectId>1093</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1019" parent="1" name="CLIENT0000000">
+      <ObjectId>1094</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1020" parent="1" name="KASSABRB">
+      <ObjectId>1095</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1021" parent="1" name="KASSAMGV">
+      <ObjectId>1096</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1022" parent="1" name="KASSAVTB">
+      <ObjectId>1097</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1023" parent="1" name="KASSA">
+      <ObjectId>1098</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1024" parent="1" name="KASSAGRD">
+      <ObjectId>1100</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1025" parent="1" name="MAKAROVA">
+      <ObjectId>1101</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1026" parent="1" name="DUBOVEC">
+      <ObjectId>1102</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1027" parent="1" name="OSIPENOK-RK">
+      <ObjectId>1103</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1028" parent="1" name="DZIVIN-RK">
+      <ObjectId>1104</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1029" parent="1" name="SLAIKOUSKAYA-RK">
+      <ObjectId>1105</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1030" parent="1" name="NKAVALCHUK-RK">
+      <ObjectId>1106</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1031" parent="1" name="PARKHIMOVICH-RK">
+      <ObjectId>1107</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1032" parent="1" name="SHALAMITSKAYA-RK">
+      <ObjectId>1108</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1033" parent="1" name="ARLUKEVICH-RK">
+      <ObjectId>1109</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1034" parent="1" name="KUKULEVSKAYA">
+      <ObjectId>1110</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1035" parent="1" name="SAVITSKI-RK">
+      <ObjectId>1111</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1036" parent="1" name="SAVITSKI">
+      <ObjectId>1112</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1037" parent="1" name="BIBIKOVA_MV">
+      <ObjectId>1113</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1038" parent="1" name="NZALESKAYA">
+      <ObjectId>1114</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1039" parent="1" name="ARLUKEVICH">
+      <ObjectId>1115</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1040" parent="1" name="SHUMILOVA">
+      <ObjectId>1116</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1041" parent="1" name="SEDOV">
+      <ObjectId>1117</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1042" parent="1" name="KIREEVA">
+      <ObjectId>1118</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1043" parent="1" name="KIREEVA-RK">
+      <ObjectId>1119</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1044" parent="1" name="VRUBLEVSKIJ">
+      <ObjectId>1120</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1045" parent="1" name="KGERMAN">
+      <ObjectId>1121</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1046" parent="1" name="VELKOVA-RK">
+      <ObjectId>1122</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1047" parent="1" name="SHIMANOVICH-RK">
+      <ObjectId>1123</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1048" parent="1" name="STSIAPANKOVA">
+      <ObjectId>1124</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1049" parent="1" name="TARANKO">
+      <ObjectId>1125</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1050" parent="1" name="FADZEEVA">
+      <ObjectId>1126</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1051" parent="1" name="KATSUBA">
+      <ObjectId>1127</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1052" parent="1" name="MATSKEVICH">
+      <ObjectId>1128</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1053" parent="1" name="MATSKEVICHKV">
+      <ObjectId>1129</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1054" parent="1" name="YUDO">
+      <ObjectId>1130</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1055" parent="1" name="YUDO-RK">
+      <ObjectId>1131</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1056" parent="1" name="BEISHER">
+      <ObjectId>1132</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1057" parent="1" name="BEISHER-RK">
+      <ObjectId>1133</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1058" parent="1" name="BUYAK">
+      <ObjectId>1134</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1059" parent="1" name="PRYDACHA">
+      <ObjectId>1135</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1060" parent="1" name="VOLOKHOV">
+      <ObjectId>1136</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1061" parent="1" name="RUKIN">
+      <ObjectId>1137</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1062" parent="1" name="AVT4070015684">
+      <ObjectId>1138</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1063" parent="1" name="YAKIMOV">
+      <ObjectId>1139</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1064" parent="1" name="BOBROV">
+      <ObjectId>1140</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1065" parent="1" name="BOBROV-RK">
+      <ObjectId>1141</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1066" parent="1" name="MALASH">
+      <ObjectId>1142</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1067" parent="1" name="ETP">
+      <ObjectId>1143</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1068" parent="1" name="GOLOVA">
+      <ObjectId>1144</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1069" parent="1" name="DAMARAD">
+      <ObjectId>1145</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1070" parent="1" name="AVT6100016181">
+      <ObjectId>1146</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1071" parent="1" name="DEDKOV">
+      <ObjectId>1147</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1072" parent="1" name="DEDKOV-RK">
+      <ObjectId>1148</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1073" parent="1" name="SHEVCOVA-RK">
+      <ObjectId>1149</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1074" parent="1" name="YSHEVTSOVA">
+      <ObjectId>1150</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1075" parent="1" name="ZHELOBOVSKY">
+      <ObjectId>1151</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1076" parent="1" name="MAYSUK">
+      <ObjectId>1152</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1077" parent="1" name="EGELYAVICHUS">
+      <ObjectId>1154</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1078" parent="1" name="GIREYKO-RK">
+      <ObjectId>1155</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1079" parent="1" name="DOVYDENKO">
+      <ObjectId>1156</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1080" parent="1" name="KLYHUNOVA">
+      <ObjectId>1157</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1081" parent="1" name="SHELAHONOVA">
+      <ObjectId>1158</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1082" parent="1" name="KLYHUNOVA-RK">
+      <ObjectId>1159</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1083" parent="1" name="CHINOVA">
+      <ObjectId>1160</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1084" parent="1" name="HULEVICH">
+      <ObjectId>1161</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1085" parent="1" name="MISEYKO">
+      <ObjectId>1162</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1086" parent="1" name="KGERMAN-RK">
+      <ObjectId>1163</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1087" parent="1" name="REKETS">
+      <ObjectId>1164</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1088" parent="1" name="INMAKAREVICH">
+      <ObjectId>1165</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1089" parent="1" name="AFANASYEVA">
+      <ObjectId>1166</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1090" parent="1" name="OSHKODA">
+      <ObjectId>1167</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1091" parent="1" name="KUDRITSKAYA-RK">
+      <ObjectId>1168</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1092" parent="1" name="KUDRITSKAYA">
+      <ObjectId>1169</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1093" parent="1" name="AUDITORBTA">
+      <ObjectId>1170</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1094" parent="1" name="SHAKAILO-RK">
+      <ObjectId>1185</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1095" parent="1" name="OMIKHAYLOVA">
+      <ObjectId>1186</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1096" parent="1" name="PEREDEREEVA-RK">
+      <ObjectId>1187</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1097" parent="1" name="BURKO-RK">
+      <ObjectId>1188</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1098" parent="1" name="PEREDEREEVA">
+      <ObjectId>1189</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1099" parent="1" name="SIPOVICH">
+      <ObjectId>1190</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1100" parent="1" name="MISKAVETS">
+      <ObjectId>1191</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1101" parent="1" name="SEMASHKO">
+      <ObjectId>1192</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1102" parent="1" name="BELMACH">
+      <ObjectId>1193</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1103" parent="1" name="KAZAK">
+      <ObjectId>1194</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1104" parent="1" name="HLADKAYA">
+      <ObjectId>1195</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1105" parent="1" name="PITSKO">
+      <ObjectId>1196</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1106" parent="1" name="ANMAKAREVICH">
+      <ObjectId>1197</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1107" parent="1" name="OKSENYUK-RK">
+      <ObjectId>1198</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1108" parent="1" name="OKSENYUK">
+      <ObjectId>1199</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1109" parent="1" name="SANKO-RK">
+      <ObjectId>1200</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1110" parent="1" name="SANKO">
+      <ObjectId>1201</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1111" parent="1" name="MYSHINSKAYA">
+      <ObjectId>1202</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1112" parent="1" name="KOSHELEVA">
+      <ObjectId>1203</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1113" parent="1" name="MKUZNETSOVA">
+      <ObjectId>1204</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1114" parent="1" name="ZHARENOVA">
+      <ObjectId>1205</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1115" parent="1" name="TARANKO-RK">
+      <ObjectId>1206</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1116" parent="1" name="GUBCHUKEP">
+      <ObjectId>1207</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1117" parent="1" name="BOROZNA">
+      <ObjectId>1208</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1118" parent="1" name="LANIN">
+      <ObjectId>1209</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1119" parent="1" name="SAMARSKAYA">
+      <ObjectId>1210</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1120" parent="1" name="MEDVEDSKAYA-RK">
+      <ObjectId>1211</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1121" parent="1" name="MEDVEDSKAYA">
+      <ObjectId>1212</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1122" parent="1" name="KNIAZEV">
+      <ObjectId>1213</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1123" parent="1" name="ZHEVNEROVA">
+      <ObjectId>1214</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1124" parent="1" name="ZHARENOVA-RK">
+      <ObjectId>1215</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1125" parent="1" name="PENIAZ">
+      <ObjectId>1216</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1126" parent="1" name="KNIAZEV-RK">
+      <ObjectId>1217</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1127" parent="1" name="BYL">
+      <ObjectId>1218</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1128" parent="1" name="AVT4070124837">
+      <ObjectId>1219</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1129" parent="1" name="KUZINA">
+      <ObjectId>1220</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1130" parent="1" name="ZASIMOVICH">
+      <ObjectId>1221</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1131" parent="1" name="AVT5090057785">
+      <ObjectId>1222</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1132" parent="1" name="KUZINA-RK">
+      <ObjectId>1223</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1133" parent="1" name="MASHNIN-RK">
+      <ObjectId>1224</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1134" parent="1" name="MIHOLAP-RK">
+      <ObjectId>1225</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1135" parent="1" name="ALSEVICH">
+      <ObjectId>1226</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1136" parent="1" name="HADLEUSKAYA">
+      <ObjectId>1227</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1137" parent="1" name="DRAB_AG">
+      <ObjectId>1228</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1138" parent="1" name="KRUHLY">
+      <ObjectId>1229</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1139" parent="1" name="KRUHLY-RK">
+      <ObjectId>1231</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1140" parent="1" name="DRAB_AG_NT">
+      <ObjectId>1233</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1141" parent="1" name="KISSELEVAV">
+      <ObjectId>1234</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1142" parent="1" name="DEGTYAREVA">
+      <ObjectId>1235</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1143" parent="1" name="SHABLOUSKAYA">
+      <ObjectId>1236</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1144" parent="1" name="PROKOPCHIK">
+      <ObjectId>1237</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1145" parent="1" name="ARTSIOMENKA">
+      <ObjectId>1238</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="1146" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+      <Visible>1</Visible>
+    </schema>
+  </database-model>
+</dataSource>

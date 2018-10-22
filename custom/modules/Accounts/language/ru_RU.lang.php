@@ -1,0 +1,27 @@
+<?php
+// created: 2018-06-28 16:51:21
+$mod_strings = array (
+  'LBL_PHONES' => 'Телефоны',
+  'LNK_NEW_ACCOUNT' => 'Создать контрагента',
+  'LNK_ACCOUNT_LIST' => 'Клиенты',
+  'LNK_IMPORT_ACCOUNTS' => 'Импорт контрагентов',
+  'MSG_SHOW_DUPLICATES' => 'Создаваемая запись, возможно, дублирует уже существующего контрагента. Схожие записи приведены в списке.Нажмите на кнопку Сохранить для создания новой записи или на кнопку Отказаться для возврата в модуль без создания новой записи.',
+  'LBL_SAVE_ACCOUNT' => 'Сохранение контрагента',
+  'LBL_LIST_FORM_TITLE' => 'Список контрагентов',
+  'LBL_SEARCH_FORM_TITLE' => 'Поиск контрагентов',
+  'LBL_MEMBER_OF' => 'Состоит в:',
+  'LBL_MEMBERS' => 'Члены',
+  'LBL_MEMBER_ORG_SUBPANEL_TITLE' => 'Членские организации',
+  'LBL_HOMEPAGE_TITLE' => 'Мои контрагенты',
+  'LBL_MODULE_NAME' => 'Клиенты',
+  'LBL_NAME' => 'Наименование',
+  'LBL_RNN' => 'РНН',
+  'LBL_INN' => 'ИНН/БИН',
+  'LBL_NO_CODE' => 'Код НО',
+  'LBL_CATEGORY' => 'Категория',
+  'LBL_REGISTER_DATE' => 'Дата регистрации',
+  'LBL_OKED_CODE' => 'Код ОКЭД',
+  'LBL_OKED_NAME' => 'Наименование ОКЭД',
+  'LBL_STATUS' => 'Статус',
+  'LBL_EDITVIEW_PANEL1' => 'Регистрационные данные',
+);
