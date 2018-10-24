@@ -368,3 +368,5 @@
 2018-06-28 13:35:26...Save user settings..
 2018-06-28 13:35:26...DBG: SugarThemeRegistry::getDefault
 2018-06-28 13:35:26...DBG: require modules/Users/Save.php
+2018-10-24 11:51:47...installerHook: Could not find custom/install/install_hooks.php
+2018-10-24 12:14:47...installerHook: Could not find custom/install/install_hooks.php
