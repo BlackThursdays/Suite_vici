@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.29, created on 2018-10-22 15:52:29
+<?php /* Smarty version 2.6.29, created on 2018-10-24 12:29:52
          compiled from modules/Calls/tpls/detailHeader.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_include', 'modules/Calls/tpls/detailHeader.tpl', 45, false),)), $this); ?>

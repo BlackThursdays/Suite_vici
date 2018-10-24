@@ -1,10 +1,6 @@
 <?php
-// created: 2018-10-22 15:50:11
+// created: 2018-10-23 17:54:11
 $mod_strings = array (
-  'LBL_ASSIGNED_TO_ID' => 'Ответственный(ая)',
-  'LBL_ASSIGNED_TO_NAME' => 'Ответственный(ая)',
-  'LBL_SECURITYGROUPS' => 'Группы пользователей',
-  'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Группы пользователей',
   'ERR_DELETE_RECORD' => 'Вы должны указать конкретную запись перед удалением.',
   'LBL_ACCOUNT_ID' => 'ID контрагента:',
   'LBL_CASE_ID' => 'ID обращения:',

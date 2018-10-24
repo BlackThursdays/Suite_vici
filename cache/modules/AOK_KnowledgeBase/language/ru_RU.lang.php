@@ -1,6 +1,8 @@
 <?php
-// created: 2018-10-22 15:50:12
+// created: 2018-10-24 11:39:59
 $mod_strings = array (
+  'LBL_ASSIGNED_TO_ID' => 'Ответственный(ая)',
+  'LBL_ASSIGNED_TO_NAME' => 'Ответственный(ая)',
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Дата создания:',
   'LBL_DATE_MODIFIED' => 'Дата изменения',
@@ -8,6 +10,7 @@ $mod_strings = array (
   'LBL_MODIFIED_NAME' => 'Изменено',
   'LBL_CREATED' => 'Создано',
   'LBL_DESCRIPTION' => 'Текст сообщения',
+  'LBL_ADDITIONAL_INFO' => 'Резолюция',
   'LBL_DELETED' => 'Удалено',
   'LBL_NAME' => 'Статья',
   'LBL_CREATED_USER' => 'Создано',
@@ -15,17 +18,6 @@ $mod_strings = array (
   'LBL_LIST_NAME' => 'Имя',
   'LBL_EDIT_BUTTON' => 'Править',
   'LBL_REMOVE' => 'Удалить',
-  'LBL_ASCENDING' => 'Восходящая',
-  'LBL_DESCENDING' => 'Нисходящая',
-  'LBL_OPT_IN' => 'Выбрать среди',
-  'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Ваш выбор ожидает подтверждения, подтверждение не отправлено',
-  'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'Ваш выбор ожидает подтверждения, подтверждение отправлено',
-  'LBL_OPT_IN_CONFIRMED' => 'Выбранный',
-  'LBL_ASSIGNED_TO_ID' => 'Ответственный(ая)',
-  'LBL_ASSIGNED_TO_NAME' => 'Ответственный(ая)',
-  'LBL_SECURITYGROUPS' => 'Группы пользователей',
-  'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Группы пользователей',
-  'LBL_ADDITIONAL_INFO' => 'Резолюция',
   'LBL_LIST_FORM_TITLE' => 'Ствтьи базы знаний',
   'LBL_MODULE_NAME' => 'База знаний',
   'LBL_MODULE_TITLE' => 'База знаний',

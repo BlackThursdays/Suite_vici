@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.29, created on 2018-10-22 15:50:26
+<?php /* Smarty version 2.6.29, created on 2018-10-23 17:55:55
          compiled from include/SugarFields/Fields/New_phone/DetailView.tpl */ ?>
 <?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
 smarty_core_load_plugins(array('plugins' => array(array('function', 'sugarvar', 'include/SugarFields/Fields/New_phone/DetailView.tpl', 6, false),)), $this); ?>
@@ -24,10 +24,10 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'sugarvar', 
     <i>{assign var=it value=$item.3}{$APP_LIST.$it}</i>
     )
 
-    {if $item.2 != '1'}
+    {if $item.0 != '' && $item.2 != '1'}
         <button title="Позвонить"
                 class="button"
-                onclick="displayCCModal(this,'{$module}', '{$fields.id.value}')"
+                onclick="displayCCModal('{$item.0}','{$module}', '{$fields.id.value}')"
                 style="margin-left: 15px;">
             <img src="themes/default/images/icon_Phone.gif" alt="">
         </button>

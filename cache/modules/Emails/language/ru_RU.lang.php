@@ -1,8 +1,6 @@
 <?php
-// created: 2018-10-22 15:50:11
+// created: 2018-10-24 11:39:59
 $mod_strings = array (
-  'LBL_SECURITYGROUPS' => 'Группы пользователей',
-  'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Группы пользователей',
   'LBL_EMAIL_INFORMATION' => 'Электронная Почта',
   'LBL_FW' => 'FW:',
   'LBL_RE' => 'RE:',

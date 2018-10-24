@@ -1,0 +1,8 @@
+cache/
+config.php
+config_override.php
+custom/call_center/config.php
+vici/config.php
+*.log
+.htaccess
+.idea

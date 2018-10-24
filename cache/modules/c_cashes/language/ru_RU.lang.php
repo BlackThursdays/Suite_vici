@@ -1,6 +1,10 @@
 <?php
-// created: 2018-10-22 15:50:14
+// created: 2018-10-23 17:54:04
 $mod_strings = array (
+  'LBL_ASSIGNED_TO_ID' => 'Ответственный(ая)',
+  'LBL_ASSIGNED_TO_NAME' => 'Ответственный(ая)',
+  'LBL_SECURITYGROUPS' => 'Группы пользователей',
+  'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Группы пользователей',
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Дата создания',
   'LBL_DATE_MODIFIED' => 'Дата изменения',
@@ -21,10 +25,6 @@ $mod_strings = array (
   'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Ваш выбор ожидает подтверждения, подтверждение не отправлено',
   'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'Ваш выбор ожидает подтверждения, подтверждение отправлено',
   'LBL_OPT_IN_CONFIRMED' => 'Выбранный',
-  'LBL_ASSIGNED_TO_ID' => 'Ответственный(ая)',
-  'LBL_ASSIGNED_TO_NAME' => 'Ответственный(ая)',
-  'LBL_SECURITYGROUPS' => 'Группы пользователей',
-  'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Группы пользователей',
   'LBL_LIST_FORM_TITLE' => 'Кассовые аппараты Список',
   'LBL_MODULE_NAME' => 'Кассовые аппараты',
   'LBL_MODULE_TITLE' => 'Кассовые аппараты',
