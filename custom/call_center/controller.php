@@ -2,10 +2,7 @@
 if (!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
 
 require_once('custom/call_center/call_center.php');
-
-$CC_SERVER = 'http://10.8.0.1';
-$CC_API_USER = 'api_user';
-$CC_API_PASSWORD = 'Vici4321';
+require_once('custom/call_center/config.php');
 
 
 switch ($_REQUEST['method']) {
@@ -53,7 +50,7 @@ switch ($_REQUEST['method']) {
 
 
         // Сохраняем задачу "Перезвониить клиенту" если не пусто
-        if (!empty($_REQUEST['task']['time'])) $callCenterCRM->saveTask($_REQUEST['lead']);
+        if (!empty($_REQUEST['task']['time'])) $callCenterCRM->savePlannedCall($_REQUEST['task']['time'], $_REQUEST['client']);
 
         //print_r($_REQUEST['call']['theme']['name']);
         break;

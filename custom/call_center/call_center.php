@@ -282,9 +282,34 @@ class CallCenterCRM extends Call
 
     }
 
-    function saveTask($date)
+    function savePlannedCall($date, $client)
     {
+        $call = BeanFactory::newBean('Calls');
+        $call->status = 'Planned';
+        $call->name = "Запланированный звонок";
+        $date = DateTime::createFromFormat('d.m.Y H:i', "$date");
+        $date->setTimezone(new DateTimeZone("UTC"));
+        $call->date_start = $date->format('Y-m-d H:i:s');
+        $call->date_entered = gmdate('Y-m-d H:i:s');
+        $call->created_by = $_SESSION['authenticated_user_id'];
+        $call->assigned_user_id = $_SESSION['authenticated_user_id'];
+        $call->direction = 'Outbound';
+        $call->parent_type = $client['_new']['module'];
+        $call->parent_id = $client['_new']['id'];
+        $call->vici_phone_c = $client['_new']['phone'];
+        $call->save();
+        if ($client['_new']['module'] === 'Leads') {
+            $call->load_relationship('leads');
+            $call->leads->add($client['_new']['id']);
+        } elseif ($client['_new']['module'] === 'Accounts') {
+            $call->load_relationship('accounts');
+            $call->accounts->add($client['_new']['id']);
+        } elseif ($client['_new']['module'] === 'Contacts') {
+            $call->load_relationship('contacts');
+            $call->contacts->add($client['_new']['id']);
+        }
 
+        return $call->id;
     }
 
     function saveCallInfo($call)
@@ -365,7 +390,7 @@ class CallCenterCRM extends Call
         }
     }
 
-    function createCall($number, $parent_type, $parent_id)
+    function createCall($number, $parent_type, $parent_id, $extra_params = [])
     {
         $call = BeanFactory::newBean('Calls');
         $call->status = 'Held';
@@ -378,6 +403,9 @@ class CallCenterCRM extends Call
         $call->parent_type = $parent_type;
         $call->parent_id = $parent_id;
         $call->vici_phone_c = $number;
+        if ($extra_params) {
+
+        }
         $call->save();
         if ($parent_type === 'Leads') {
             $call->load_relationship('leads');

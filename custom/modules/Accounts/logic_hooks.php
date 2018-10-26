@@ -14,8 +14,9 @@ $hook_array['after_save'][] = Array(80, 'updateRelatedCasesGeocodeInfo', 'module
 $hook_array['after_relationship_add'] = Array(); 
 $hook_array['after_relationship_add'][] = Array(77, 'addRelationship', 'modules/Accounts/AccountsJjwg_MapsLogicHook.php','AccountsJjwg_MapsLogicHook', 'addRelationship'); 
 $hook_array['after_relationship_delete'] = Array(); 
-$hook_array['after_relationship_delete'][] = Array(77, 'deleteRelationship', 'modules/Accounts/AccountsJjwg_MapsLogicHook.php','AccountsJjwg_MapsLogicHook', 'deleteRelationship'); 
+$hook_array['after_relationship_delete'][] = Array(77, 'deleteRelationship', 'modules/Accounts/AccountsJjwg_MapsLogicHook.php','AccountsJjwg_MapsLogicHook', 'deleteRelationship');
 
+$hook_array['after_ui_frame'][] = Array(99, 'Include js script for display CC modal', 'custom/call_center/LogicHooks.php','DetailViewScriptHook', 'display_modal');
 
 
 ?>

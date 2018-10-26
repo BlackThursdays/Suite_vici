@@ -60,7 +60,8 @@ array (
                                 array(
                                     'title' => 'Форма КЦ',
                                     'class' => 'button',
-                                    'onclick' => 'javascript:window.location=\'/index.php?action=DetailView&module=Calls&form=call_center&record={$fields.id.value}\'',
+                                    //'onclick' => 'javascript:window.location=\'/index.php?action=DetailView&module=Calls&form=call_center&record={$fields.id.value}\'',
+                                    'onclick' => "$('#myModal').modal('show')"
                                 ),
                         ),
                 ),

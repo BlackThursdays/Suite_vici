@@ -114,7 +114,7 @@ array (
                 'customCode'=> '<span>{$fields.phone_work.value}</span>
                                 <button title="Позвонить" 
                                     class="button" 
-                                    onclick="displayCCModal(this, \'Leads\', \'{$fields.id.value}\')" 
+                                    onclick="displayCCModal(\'{$fields.phone_work.value}\', \'{$module}\', \'{$fields.id.value}\')" 
                                     style="margin-left: 15px;">
                                     <img src="themes/default/images/icon_Phone.gif" alt="">
                                 </button>'
@@ -128,7 +128,7 @@ array (
                 'customCode'=> '<span>{$fields.phone_mobile.value}</span>
                                 <button title="Позвонить" 
                                     class="button" 
-                                    onclick="displayCCModal(this, \'Leads\', \'{$fields.id.value}\')" 
+                                    onclick="displayCCModal(\'{$fields.phone_mobile.value}\', \'{$module}\', \'{$fields.id.value}\')" 
                                     style="margin-left: 15px;">
                                     <img src="themes/default/images/icon_Phone.gif" alt="">
                                 </button>'

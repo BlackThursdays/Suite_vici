@@ -78,6 +78,13 @@ array (
             'name' => 'phone_office',
             'comment' => 'The office phone number',
             'label' => 'LBL_PHONE_OFFICE',
+            'customCode'=> '<span>{$fields.phone_office.value}</span>
+                                <button title="Позвонить" 
+                                    class="button" 
+                                    onclick="displayCCModal(\'{$fields.phone_office.value}\', \'{$module}\', \'{$fields.id.value}\')" 
+                                    style="margin-left: 15px;">
+                                    <img src="themes/default/images/icon_Phone.gif" alt="">
+                                </button>'
           ),
         ),
         1 => 

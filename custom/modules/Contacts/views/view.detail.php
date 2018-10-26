@@ -1,8 +1,6 @@
-<?php /* Smarty version 2.6.29, created on 2018-10-26 17:36:06
-         compiled from modules/Calls/tpls/detailHeader.tpl */ ?>
-<?php require_once(SMARTY_CORE_DIR . 'core.load_plugins.php');
-smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_include', 'modules/Calls/tpls/detailHeader.tpl', 45, false),)), $this); ?>
-{*
+<?php
+if(!defined('sugarEntry') || !sugarEntry) die('Not A Valid Entry Point');
+
 /*********************************************************************************
  * SugarCRM Community Edition is a customer relationship management program developed by
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
@@ -41,10 +39,38 @@ smarty_core_load_plugins(array('plugins' => array(array('function', 'sugar_inclu
  * display the words  "Powered by SugarCRM" and "Supercharged by SuiteCRM".
  ********************************************************************************/
 
-*}
-{if $fields.recurring_source.value != '' && $fields.recurring_source.value != 'Sugar'}
-<div class="clear"></div>
-<div class="error">{$MOD.LBL_SYNCED_RECURRING_MSG}</div>
-{/if}
-<?php echo smarty_function_sugar_include(array('type' => 'smarty','file' => 'include/DetailView/header.tpl'), $this);?>
 
+require_once('include/MVC/View/views/view.detail.php');
+require_once('custom/call_center/custom_views.php');
+
+class ContactsViewDetail extends ViewDetail
+{
+ 	/**
+ 	 * @see SugarView::display()
+	 *
+ 	 * We are overridding the display method to manipulate the portal information.
+ 	 * If portal is not enabled then don't show the portal fields.
+ 	 */
+	public function display(){
+		global $sugar_config;
+
+        customDetailView_($this);
+
+		$aop_portal_enabled = !empty($sugar_config['aop']['enable_portal']) && !empty($sugar_config['aop']['enable_aop']);
+
+		$this->ss->assign("AOP_PORTAL_ENABLED", $aop_portal_enabled);
+
+		require_once('modules/AOS_PDF_Templates/formLetter.php');
+		formLetter::DVPopupHtml('Contacts');
+
+		$admin = new Administration();
+		$admin->retrieveSettings();
+		if(isset($admin->settings['portal_on']) && $admin->settings['portal_on']) {
+			$this->ss->assign("PORTAL_ENABLED", true);
+		}
+		parent::display();
+	}
+
+
+
+}

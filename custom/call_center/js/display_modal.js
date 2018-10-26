@@ -1,15 +1,15 @@
 /**
  * Created by bosyuk on 08/10/2018.
  */
-function displayCCModal(element, parent_type, parent_id) {
-    'use strict';
+function displayCCModal(phone, parent_type, parent_id) {
+
     var url = 'index.php';
     $("#loading_modal").modal('show');
 
     var params = {
         entryPoint: 'call_center',
         method: 'external_dial',
-        phone: $(element).siblings('span').text()
+        phone: phone
     };
     $.ajax({
         type: "GET",
@@ -30,10 +30,10 @@ function displayCCModal(element, parent_type, parent_id) {
                     data: params,
                     success: function (resp) {
                         if (resp.length > 0) {
-                            window.call_id = JSON.parse(resp);
+                            window.vici.call_id = JSON.parse(resp);
                             $('#client_phone').val(params.phone);
                             $("#myModal").modal('show');
-                            getProduct();
+                            vici.getProduct();
                         } else {
                             alert('Произоша ошибка создания записи звонка. Попробуйте позже.');
                         }
@@ -43,8 +43,8 @@ function displayCCModal(element, parent_type, parent_id) {
                     }
                 });
 
-                $("#myModal").modal('show');
-                getProduct();
+                // $("#myModal").modal('show');
+                // vici.getProduct();
             } else if (resp.indexOf('ERROR:') !== -1) {
                 alert('Ошибка вызова: ' + resp.substr(resp.indexOf(': ') + 2));
             } else {
@@ -57,4 +57,8 @@ function displayCCModal(element, parent_type, parent_id) {
     });
 
 
+}
+
+function displayCCModalFromCall() {
+    $("#myModal").modal('show');
 }

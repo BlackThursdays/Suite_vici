@@ -10,6 +10,5 @@ $hook_array['before_save'][] = Array(77, 'updateGeocodeInfo', 'modules/Leads/Lea
 $hook_array['after_save'] = Array(); 
 $hook_array['after_save'][] = Array(77, 'updateRelatedMeetingsGeocodeInfo', 'modules/Leads/LeadsJjwg_MapsLogicHook.php','LeadsJjwg_MapsLogicHook', 'updateRelatedMeetingsGeocodeInfo');
 
-$hook_array['after_ui_frame'][] = Array(99, 'Include js script for display CC modal', 'custom/modules/Leads/LogicHooks.php','DetailViewScriptHook', 'display_modal');
-
+$hook_array['after_ui_frame'][] = Array(99, 'Include js script for display CC modal', 'custom/call_center/LogicHooks.php','DetailViewScriptHook', 'display_modal');
 ?>

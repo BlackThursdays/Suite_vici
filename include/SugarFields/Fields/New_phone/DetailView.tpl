@@ -22,7 +22,7 @@
     {if $item.0 != '' && $item.2 != '1'}
         <button title="Позвонить"
                 class="button"
-                onclick="displayCCModal(this,'{$module}', '{$fields.id.value}')"
+                onclick="displayCCModal('{$item.0}','{$module}', '{$fields.id.value}')"
                 style="margin-left: 15px;">
             <img src="themes/default/images/icon_Phone.gif" alt="">
         </button>
