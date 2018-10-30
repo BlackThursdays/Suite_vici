@@ -59,6 +59,3 @@ function displayCCModal(phone, parent_type, parent_id) {
 
 }
 
-function displayCCModalFromCall() {
-    $("#myModal").modal('show');
-}

@@ -16,43 +16,45 @@ class CallCenterCRM extends Call
      */
     function getContactName($name)
     {
-        //echo $partOfName
-        if (iconv_strlen($name, 'UTF-8') > 2) {
+        if (iconv_strlen($name, 'UTF-8') > 0) {
             if (strripos($name, ' ')) {
                 $name = explode(" ", $name);
 
-                $query = "SELECT id,concat(first_name,' ',last_name,' ',middle_name_c) name 
+                $query = "SELECT id,concat(last_name,' ',first_name) name 
                   FROM	contacts JOIN contacts_cstm ON contacts_cstm.id_c = contacts.id
-                  WHERE deleted = 0 AND contacts.first_name like '$name[0]' ";
+                  WHERE deleted = 0 AND contacts.last_name like '$name[0]' ";
+//                $query = "SELECT id,concat(first_name,' ',last_name,' ',middle_name_c) name
+//                  FROM	contacts JOIN contacts_cstm ON contacts_cstm.id_c = contacts.id
+//                  WHERE deleted = 0 AND contacts.first_name like '$name[0]' ";
                 if (isset($name[1]) && !empty($name[1])) $query .= " AND contacts.last_name like '$name[1]%'";
-                if (isset($name[2]) && !empty($name[2])) $query .= " AND contacts_cstm.middle_name_c like '$name[2]%'";
+//                if (isset($name[2]) && !empty($name[2])) $query .= " AND contacts_cstm.middle_name_c like '$name[2]%'";
                 $query .= " ORDER BY name LIMIT 10 ";
                 $result = $this->db->query($query);
                 while ($row = $this->db->fetchByAssoc($result)) {
                     $contact[] = $row;
                 }
-                //print_r($contact);
                 if (empty($contact)) {
-                    return null;
+                    return [];
                 }
                 return $contact;
             } else {
-                $query = "SELECT id,concat(first_name,' ',last_name,' ',middle_name_c) name 
+                $query = "SELECT id,concat(last_name,' ',first_name) name 
                   FROM	contacts JOIN contacts_cstm ON contacts_cstm.id_c = contacts.id
-                  WHERE deleted = 0 AND contacts.first_name like '%$name%' ORDER BY name LIMIT 10";
-                //print_r($query);
+                  WHERE deleted = 0 AND contacts.last_name like '%$name%' ORDER BY name LIMIT 10";
+//                $query = "SELECT id,concat(first_name,' ',last_name,' ',middle_name_c) name
+//                  FROM	contacts JOIN contacts_cstm ON contacts_cstm.id_c = contacts.id
+//                  WHERE deleted = 0 AND contacts.first_name like '%$name%' ORDER BY name LIMIT 10";
                 $result = $this->db->query($query);
                 while ($row = $this->db->fetchByAssoc($result)) {
                     $contact[] = $row;
                 }
-                //print_r($contact);
                 if (empty($contact)) {
-                    return null;
+                    return [];
                 }
                 return $contact;
             }
         }
-        return null;
+        return [];
     }
 
     /*
@@ -62,23 +64,20 @@ class CallCenterCRM extends Call
      */
     function getAccountName($name)
     {
-        if (iconv_strlen($name, 'UTF-8') > 2) {
+        if (iconv_strlen($name, 'UTF-8') > 0) {
             $query = "SELECT id,name FROM accounts WHERE deleted = 0 AND name like '%$name%' ORDER BY name LIMIT 10";
             $result = $this->db->query($query);
             while ($row = $this->db->fetchByAssoc($result)) {
                 $row['name'] = str_replace('&quot;', '', $row['name']);
                 $row['name'] = preg_replace('/\s\s+/', ' ', $row['name']);
-                //print_r($row['name']);
                 $account[] = $row;
             }
-            //print_r($account);
             if (empty($account)) {
-                return null;
+                return [];
             }
-
             return $account;
         }
-        return null;
+        return [];
     }
 
     /*
@@ -88,8 +87,7 @@ class CallCenterCRM extends Call
       */
     function getLeadName($name)
     {
-        //echo $partOfName
-        if (iconv_strlen($name, 'UTF-8') > 2) {
+        if (iconv_strlen($name, 'UTF-8') > 0) {
             if (strripos($name, ' ')) {
                 $name = explode(" ", $name);
 
@@ -101,30 +99,30 @@ class CallCenterCRM extends Call
 
                 $result = $this->db->query($query);
                 while ($row = $this->db->fetchByAssoc($result)) {
+                    $row['name'] = str_replace('&quot;', '', $row['name']);
                     $lead[] = $row;
                 }
 
                 if (empty($lead)) {
-                    return null;
+                    return [];
                 }
                 return $lead;
             } else {
 //                $query = "SELECT id,concat(last_name,' ',first_name,' - ',account_name) name
                 $query = "SELECT id,account_name name 
                           FROM Leads WHERE deleted = 0 AND account_name like '%$name%' ORDER BY name LIMIT 10";
-                //print_r($query);
                 $result = $this->db->query($query);
                 while ($row = $this->db->fetchByAssoc($result)) {
                     $lead[] = $row;
                 }
 
                 if (empty($lead)) {
-                    return null;
+                    return [];
                 }
                 return $lead;
             }
         }
-        return null;
+        return [];
     }
 
     /*

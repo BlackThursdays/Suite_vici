@@ -34,19 +34,7 @@
                             <div class="col-md-9 client_full_name" id="client_full_name" name="client_full_name"
                                  data-client_id="1234">
                                 <h3><?= $tmpl_context['client']['name']; ?></h3>
-                                <input type="text" style="display: none" id="client_full_name_i" list="client-list"
-                                       value="">
-                                <!--                                <input style="display: none" id="client_full_name_input">-->
-                                <!--                                <script>-->
-                                <!--                                    var options = {-->
-                                <!--                                        data: ["blue", "green", "pink", "red", "yellow"]-->
-                                <!--                                    };-->
-                                <!--                                    $("#client_full_name_input").easyAutocomplete(options);-->
-                                <!--                                    $('#client_full_name_input + div > ul').css('width', '253px');-->
-                                <!--                                </script>-->
-                                <datalist id="client-list">
-                                    <option data-client_id="123">Пупкин Иван Петрович</option>
-                                </datalist>
+                                <input type="text" style="display: none" id="client_full_name_i" value="">
                             </div>
                             <div class="col-md-3">
                                 <span class="id-ff multiple">
@@ -428,7 +416,6 @@
 </div>
 
 <script>
-
     var j_q = jQuery.noConflict();
 
     (function (j_q, $) {
@@ -441,17 +428,18 @@
         var result_list = <?= json_encode($GLOBALS['app_list_strings']['result_list']) ?>;
 
         var vici = {};
-
+        vici.method = '<?= $tmpl_context['method']; ?>';   // Используется для ссылки на карточку клиента (изначально тянется из CRM, в процессе работы и при изменении клиента в форме проставляется измененный)
         vici.call_id = '<?= $tmpl_context['call_id'] ?>';   // Хранится текущий ID звонка (неизменно)
         vici.g_client_full_name = ''; // Переменная для промежуточного хранения значения ФИО и последующего сравнения
 
         vici.editClientInfo = function () {
-            var client_full_name = $('#client_full_name  h3').text();
-            if (client_full_name !== '<?= $tmpl_context['not_found_client'] ?>') {
-                client_name_input.val(client_full_name);
-            } else {
-                client_name_input.val('');
-            }
+//            var client_full_name = $('#client_full_name  h3').text();
+//            if (client_full_name !== '<?//= $tmpl_context['not_found_client'] ?>//') {
+//                client_name_input.val(client_full_name);
+//            } else {
+//                client_name_input.val('');
+//            }
+            vici.cleanClientInfo();
 
             $('#client_full_name  input').show();
             $('#client_full_name  h3').hide();
@@ -465,7 +453,7 @@
 
         vici.acceptClientInfo = function () {
             var client_full_name = $('#client_full_name  input').val();
-            if (client_full_name != '' && client_id != undefined) {
+            if (client_full_name !== '' && client_id !== '') {
                 $('#client_full_name  h3').text(client_full_name);
                 $('#add_lead_btn').hide();
                 $('#detail_client_btn').show();
@@ -493,6 +481,8 @@
         vici.cleanClientInfo = function () {
             // Очищаем id
             client_id = '';
+
+            $('#client_full_name  input').val('');
 
             // Очищаем поле с email
             $("#client_email").val('');
@@ -613,7 +603,9 @@
                 }
             )
                 .done(function () {
-                    location.reload();
+                    //location.reload();
+                    //location.href = "index.php?module=<?= $tmpl_context['source_module'] ?>&action=DetailView&record=" + client_id;
+                    window.location = "/index.php?action=DetailView&module=<?= $tmpl_context['source_module'] ?>&record=<?= $tmpl_context['source_record'] ?>";
                 })
                 .fail(function () {
                     alert("Ошибка сохранения информации");
@@ -657,19 +649,18 @@
 
         // Очистка Названия (ФИО) организации (физ лица) при переключении radio button
         vici.switchRadioBtn = function () {
-            $('#client_full_name  input').val('');
             vici.cleanClientInfo();
 
             if ($("#radio_org").prop("checked")) {
-                method = 'get_account';
+                vici.method = 'get_account';
                 module = 'Accounts';
                 $(".client_picture").html('<img alt="Организация/ Индивидуальный предпрниниматель" src="<?= $tmpl_context['picture']['Accounts'] ?>">');
             } else if ($("#radio_fl").prop("checked")) {
-                method = 'get_contact';
+                vici.method = 'get_contact';
                 module = 'Contacts';
                 $(".client_picture").html('<img alt="Контактное лицо" src="<?= $tmpl_context['picture']['Contacts']; ?>">');
             } else if ($("#radio_lead").prop("checked")) {
-                method = 'get_lead';
+                vici.method = 'get_lead';
                 module = 'Leads';
                 $(".client_picture").html('<img alt="Предварительный контакт" src="<?= $tmpl_context['picture']['Leads']; ?>">');
             }
@@ -678,10 +669,9 @@
         // Изменение ФИО/ Названия организации
         vici.changeClientName = function () {
             var name = this.value;
-            vici.cleanClientInfo();
+            //vici.cleanClientInfo();
 
             if (name) {
-                client_id = $('option:contains("' + name + '")').data('client_id');
                 if (client_id) {
 
                     // Загрузка email
@@ -746,20 +736,23 @@
 
             });
 
-//        var client_full_name = $('#client_full_name  input').val();
-//        if (client_full_name != '' && client_id != undefined) {
-//            $('#client_full_name  h3').text(client_full_name);
-//            $('#add_lead_btn').hide();
-//            $('#detail_client_btn').show();
-//        } else {
-//            $('#client_full_name  h3').text('<?//= $tmpl_context['not_found_client'] ?>//');
-//            $('#add_lead_btn').show();
-//            $('#detail_client_btn').hide();
-//        }
+        // Инициализация easyAutocomplete
+        var options = {
+            url: function (client_full_name) {
+                return 'index.php?entryPoint=call_center&method=' + vici.method + '&name=' + client_full_name;
+            },
+            getValue: "name",
+            list: {
+                onSelectItemEvent: function () {
+                    client_id = j_q("#client_full_name_i").getSelectedItemData().id;
+                    //vici.changeClientName();
+                }
+            }
+        };
+        j_q("#client_full_name_i").easyAutocomplete(options);
 
         window.vici = vici;
     })(j_q, $);
-
 
 
     // Выбор нового клиента/ лида
@@ -769,67 +762,5 @@
 
     $("#radio_org, #radio_fl, #radio_lead").change(function () {
         vici.switchRadioBtn();
-    });
-
-    $("#client_full_name_i").change(function () {
-        vici.changeClientName();
-    });
-
-</script>
-<script>
-
-    // Валидация
-    // Поиск всех input-элементов в DOM, которые привязаны к datalist с помощью атрибута list.
-    var inputs = document.querySelectorAll('input[list]');
-    for (var i = 0; i < inputs.length; i++) {
-        // Когда значение input изменяется…
-        inputs[i].addEventListener('change', function () {
-            var optionFound = false,
-                datalist = this.list;
-            // Определение, существует ли option с текущим значением input.
-            for (var j = 0; j < datalist.options.length; j++) {
-                if (this.value == datalist.options[j].value) {
-                    optionFound = true;
-                    break;
-                }
-            }
-            // используйте функцию setCustomValidity API проверки ограничений валидации
-            // чтобы обеспечить ответ пользователю, если нужное значение в datalist отсутствует
-            if (optionFound) {
-                this.setCustomValidity('');
-            } else {
-                this.setCustomValidity('Выберите значение из списка');
-            }
-        });
-    }
-
-    // Запрос фамилии физ лица (названия организации) в зависимости от переключателя
-    $('#client_full_name  input').keyup(function () {
-
-        var client_full_name = $('#client_full_name  input').val();
-        var url = 'index.php?entryPoint=call_center&method=' + vici.method + '&name=' + client_full_name;
-        if (vici.g_client_full_name != client_full_name && client_full_name.length > 2) {
-            $.ajax({
-                type: "GET",
-                url: url,
-                success: function (client) {
-                    client = jQuery.parseJSON(client);
-                    var client_list = $("#client-list");
-                    if (client) {
-                        client_list
-                            .html('')
-                            .selectpicker('refresh');
-
-                        client.forEach(function (client, i, arr) {
-                            client_list.append('<option data-client_id=' + client['id'] + '>' + client['name'] + '</option>');
-                        });
-
-                        client_list
-                            .selectpicker('refresh');
-                    }
-                }
-            });
-            vici.g_client_full_name = client_full_name;
-        }
     });
 </script>
