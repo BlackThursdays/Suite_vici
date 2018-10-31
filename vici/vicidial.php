@@ -4920,60 +4920,6 @@ if ($enable_fast_refresh < 1) {echo "\tvar refresh_interval = 1000;\n";}
 
 <?php	echo $INSERT_head_js; ?>
 
-
-    /*********************************************************************************************
-     *
-     *                                       Custom code: End call
-     *
-     **********************************************************************************************/
-
-    var crm_call_id = '';
-    var crm_recording_filename = '';
-
-
-    function updateCrmCall(){
-
-        if (window.MDlogRecorDings)
-        {
-            var MDlogRecorDings_array=MDlogRecorDings.split("|");
-            recording_filename = MDlogRecorDings_array[2];
-        }
-
-        //recording_filename = document.getElementById("RecorDingFilename").text();
-
-        var response = null;
-        var call_params = 'method=update_call&call_id='+crm_call_id+'&duration='+VD_live_call_secondS+'&recording='+crm_recording_filename;
-        var xmlhttp = new XMLHttpRequest();
-        xmlhttp.open('POST', 'suitecrm/check_client.php', true);
-        xmlhttp.setRequestHeader('Content-Type','application/x-www-form-urlencoded; charset=UTF-8');
-        xmlhttp.send(call_params);
-        xmlhttp.onreadystatechange = function(response)
-        {
-            if (xmlhttp.status == 200)
-            {
-                response = JSON.parse(xmlhttp.responseText);
-                if (response == 'false'){
-                    alert_box('Ошибка обновления. Пожалуйста, обратитесь к администратору! '+ response);
-                }
-            }
-            else
-            {
-                alert_box('Ошибка обновления. Пожалуйста, обратитесь к администратору!');
-            }
-        }
-
-    }
-
-
-    /*********************************************************************************************
-     *
-     *                                       End Custom code
-     *
-     **********************************************************************************************/
-
-
-
-
 // ################################################################################
 // Send Hangup command for Live call connected to phone now to Manager
 	function livehangup_send_hangup(taskvar) 
@@ -7135,7 +7081,6 @@ function set_length(SLnumber,SLlength_goal,SLdirection)
 		var alt_num_status = 0;
 		if (taskMDstage == "start") 
 			{
-			    alert('Начало звонка!');
 			MDlogEPOCH = 0;
 			var UID_test = document.vicidial_form.uniqueid.value;
 			if (UID_test.length < 4)
@@ -7146,8 +7091,6 @@ function set_length(SLnumber,SLlength_goal,SLdirection)
 			}
 		else
 			{
-                alert('Окончание звонка!');
-
 			if (alt_phone_dialing == 1)
 				{
 				if (document.vicidial_form.DiaLAltPhonE.checked==true)
@@ -8679,49 +8622,7 @@ function set_length(SLnumber,SLlength_goal,SLdirection)
 								document.getElementById("callchannel").innerHTML	= MDlookResponse_array[1];
 								lastcustchannel = MDlookResponse_array[1];
 								if( document.images ) { document.images['livecall'].src = image_livecall_ON.src;}
-
-
-
-                                    /*********************************************************************************************
-                                     *
-                                     *                                       Custom code
-                                     *
-                                     *
-                                     **********************************************************************************************/
-
-
-                                    var response = null;
-                                    var call_params = 'method=create_call&phone='+check_VDIC_array[12]+'&group='+check_VDIC_array[29]+'&user_name='+user+'&fronter_phone='+check_VDIC_array[8]+'&uid='+check_VDIC_array[4]+'&channel='+VDIC_data_VDAC[3];
-                                    var xmlhttp = new XMLHttpRequest();
-                                    xmlhttp.open('POST', 'suitecrm/check_client.php', true);
-                                    xmlhttp.setRequestHeader('Content-Type','application/x-www-form-urlencoded; charset=UTF-8');
-                                    xmlhttp.send(call_params);
-                                    xmlhttp.onreadystatechange = function(response)
-                                    {
-                                        if (xmlhttp.readyState == 4 && xmlhttp.status == 200)
-                                        {
-                                            response = JSON.parse(xmlhttp.responseText);
-                                            crm_call_id = response.call_id;
-
-                                            call_url = VtigeRurl + '/index.php?action=DetailView&module=Сalls&record=' + response.call_id + '&form=call_center';
-                                            document.getElementById("FormContents").innerHTML = "<iframe src=\"" + call_url + "\" style=\"background-color:transparent;z-index:17;\" scrolling=\"auto\" frameborder=\"0\" allowtransparency=\"true\" id=\"popupFrame\" name=\"popupFrame\" width=\"" + script_width + "px\" height=\"" + script_height + "px\"> </iframe> ";
-
-                                        }
-
-                                        return response;
-                                    }
-
-
-                                    /*********************************************************************************************
-                                     *
-                                     *                                       End Custom code
-                                     *
-                                     *
-                                     **********************************************************************************************/
-
-
-
-                                    document.vicidial_form.SecondS.value		= 0;
+								document.vicidial_form.SecondS.value		= 0;
 								document.getElementById("SecondSDISP").innerHTML = '0';
 
 								VD_live_customer_call = 1;
@@ -12641,22 +12542,7 @@ function set_length(SLnumber,SLlength_goal,SLdirection)
 					xmlhttp = new XMLHttpRequest();
 					}
 				if (xmlhttp) 
-					{
-
-                        /******************************************************************
-                         *
-                         * 						Custom Code
-                         *
-                         ******************************************************************/
-
-                        updateCrmCall();
-
-                        /******************************************************************
-                         *
-                         * 						End Custom Code
-                         *
-                         ******************************************************************/
-
+					{ 
 					var queryCID = "HLvdcW" + epoch_sec + user_abb;
 					var hangupvalue = customer_channel;
 					//		alert(auto_dial_level + "|" + CalLCID + "|" + customer_server_ip + "|" + hangupvalue + "|" + VD_live_call_secondS);

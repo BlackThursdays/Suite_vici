@@ -15,9 +15,19 @@ $server = '10.2.0.1';
 $db_user = 'root';
 $db_password = '111111';
 $db_name = 'suitecrm_779';
+$log_file = 'log.txt';
 //$name_secgroup = 'Контакт-центр';
 $current_date = gmdate('Y-m-d H:i:s'); // текущая дата
 
+// Вывод ошибки на экран
+function print_error($query = '')
+{
+    global $log_file;
+
+    $error_text = date("Y-m-d H:i:s") . " - Ошибка запроса $query: " . mysql_error() . "\n";
+    file_put_contents($log_file, $error_text, FILE_APPEND | LOCK_EX);
+    //echo $error_text;
+}
 
 function open_database_connection()
 {
@@ -164,20 +174,20 @@ VALUES ('$call_id', 'Held', 'Звонок #$phone', '$current_date', '$current_d
 INSERT INTO calls_cstm (id_c, vici_phone_c, vici_call_group_c, vici_fronter_phone_c, vici_uid_c, vici_channel_c)
 VALUES ('$call_id', '$phone', '$_REQUEST[group]', '$_REQUEST[fronter_phone]','$_REQUEST[uid]', '$_REQUEST[channel]') ";
 
-    mysql_query($insert_call) or die (print_r($insert_call));
-    mysql_query($insert_call_cstm) or die (print_r($insert_call_cstm));
+    mysql_query($insert_call) or die (print_error($insert_call));
+    mysql_query($insert_call_cstm) or die (print_error($insert_call_cstm));
 
     if ($client['module'] == 'Contacts') {
         $insert_calls_contacts = "
 INSERT INTO calls_contacts (id, call_id, contact_id, date_modified)
 VALUES ('$call_client_id', '$call_id', '$client[id]' '$current_date') ";
-        mysql_query($insert_calls_contacts) or die (print_r($insert_calls_contacts));
+        mysql_query($insert_calls_contacts) or die (print_error($insert_calls_contacts));
 
     } elseif ($client['module'] == 'Leads') {
         $insert_calls_leads = "
 INSERT INTO calls_leads (id, call_id, lead_id, date_modified)
 VALUES ('$call_client_id', '$call_id', '$client[id]' '$current_date') ";
-        mysql_query($insert_calls_leads) or die (print_r($insert_calls_leads));
+        mysql_query($insert_calls_leads) or die (print_error($insert_calls_leads));
 
     }
 //    elseif ($client['module'] == 'Accounts') {
@@ -230,7 +240,7 @@ function update_call($call_id)
 
     //print_r($update_calls);
 
-    mysql_query($update_calls) or die (print_r($update_calls));
+    mysql_query($update_calls) or die (print_error($update_calls));
     return true;
 
 }
