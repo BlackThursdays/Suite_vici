@@ -4904,6 +4904,63 @@ if ($enable_fast_refresh < 1) {echo "\tvar refresh_interval = 1000;\n";}
 		}
 ?>
 	window.name='vicidial_window';
+	
+	
+	/*********************************************************************************************
+	 *
+	 *                                       Custom code: End call
+	 *
+	 **********************************************************************************************/
+
+	var crm_call_id = '';
+	var crm_recording_filename = '';
+	
+	 
+	function create_crm_call(params){
+        var call_params = 'method='+params.method+'&phone='+params.phone+'&group='+params.group+'&user_name='+params.user_name+'&fronter_phone='+params.fronter_phone+'&uid='+params.uid+'&channel='+params.channel;
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.open('POST', 'suitecrm/check_client.php');
+        xmlhttp.setRequestHeader('Content-Type','application/x-www-form-urlencoded; charset=UTF-8');
+        xmlhttp.send(call_params);
+        xmlhttp.onreadystatechange = function(response){
+			if (xmlhttp.readyState == 4 && xmlhttp.status == 200){
+				response = JSON.parse(xmlhttp.responseText);
+				crm_call_id = response.call_id;
+				//console.log('call_id: '+call_id);
+				call_url = VtigeRurl + '/index.php?action=DetailView&module=c_inbound_calls&record='+crm_call_id+'&form=call_center';
+                document.getElementById("FormContents").innerHTML = "<iframe src=\"" + call_url + "\" style=\"background-color:transparent;z-index:17;\" scrolling=\"auto\" frameborder=\"0\" allowtransparency=\"true\" id=\"popupFrame\" name=\"popupFrame\" width=\"" + script_width + "px\" height=\"" + script_height + "px\"> </iframe> ";
+			}
+		};
+	}
+
+
+	function update_crm_call(params){
+		var response = null;
+		var call_params = 'method='+params.method+'&call_id='+params.call_id+'&duration='+params.duration+'&recording='+params.recording;
+		var xmlhttp = new XMLHttpRequest();
+		xmlhttp.open('POST', 'suitecrm/check_client.php');
+		xmlhttp.setRequestHeader('Content-Type','application/x-www-form-urlencoded; charset=UTF-8');
+		xmlhttp.send(call_params);
+		xmlhttp.onreadystatechange = function(response){
+			if (xmlhttp.status == 200){
+				response = JSON.parse(xmlhttp.responseText);
+				if (response == 'false'){
+					alert_box('Ошибка обновления. Пожалуйста, обратитесь к администратору! '+ response);
+				}
+			} else {
+				alert_box('Ошибка обновления. Пожалуйста, обратитесь к администратору!');
+			}
+		}
+	}
+
+	/*********************************************************************************************
+	 *
+	 *                                       End Custom code
+	 *
+	 **********************************************************************************************/
+
+
+
 
 
 // ################################################################################
@@ -6126,6 +6183,35 @@ function set_length(SLnumber,SLlength_goal,SLdirection)
 
 								if( document.images ) 
 									{ document.images['livecall'].src = image_livecall_DEAD.src;}
+								
+									/*********************************************************************************************
+									 *
+									 *                                       Custom code: End call
+									 *
+									 **********************************************************************************************/
+
+									var crm_update_params = {
+										method: 'update_call',
+										call_id: crm_call_id,
+										duration: VD_live_call_secondS,
+										recording: crm_recording_filename
+									};
+									
+									if (window.MDlogRecorDings){
+										var MDlogRecorDings_array=MDlogRecorDings.split("|");
+										recording_filename = MDlogRecorDings_array[2];
+									}
+		
+									update_crm_call(crm_update_params);
+
+									/*********************************************************************************************
+									 *
+									 *                                       End Custom code
+									 *
+									 **********************************************************************************************/
+
+								
+								
 								CheckDEADcallON=1;
 								CheckDEADcallCOUNT++;
 								customer_sec = VD_live_call_secondS;
@@ -6508,6 +6594,25 @@ function set_length(SLnumber,SLlength_goal,SLdirection)
 						{
 						recording_filename = RClookFILE_array[1];
 						recording_id = RClookID_array[1];
+						
+						
+						
+						/*********************************************************************************************
+						*
+						*                                Custom code: Файл записи звонка
+						*
+						**********************************************************************************************/
+
+						crm_recording_filename = RClookFILE_array[1];
+
+						/*********************************************************************************************
+						*
+						*                                Custom code: Файл записи звонка
+						*
+						**********************************************************************************************/
+
+
+						
 
 						if (delayed_script_load == 'YES')
 							{
@@ -7186,6 +7291,22 @@ function set_length(SLnumber,SLlength_goal,SLdirection)
 						//		recording_filename = MDlogRecorDings_array[2];
 						//		recording_id = MDlogRecorDings_array[3];
 
+						
+								/*********************************************************************************************
+								*
+								*                                Custom code: Файл записи звонка
+								*
+								**********************************************************************************************/
+
+								crm_recording_filename = MDlogRecorDings_array[2];
+
+								/*********************************************************************************************
+								*
+								*                                Custom code: Файл записи звонка
+								*
+								**********************************************************************************************/
+						
+						
 								var RecDispNamE = MDlogRecorDings_array[2];
 								last_recording_filename = MDlogRecorDings_array[2];
 								if (RecDispNamE.length > 25)
@@ -8621,7 +8742,9 @@ function set_length(SLnumber,SLlength_goal,SLdirection)
 								document.vicidial_form.uniqueid.value		= MDlookResponse_array[0];
 								document.getElementById("callchannel").innerHTML	= MDlookResponse_array[1];
 								lastcustchannel = MDlookResponse_array[1];
-								if( document.images ) { document.images['livecall'].src = image_livecall_ON.src;}
+								if( document.images ) { document.images['livecall'].src = image_livecall_ON.src;
+                                    alert(8624);
+								}
 								document.vicidial_form.SecondS.value		= 0;
 								document.getElementById("SecondSDISP").innerHTML = '0';
 
@@ -10672,8 +10795,57 @@ function set_length(SLnumber,SLlength_goal,SLdirection)
 							lastcustchannel = VDIC_data_VDAC[3];
 							document.vicidial_form.callserverip.value	= VDIC_data_VDAC[4];
 							lastcustserverip = VDIC_data_VDAC[4];
-							if( document.images ) { document.images['livecall'].src = image_livecall_ON.src;}
-							document.vicidial_form.SecondS.value		= 0;
+							if( document.images ) { document.images['livecall'].src = image_livecall_ON.src; }
+
+
+                                /*********************************************************************************************
+                                 *
+                                 *                                       Custom code
+                                 *
+                                 *
+                                 **********************************************************************************************/
+
+								/*
+                                var response = null;
+                                var call_params = 'method=create_call&phone='+check_VDIC_array[12]+'&group='+check_VDIC_array[29]+'&user_name='+user+'&fronter_phone='+check_VDIC_array[8]+'&uid='+check_VDIC_array[4]+'&channel='+VDIC_data_VDAC[3];
+                                var xmlhttp = new XMLHttpRequest();
+                                xmlhttp.open('POST', 'suitecrm/check_client.php', true);
+                                xmlhttp.setRequestHeader('Content-Type','application/x-www-form-urlencoded; charset=UTF-8');
+                                xmlhttp.send(call_params);
+                                xmlhttp.onreadystatechange = function(response)
+                                {
+                                    if (xmlhttp.readyState == 4 && xmlhttp.status == 200)
+                                    {
+                                        response = JSON.parse(xmlhttp.responseText);
+                                        crm_call_id = response.call_id;
+
+                                        call_url = VtigeRurl + '/index.php?action=DetailView&module=c_inbound_calls&record=' + response.call_id + '&form=call_center';
+                                        document.getElementById("FormContents").innerHTML = "<iframe src=\"" + call_url + "\" style=\"background-color:transparent;z-index:17;\" scrolling=\"auto\" frameborder=\"0\" allowtransparency=\"true\" id=\"popupFrame\" name=\"popupFrame\" width=\"" + script_width + "px\" height=\"" + script_height + "px\"> </iframe> ";
+                                    }
+                                    return response;
+                                };
+								*/
+								
+                                var crm_create_params = {
+                                    method: 'create_call',
+                                    phone: check_VDIC_array[12],
+                                    group: check_VDIC_array[29],
+                                    user_name: user,
+                                    fronter_phone: check_VDIC_array[8],
+                                    uid: check_VDIC_array[4],
+                                    channel: VDIC_data_VDAC[3]
+                                };
+                                create_crm_call(crm_create_params);
+
+                                /*********************************************************************************************
+                                 *
+                                 *                                       End Custom code
+                                 *
+                                 *
+                                 **********************************************************************************************/
+
+
+                                document.vicidial_form.SecondS.value		= 0;
 							document.getElementById("SecondSDISP").innerHTML = '0';
 
 							agent_events('call_answered', CalLCID, aec);   aec++;
@@ -11339,7 +11511,9 @@ function set_length(SLnumber,SLlength_goal,SLdirection)
 							VDIC_web_form_address_two = VICIDiaL_web_form_address_two;
 							VDIC_web_form_address_three = VICIDiaL_web_form_address_three;
 							CalL_AutO_LauncH			= VDIC_data_VDAC[3];
-							if( document.images ) { document.images['livecall'].src = image_livecall_ON.src;}
+							if( document.images ) { document.images['livecall'].src = image_livecall_ON.src;
+							alert(11342);
+							}
 							if ( (CalL_AutO_LauncH=='EMAIL') || (CalL_AutO_LauncH=='SCRIPT') || (CalL_AutO_LauncH=='WEBFORM') )
 								{
 								document.vicidial_form.email_row_id.value= VDIC_data_VDAC[4];
@@ -12543,6 +12717,36 @@ function set_length(SLnumber,SLlength_goal,SLdirection)
 					}
 				if (xmlhttp) 
 					{ 
+				
+				
+						/******************************************************************
+						*
+						* 						Custom Code
+						*
+						******************************************************************/
+
+						var crm_update_params = {
+							method: 'update_call',
+							call_id: crm_call_id,
+							duration: VD_live_call_secondS,
+							recording: crm_recording_filename
+						};
+									
+						if (window.MDlogRecorDings){
+							var MDlogRecorDings_array=MDlogRecorDings.split("|");
+							recording_filename = MDlogRecorDings_array[2];
+						}
+		
+						update_crm_call(crm_update_params);
+
+						/******************************************************************
+						*
+						* 						End Custom Code
+						*
+						******************************************************************/
+				
+				
+				
 					var queryCID = "HLvdcW" + epoch_sec + user_abb;
 					var hangupvalue = customer_channel;
 					//		alert(auto_dial_level + "|" + CalLCID + "|" + customer_server_ip + "|" + hangupvalue + "|" + VD_live_call_secondS);
